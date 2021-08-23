@@ -1,0 +1,42 @@
+{
+  "stop_state": "eee60d3d4a5cf4ffaa80c272b3b7e66f", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-22_172456", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Back-up naar archief, Omhoog navigeren", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "660*144", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          60
+        ], 
+        [
+          660, 
+          204
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "f21fb0e38b7cd352ba8e1a636a16d4eb"
+}

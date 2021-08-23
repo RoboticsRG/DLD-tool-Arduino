@@ -1,0 +1,42 @@
+{
+  "stop_state": "3ca5ce7bb5859798e1d28649167074da", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-13_195409", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.cpuid.cpu_z:id/chk_feature_Sensors", 
+      "text": "Sensors", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": true, 
+      "size": "236*84", 
+      "scrollable": false, 
+      "checked": true, 
+      "package": "com.cpuid.cpu_z", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          670
+        ], 
+        [
+          236, 
+          754
+        ]
+      ], 
+      "class": "android.widget.CheckBox", 
+      "focusable": true
+    }, 
+    "id": 5, 
+    "event_type": "touch"
+  }, 
+  "start_state": "4f5d5a6f99068959bf4bf1547633c00c"
+}

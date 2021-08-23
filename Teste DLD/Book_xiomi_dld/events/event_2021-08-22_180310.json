@@ -1,0 +1,43 @@
+{
+  "stop_state": "545938052279690d352ef9b811eeb257", 
+  "event_str": "LongTouchEvent(duration=2000)", 
+  "tag": "2021-08-22_180310", 
+  "event": {
+    "event_type": "long_touch", 
+    "duration": 2000, 
+    "y": null, 
+    "x": null, 
+    "id": 2, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "android:id/search_src_text", 
+      "text": "   zoeken naar auteurs of titels", 
+      "editable": true, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": true, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "877*108", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          175, 
+          76
+        ], 
+        [
+          1052, 
+          184
+        ]
+      ], 
+      "class": "android.widget.EditText", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "545938052279690d352ef9b811eeb257"
+}

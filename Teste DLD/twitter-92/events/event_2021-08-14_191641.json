@@ -1,0 +1,10 @@
+{
+  "stop_state": "2574f57f3f52afd1701704c0c425711d", 
+  "event_str": "IntentEvent(intent='am start com.twitter.android/com.twitter.android.StartActivity')", 
+  "tag": "2021-08-14_191641", 
+  "event": {
+    "intent": "am start com.twitter.android/com.twitter.android.StartActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "ab8bb6d4b6c6a04708d98331fba87ccf"
+}

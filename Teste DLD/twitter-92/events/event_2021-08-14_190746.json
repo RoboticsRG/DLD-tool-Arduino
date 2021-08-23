@@ -1,0 +1,42 @@
+{
+  "stop_state": "157252594896edb78c80b55b26dc21ed", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-14_190746", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Following Vice President Kamala Harris. Unfollow.", 
+      "resource_id": "com.twitter.android:id/button_bar_following", 
+      "text": "FOLLOWING", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "269*84", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.twitter.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          779, 
+          455
+        ], 
+        [
+          1048, 
+          539
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": false
+    }, 
+    "id": 3, 
+    "event_type": "touch"
+  }, 
+  "start_state": "566fbcdf8e618bbe617a4e7016e36406"
+}

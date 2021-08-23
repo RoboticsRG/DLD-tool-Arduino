@@ -1,0 +1,49 @@
+{
+  "stop_state": "c5b2a2d82d62b3327c45e6a36d2a0a3a", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-13_203909", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.android.vending:id/0_resource_name_obfuscated", 
+      "text": "OK", 
+      "visible": true, 
+      "checkable": false, 
+      "children": [], 
+      "size": "954*83", 
+      "checked": false, 
+      "temp_id": 29, 
+      "selected": false, 
+      "child_count": 0, 
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.android.vending:id/0_resource_name_obfuscated", 
+      "is_password": false, 
+      "parent": 28, 
+      "focusable": true, 
+      "editable": false, 
+      "focused": false, 
+      "clickable": true, 
+      "class": "android.widget.Button", 
+      "scrollable": false, 
+      "package": "com.android.vending", 
+      "long_clickable": false, 
+      "view_str": "5cc6d158e3ae4815b8d9e09c783a2a94", 
+      "enabled": true, 
+      "bounds": [
+        [
+          63, 
+          1711
+        ], 
+        [
+          1017, 
+          1794
+        ]
+      ], 
+      "signature": "[class]android.widget.Button[resource_id]com.android.vending:id/0_resource_name_obfuscated[text]OK[enabled,,]"
+    }, 
+    "id": null, 
+    "event_type": "touch"
+  }, 
+  "start_state": "fa2e398f5da79bd509ffd9acae400416"
+}

@@ -1,0 +1,112 @@
+F:\Mestrado2020\projetos_git\Teste DLD>dld -a twitter-9-6-0-release-01.apk -o twitter-9 -keep_app -grant_perm -is_emulator
+INFO:Device:disable minicap on emulator
+WARNING:androguard.core.api_specific_resources:Requested API level 30 is larger than maximum we have, returning API level 28 instead.
+Policy: DataLossPolicy, with epsilon value: 0.1
+INFO:DroidBot:Starting DroidBot
+INFO:Device:waiting for device
+WARNING:DroidBotIme:Failed to connect DroidBotIME!
+[CONNECTION] ADB is enabled and connected.
+[CONNECTION] Minicap is not enabled.
+[CONNECTION] TelnetConsole is not enabled.
+[CONNECTION] DroidBotIme is enabled but not connected.
+[CONNECTION] ProcessMonitor is not enabled.
+[CONNECTION] Logcat is enabled and connected.
+[CONNECTION] DroidBotAppConn is enabled and connected.
+[CONNECTION] UserInputMonitor is not enabled.
+Please wait while installing the app...
+Please wait while installing the app...
+Please wait while installing the app...
+INFO:Device:App installed: com.twitter.android
+INFO:Device:Main activity: com.twitter.android.StartActivity
+INFO:AppEnvManager:Start deploying environment, policy is none
+INFO:InputEventManager:start sending events, policy is data_loss
+[INPUT]  KeyEvent(name=HOME)
+[INFO]   1 events have been generated
+[INPUT]  IntentEvent(intent='am start com.twitter.android/com.twitter.android.StartActivity')
+[INFO]   2 events have been generated
+[INFO]   Current activity: NexusLauncherActivity
+[INFO]   0% of activities have been explored.
+[INFO]   The app isn't in the activity stack...trying to start it...
+[INPUT]  IntentEvent(intent='am start com.twitter.android/com.twitter.android.StartActivity')
+* daemon still not running
+error: cannot connect to daemon at tcp:5037: cannot connect to 127.0.0.1:5037: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu. (10060)
+WARNING:Device:exception in get_current_state: Command '['adb', '-s', 'emulator-5554', 'shell', 'dumpsys', 'activity', 'activities']' returned non-zero exit status 1
+Traceback (most recent call last):
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\device.py", line 815, in get_current_state
+    activity_stack = self.get_current_activity_stack()
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\device.py", line 532, in get_current_activity_stack
+    top_activity = self.get_top_activity_name()
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\device.py", line 513, in get_top_activity_name
+    r = self.adb.shell("dumpsys activity activities")
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\adapter\adb.py", line 87, in shell
+    return self.run_cmd(shell_extra_args)
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\adapter\adb.py", line 64, in run_cmd
+    r = subprocess.check_output(args).strip()
+  File "f:\arquivoseprogramasinstalado\python27\lib\subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['adb', '-s', 'emulator-5554', 'shell', 'dumpsys', 'activity', 'activities']' returned non-zero exit status 1
+WARNING:Device:Failed to get current state!
+WARNING:Device:Saving event to dir failed.
+WARNING:Device:'NoneType' object has no attribute 'state_str'
+[INFO]   3 events have been generated
+[INFO]   Current activity: NexusLauncherActivity
+[INFO]   0% of activities have been explored.
+[WARNING]Seems that IntentEvent doesn't work...trying to go BACK
+[INPUT]  KeyEvent(name=BACK)
+[INFO]   4 events have been generated
+[INFO]   Current activity: NexusLauncherActivity
+[INFO]   0% of activities have been explored.
+[INFO]   The app isn't in the activity stack...trying to start it...
+[INPUT]  IntentEvent(intent='am start com.twitter.android/com.twitter.android.StartActivity')
+WARNING:Device:Failed to get views using Accessibility.
+WARNING:Device:failed to get current views!
+[INFO]   5 events have been generated
+[INFO]   Current activity: CtaSubtaskActivity
+[INFO]   0.0% of activities have been explored.
+[INFO]   New activity found: CtaSubtaskActivity
+[INFO]   Current abstract state: 2598a3faa6e3c0293793f05a92d1b134
+[INPUT]  FillUIEvent
+[INFO]   6 events have been generated
+[INFO]   Current activity: CtaSubtaskActivity
+[INFO]   0.0% of activities have been explored.
+[INFO]   Current abstract state: 2598a3faa6e3c0293793f05a92d1b134
+[INPUT]  DoubleRotationEvent
+[INFO]   7 events have been generated
+[INFO]   Current activity: CtaSubtaskActivity
+[INFO]   0.0% of activities have been explored.
+[INFO]   Current abstract state: 2598a3faa6e3c0293793f05a92d1b134
+[INPUT]  ScrollEvent(direction=FULL_DOWN)
+INFO:InputEventManager:Finish sending events
+[CONNECTION] ADB is disconnected
+WARNING:DroidBotIme:Failed to disconnect DroidBotIME!
+[CONNECTION] Logcat is disconnected
+Traceback (most recent call last):
+  File "F:\arquivosEprogramasInstalado\Python27\Scripts\dld-script.py", line 11, in <module>
+    load_entry_point('dld', 'console_scripts', 'dld')()
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\start.py", line 206, in main
+    droidbot.start()
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\droidbot.py", line 186, in start
+    self.stop()
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\droidbot.py", line 210, in stop
+    self.device.tear_down()
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\device.py", line 193, in tear_down
+    adapter.tear_down()
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\adapter\droidbot_ime.py", line 53, in tear_down
+    self.device.uninstall_app(DROIDBOT_APP_PACKAGE)
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\device.py", line 717, in uninstall_app
+    while package_name in self.adb.get_installed_apps():
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\adapter\adb.py", line 271, in get_installed_apps
+    app_lines = self.shell("pm list packages -f").splitlines()
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\adapter\adb.py", line 87, in shell
+    return self.run_cmd(shell_extra_args)
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\adapter\adb.py", line 64, in run_cmd
+    r = subprocess.check_output(args).strip()
+  File "f:\arquivoseprogramasinstalado\python27\lib\subprocess.py", line 217, in check_output
+    output, unused_err = process.communicate()
+  File "f:\arquivoseprogramasinstalado\python27\lib\subprocess.py", line 475, in communicate
+    stdout = _eintr_retry_call(self.stdout.read)
+  File "f:\arquivoseprogramasinstalado\python27\lib\subprocess.py", line 125, in _eintr_retry_call
+    return func(*args)
+KeyboardInterrupt

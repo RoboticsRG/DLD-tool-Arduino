@@ -1,0 +1,133 @@
+Activity Resolver Table:
+  Schemes:
+      http:
+        37d36de com.eleybourn.bookcatalogue/.goodreads.GoodreadsAuthorizationActivity filter 21ccbe1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.LAUNCHER"
+          Scheme: "http"
+          Authority: "goodreadsauth": -1
+          AutoVerify=false
+      com.eleybourn.bookcatalogue:
+        37d36de com.eleybourn.bookcatalogue/.goodreads.GoodreadsAuthorizationActivity filter d678d06
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.LAUNCHER"
+          Scheme: "com.eleybourn.bookcatalogue"
+          Authority: "goodreadsauth": -1
+          AutoVerify=false
+        37d36de com.eleybourn.bookcatalogue/.goodreads.GoodreadsAuthorizationActivity filter ab30fc7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.eleybourn.bookcatalogue"
+          Authority: "goodreadsauth": -1
+          AutoVerify=false
+        37d36de com.eleybourn.bookcatalogue/.goodreads.GoodreadsAuthorizationActivity filter 7f689f4
+          Action: "android.intent.action.GET"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.LAUNCHER"
+          Scheme: "com.eleybourn.bookcatalogue"
+          Authority: "goodreadsauth": -1
+          AutoVerify=false
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        bc30bf com.eleybourn.bookcatalogue/.StartupActivity filter 8305feb
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      android.intent.action.VIEW:
+        37d36de com.eleybourn.bookcatalogue/.goodreads.GoodreadsAuthorizationActivity filter 8b9451d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+        37d36de com.eleybourn.bookcatalogue/.goodreads.GoodreadsAuthorizationActivity filter b5f7392
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          AutoVerify=false
+      android.intent.action.SEARCH:
+        9b5238c com.eleybourn.bookcatalogue/.BookCatalogueClassic filter a6d373a
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+        d3cfad5 com.eleybourn.bookcatalogue/.BooksOnBookshelf filter 494a148
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          AutoVerify=false
+
+Registered ContentProviders:
+  com.eleybourn.bookcatalogue/.SearchSuggestionProvider:
+    Provider{d21e2ea com.eleybourn.bookcatalogue/.SearchSuggestionProvider}
+
+ContentProvider Authorities:
+  [com.eleybourn.bookcatalogue.SearchSuggestionProvider]:
+    Provider{d21e2ea com.eleybourn.bookcatalogue/.SearchSuggestionProvider}
+      applicationInfo=ApplicationInfo{58d19db com.eleybourn.bookcatalogue}
+
+Key Set Manager:
+  [com.eleybourn.bookcatalogue]
+      Signing KeySets: 265
+
+Packages:
+  Package [com.eleybourn.bookcatalogue] (556ec78):
+    userId=10297
+    pkg=Package{edf6f51 com.eleybourn.bookcatalogue}
+    codePath=/data/app/com.eleybourn.bookcatalogue-1
+    resourcePath=/data/app/com.eleybourn.bookcatalogue-1
+    legacyNativeLibraryDir=/data/app/com.eleybourn.bookcatalogue-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=177 minSdk=7 targetSdk=16
+    versionName=5.2.0
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{58d19db com.eleybourn.bookcatalogue}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ HAS_DOMAIN_URLS ]
+    dataDir=/data/user/0/com.eleybourn.bookcatalogue
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2021-08-22 18:52:06
+    firstInstallTime=2021-08-22 18:52:11
+    lastUpdateTime=2021-08-22 18:52:11
+    signatures=PackageSignatures{2b343b6 [667cf411]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.INTERNET: granted=true
+      android.permission.READ_EXTERNAL_STORAGE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+    User 0: ceDataInode=1736996 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+    User 999: ceDataInode=0 installed=false hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+
+
+Dexopt state:
+  [com.eleybourn.bookcatalogue]
+    Instruction Set: arm64
+      path: /data/app/com.eleybourn.bookcatalogue-1/base.apk
+      status: /data/app/com.eleybourn.bookcatalogue-1/oat/arm64/base.odex [compilation_filter=interpret-only, status=kOa
+      tUpToDate]
+
+
+Compiler stats:
+  [com.eleybourn.bookcatalogue]
+     base.apk - 932

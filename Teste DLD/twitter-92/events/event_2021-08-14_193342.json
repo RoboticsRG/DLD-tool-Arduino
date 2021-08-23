@@ -1,0 +1,42 @@
+{
+  "stop_state": "7e45b381e78cf8432ab942c250cfaa36", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-14_193342", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.twitter.android:id/timeline_user_social_row_view", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "1080*336", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.twitter.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          970
+        ], 
+        [
+          1080, 
+          1306
+        ]
+      ], 
+      "class": "android.widget.RelativeLayout", 
+      "focusable": true
+    }, 
+    "id": 6, 
+    "event_type": "touch"
+  }, 
+  "start_state": "d90394f63c1b2a84d23f38a2c586e86b"
+}

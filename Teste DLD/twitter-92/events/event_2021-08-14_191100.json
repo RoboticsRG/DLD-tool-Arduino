@@ -1,0 +1,51 @@
+{
+  "stop_state": "8091e55ebdbd78758ec47728598036e9", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-14_191100", 
+  "event": {
+    "views_str": [
+      "a763f3114eaf8730dac173ad809ca64e"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.twitter.android:id/tweet_text", 
+        "text": "@meandmineand test123", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "896*97", 
+        "checked": false, 
+        "temp_id": 20, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.twitter.android:id/tweet_text", 
+        "is_password": false, 
+        "parent": 19, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.twitter.android", 
+        "long_clickable": true, 
+        "view_str": "a763f3114eaf8730dac173ad809ca64e", 
+        "enabled": true, 
+        "bounds": [
+          [
+            152, 
+            249
+          ], 
+          [
+            1048, 
+            346
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.twitter.android:id/tweet_text[text]@meandmineand test123[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "0137db8bf73edc9578d9927a10dae73c"
+}

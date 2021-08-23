@@ -1,0 +1,42 @@
+{
+  "stop_state": "14b8593787f5ec9ccd25778bfb87d6b6", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-14_195001", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "New Tweet", 
+      "resource_id": "com.twitter.android:id/composer_write", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "147*147", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.twitter.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          891, 
+          1605
+        ], 
+        [
+          1038, 
+          1752
+        ]
+      ], 
+      "class": "android.widget.ImageButton", 
+      "focusable": true
+    }, 
+    "id": 16, 
+    "event_type": "touch"
+  }, 
+  "start_state": "3a8c7131f67666750c00c749cba4ca5c"
+}

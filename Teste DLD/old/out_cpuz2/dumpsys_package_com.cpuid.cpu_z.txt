@@ -1,0 +1,143 @@
+Activity Resolver Table:
+  Schemes:
+      hwpps:
+        deed24f com.cpuid.cpu_z/com.huawei.openalliance.ad.activity.PPSLauncherActivity filter addcddc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "hwpps"
+          Authority: "com.cpuid.cpu_z": -1
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        95dd929 com.cpuid.cpu_z/.MainActivity filter 3d624ae
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+
+Registered ContentProviders:
+  com.cpuid.cpu_z/com.huawei.hms.update.provider.UpdateProvider:
+    Provider{c6b4572 com.cpuid.cpu_z/com.huawei.hms.update.provider.UpdateProvider}
+  com.cpuid.cpu_z/com.huawei.agconnect.core.provider.AGConnectInitializeProvider:
+    Provider{1017dc3 com.cpuid.cpu_z/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+
+ContentProvider Authorities:
+  [com.cpuid.cpu_z.AGCInitializeProvider]:
+    Provider{1017dc3 com.cpuid.cpu_z/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+      applicationInfo=ApplicationInfo{1d0d98 com.cpuid.cpu_z}
+  [com.cpuid.cpu_z.hms.update.provider]:
+    Provider{c6b4572 com.cpuid.cpu_z/com.huawei.hms.update.provider.UpdateProvider}
+      applicationInfo=ApplicationInfo{21349f1 com.cpuid.cpu_z}
+
+Key Set Manager:
+  [com.cpuid.cpu_z]
+      Signing KeySets: 38
+
+Packages:
+  Package [com.cpuid.cpu_z] (2a847d1):
+    userId=10158
+    pkg=Package{da446be com.cpuid.cpu_z}
+    codePath=/data/app/~~5XLAvifuJLriAEs637nJfw==/com.cpuid.cpu_z-Srid5Vwb-jdSTTIvuB8GEg==
+    resourcePath=/data/app/~~5XLAvifuJLriAEs637nJfw==/com.cpuid.cpu_z-Srid5Vwb-jdSTTIvuB8GEg==
+    legacyNativeLibraryDir=/data/app/~~5XLAvifuJLriAEs637nJfw==/com.cpuid.cpu_z-Srid5Vwb-jdSTTIvuB8GEg==/lib
+    primaryCpuAbi=x86
+    secondaryCpuAbi=null
+    versionCode=41 minSdk=17 targetSdk=29
+    versionName=1.41
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{da446be com.cpuid.cpu_z}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    dataDir=/data/user/0/com.cpuid.cpu_z
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+    usesOptionalLibraries:
+      com.sec.android.app.multiwindow
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+    timeStamp=2021-08-13 22:37:01
+    firstInstallTime=2021-08-13 22:37:01
+    lastUpdateTime=2021-08-13 22:37:01
+    signatures=PackageSignatures{174331f version:1, signatures:[875971cf], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      com.android.vending.BILLING
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.REQUEST_INSTALL_PACKAGES
+      com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
+      android.permission.WRITE_EXTERNAL_STORAGE: restricted=true
+      android.permission.READ_EXTERNAL_STORAGE: restricted=true
+    install permissions:
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+    User 0: ceDataInode=139711 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+  queryable via interaction:
+    User 0:
+      [com.android.keychain,com.android.inputdevices,com.android.settings,com.android.providers.settings,com.android.dynsystem,com.android.emulator.multidisplay,com.android.wallpaperbackup,com.android.localtransport,com.android.server.telecom,android,com.android.location.fused]:
+        com.cpuid.cpu_z
+      com.android.vending:
+        com.cpuid.cpu_z
+      [com.google.android.gsf,com.google.android.gms]:
+        com.cpuid.cpu_z
+      com.google.android.webview:
+        com.cpuid.cpu_z
+      com.google.android.inputmethod.latin:
+        com.cpuid.cpu_z
+      com.cpuid.cpu_z:
+        com.google.android.webview
+
+Package Changes:
+  Sequence number=27
+  User 0:
+    seq=9, package=com.android.chrome
+    seq=14, package=com.google.android.apps.photos
+    seq=15, package=com.google.android.gms
+    seq=18, package=com.android.vending
+    seq=23, package=com.example.gesturecapture
+    seq=24, package=io.github.ylimit.droidbotapp
+    seq=25, package=com.eleybourn.bookcatalogue
+    seq=26, package=com.cpuid.cpu_z
+
+
+Dexopt state:
+  [com.cpuid.cpu_z]
+    path: /data/app/~~5XLAvifuJLriAEs637nJfw==/com.cpuid.cpu_z-Srid5Vwb-jdSTTIvuB8GEg==/base.apk
+      x86: [status=speed-profile] [reason=install]
+      known secondary dex files:
+        /data/user/0/com.cpuid.cpu_z/cache/1621276117097.jar
+          class loader context: PCL[];PCL[/data/app/~~5XLAvifuJLriAEs637nJfw==/com.cpuid.cpu_z-Srid5Vwb-jdSTTIvuB8GEg==/base.apk]{PCL[/system/framework/android.test.base.jar]}
+
+
+Compiler stats:
+  [com.cpuid.cpu_z]
+     base.apk - 1219
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+

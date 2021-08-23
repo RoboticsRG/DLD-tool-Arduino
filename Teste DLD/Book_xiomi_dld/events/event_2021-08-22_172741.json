@@ -1,0 +1,42 @@
+{
+  "stop_state": "793bf392ba5c2e3317be052118246104", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-22_172741", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.eleybourn.bookcatalogue:id/bookshelf_down", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "165*96", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          915, 
+          204
+        ], 
+        [
+          1080, 
+          300
+        ]
+      ], 
+      "class": "android.widget.ImageView", 
+      "focusable": false
+    }, 
+    "id": 4, 
+    "event_type": "touch"
+  }, 
+  "start_state": "9aa4f283b9e6dfdfbc1a4fc0379174de"
+}

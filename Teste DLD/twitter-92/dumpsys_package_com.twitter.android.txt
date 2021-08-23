@@ -1,0 +1,910 @@
+Activity Resolver Table:
+  Full MIME Types:
+      video/*:
+        26dd5be com.twitter.android/com.twitter.composer.ComposerActivity filter 32d8fca
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        c71f53b com.twitter.android/com.twitter.app.dm.DMActivity filter 17529b1
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        6dfb1cc com.twitter.android/com.twitter.app.fleets.page.alias.FleetThreadActivity filter 1a8bb2a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      text/plain:
+        26dd5be com.twitter.android/com.twitter.composer.ComposerActivity filter ed8161f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        c71f53b com.twitter.android/com.twitter.app.dm.DMActivity filter bdf9458
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        6dfb1cc com.twitter.android/com.twitter.app.fleets.page.alias.FleetThreadActivity filter 5330c15
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter a27d4e7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "dm_conversation": -1
+          Authority: "share_via_dm": -1
+          StaticType: "text/plain"
+      vnd.android.cursor.item/vnd.twitter.profile:
+        23b6e5d com.twitter.android/com.twitter.app.profiles.ProfileActivity filter 7dc83d2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "com.android.contacts": -1
+          StaticType: "vnd.android.cursor.item/vnd.twitter.profile"
+      image/*:
+        26dd5be com.twitter.android/com.twitter.composer.ComposerActivity filter 3b90d6c
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        26dd5be com.twitter.android/com.twitter.composer.ComposerActivity filter 569cf35
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        c71f53b com.twitter.android/com.twitter.app.dm.DMActivity filter 17cde96
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        6dfb1cc com.twitter.android/com.twitter.app.fleets.page.alias.FleetThreadActivity filter a5aad1b
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Base MIME Types:
+      vnd.android.cursor.item:
+        23b6e5d com.twitter.android/com.twitter.app.profiles.ProfileActivity filter 7dc83d2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "com.android.contacts": -1
+          StaticType: "vnd.android.cursor.item/vnd.twitter.profile"
+      text:
+        26dd5be com.twitter.android/com.twitter.composer.ComposerActivity filter ed8161f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        c71f53b com.twitter.android/com.twitter.app.dm.DMActivity filter bdf9458
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        6dfb1cc com.twitter.android/com.twitter.app.fleets.page.alias.FleetThreadActivity filter 5330c15
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter a27d4e7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "dm_conversation": -1
+          Authority: "share_via_dm": -1
+          StaticType: "text/plain"
+
+  Wild MIME Types:
+      image:
+        26dd5be com.twitter.android/com.twitter.composer.ComposerActivity filter 3b90d6c
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        26dd5be com.twitter.android/com.twitter.composer.ComposerActivity filter 569cf35
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        c71f53b com.twitter.android/com.twitter.app.dm.DMActivity filter 17cde96
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        6dfb1cc com.twitter.android/com.twitter.app.fleets.page.alias.FleetThreadActivity filter a5aad1b
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      video:
+        26dd5be com.twitter.android/com.twitter.composer.ComposerActivity filter 32d8fca
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        c71f53b com.twitter.android/com.twitter.app.dm.DMActivity filter 17529b1
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        6dfb1cc com.twitter.android/com.twitter.app.fleets.page.alias.FleetThreadActivity filter 1a8bb2a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      twitter:
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter cf06e64
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "account": -1
+          Authority: "tweet_previews": -1
+          Authority: "bouncer": -1
+          Authority: "connect_people": -1
+          Authority: "explore": -1
+          Authority: "follow": -1
+          Authority: "follower_requests": -1
+          Authority: "front": -1
+          Authority: "interest_picker": -1
+          Authority: "list": -1
+          Authority: "lists": -1
+          Authority: "login": -1
+          Authority: "login-token": -1
+          Authority: "mentions": -1
+          Authority: "messages": -1
+          Authority: "moment": -1
+          Authority: "moments": -1
+          Authority: "news": -1
+          Authority: "photo": -1
+          Authority: "post": -1
+          Authority: "quote": -1
+          Authority: "search": -1
+          Authority: "search-home": -1
+          Authority: "settings": -1
+          Authority: "signup": -1
+          Authority: "spaces": -1
+          Authority: "status": -1
+          Authority: "timeline": -1
+          Authority: "trends": -1
+          Authority: "tweet": -1
+          Authority: "topics": -1
+          Authority: "unfollow": -1
+          Authority: "user": -1
+          Authority: "golive": -1
+          Authority: "camera": -1
+          Authority: "switch_to_logged_in_account": -1
+          Authority: "teams_invitation": -1
+          Authority: "broadcasts": -1
+          Authority: "collection": -1
+          Authority: "onboarding": -1
+          Authority: "canon": -1
+          Authority: "fleets": -1
+          Authority: "followed_topics": -1
+          Authority: "qr_follow": -1
+          Authority: "open": -1
+          Authority: "login_challenge_redirect": -1
+          Authority: "tweet_notifications_timeline": -1
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter 959a8cd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "twtr.sng.link": -1
+          Path: "PatternMatcher{GLOB: /.*}"
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter 8298582
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "hashtag": -1
+          Authority: "internal": -1
+          Path: "PatternMatcher{GLOB: /.*}"
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter 4e7a493
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "intent": -1
+          Path: "PatternMatcher{PREFIX: /favorite}"
+          Path: "PatternMatcher{PREFIX: /follow}"
+          Path: "PatternMatcher{PREFIX: /like}"
+          Path: "PatternMatcher{PREFIX: /retweet}"
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter 7780cd0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "session": -1
+          Path: "PatternMatcher{PREFIX: /new}"
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter ae504c9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "moments": -1
+          Path: "PatternMatcher{PREFIX: /guide}"
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter 76e77ce
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "moments": -1
+          Path: "PatternMatcher{PREFIX: /list}"
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter 9ddf6ef
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "moments": -1
+          Path: "PatternMatcher{PREFIX: /maker}"
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter 9925fc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "events": -1
+          Path: "PatternMatcher{GLOB: /tv_show/.*}"
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter 7b02485
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "alerts": -1
+          Path: "PatternMatcher{GLOB: /landing_page/.*}"
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter 4fe42da
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "live": -1
+          Path: "PatternMatcher{GLOB: /timeline/.*}"
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter 73d130b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "topics_timeline": -1
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter 650a5e8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "fs": -1
+          Authority: "featureswitch": -1
+          Authority: "featureswitches": -1
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter c538401
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "events": -1
+          Path: "PatternMatcher{GLOB: /timeline/.*}"
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter b8db2a6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "followers": -1
+          Path: "PatternMatcher{PREFIX: /verified}"
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter a27d4e7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "dm_conversation": -1
+          Authority: "share_via_dm": -1
+          StaticType: "text/plain"
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter 77e3894
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "profiles": -1
+          Path: "PatternMatcher{PREFIX: /edit}"
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter c735f3d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "flow": -1
+          Path: "PatternMatcher{PREFIX: /setup_profile}"
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter a525332
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "badge_violations": -1
+      http:
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter 455491
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "twitter.com": -1
+          Authority: "www.twitter.com": -1
+          Authority: "mobile.twitter.com": -1
+          Path: "PatternMatcher{GLOB: /.*}"
+          AutoVerify=true
+      https:
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter 455491
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "twitter.com": -1
+          Authority: "www.twitter.com": -1
+          Authority: "mobile.twitter.com": -1
+          Path: "PatternMatcher{GLOB: /.*}"
+          AutoVerify=true
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter 66f5ff6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "ads.twitter.com": -1
+          Path: "PatternMatcher{PREFIX: /mobile}"
+          AutoVerify=true
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter aecfff7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "twitter.app.link": -1
+          Authority: "twitter-alternate.app.link": -1
+          Authority: "twitter.test-app.link": -1
+          Authority: "twitter-alternate.test-app.link": -1
+          AutoVerify=true
+      content:
+        23b6e5d com.twitter.android/com.twitter.app.profiles.ProfileActivity filter 7dc83d2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "com.android.contacts": -1
+          StaticType: "vnd.android.cursor.item/vnd.twitter.profile"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        c00aa17 com.twitter.android/.StartActivity filter 4e59e04
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        701afed com.twitter.android/com.twitter.feature.subscriptions.settings.appicon.icon8 filter da04e22
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        55bd0b3 com.twitter.android/com.twitter.feature.subscriptions.settings.appicon.icon7 filter f209670
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        9565de9 com.twitter.android/com.twitter.feature.subscriptions.settings.appicon.icon6 filter 5992a6e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        c38c50f com.twitter.android/com.twitter.feature.subscriptions.settings.appicon.icon5 filter 8d0a99c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f2defa5 com.twitter.android/com.twitter.feature.subscriptions.settings.appicon.icon4 filter 4317f7a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        46a32b com.twitter.android/com.twitter.feature.subscriptions.settings.appicon.icon3 filter 20cc388
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        632e121 com.twitter.android/com.twitter.feature.subscriptions.settings.appicon.icon2 filter 4c81946
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        30a4707 com.twitter.android/.settings.SettingsActivity filter 36e9034
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.NOTIFICATION_PREFERENCES"
+        45b0b1e com.twitter.android/com.twitter.app.settings.SettingsRootCompatActivity filter f5b0fff
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.NOTIFICATION_PREFERENCES"
+      com.google.android.gms.actions.SEARCH_ACTION:
+        f7a4ca3 com.twitter.android/.search.results.SearchActivity filter 4459359
+          Action: "com.google.android.gms.actions.SEARCH_ACTION"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.SEARCH:
+        f7a4ca3 com.twitter.android/.search.results.SearchActivity filter 37e7ba0
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        26dd5be com.twitter.android/com.twitter.composer.ComposerActivity filter ed8161f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        26dd5be com.twitter.android/com.twitter.composer.ComposerActivity filter 3b90d6c
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        26dd5be com.twitter.android/com.twitter.composer.ComposerActivity filter 32d8fca
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        c71f53b com.twitter.android/com.twitter.app.dm.DMActivity filter bdf9458
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        c71f53b com.twitter.android/com.twitter.app.dm.DMActivity filter 17529b1
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        c71f53b com.twitter.android/com.twitter.app.dm.DMActivity filter 17cde96
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        6dfb1cc com.twitter.android/com.twitter.app.fleets.page.alias.FleetThreadActivity filter 5330c15
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        6dfb1cc com.twitter.android/com.twitter.app.fleets.page.alias.FleetThreadActivity filter 1a8bb2a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        6dfb1cc com.twitter.android/com.twitter.app.fleets.page.alias.FleetThreadActivity filter a5aad1b
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      android.intent.action.VIEW:
+        23b6e5d com.twitter.android/com.twitter.app.profiles.ProfileActivity filter 7dc83d2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "com.android.contacts": -1
+          StaticType: "vnd.android.cursor.item/vnd.twitter.profile"
+        73c1eb8 com.twitter.android/com.twitter.deeplink.implementation.UrlInterpreterActivity filter a27d4e7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "twitter"
+          Authority: "dm_conversation": -1
+          Authority: "share_via_dm": -1
+          StaticType: "text/plain"
+      android.intent.action.SEND_MULTIPLE:
+        26dd5be com.twitter.android/com.twitter.composer.ComposerActivity filter 569cf35
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        92ae873 com.twitter.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 60a3330
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        f5f91ad com.twitter.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 2e1ece2
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      com.google.android.gms.auth.api.phone.SMS_RETRIEVED:
+        29c38f5 com.twitter.android/com.twitter.account.phone.SmsBroadcastReceiver filter 85d168a
+          Action: "com.google.android.gms.auth.api.phone.SMS_RETRIEVED"
+      com.htc.intent.action.QUICKBOOT_POWERON:
+        512d883 com.twitter.android/com.openback.receiver.OpenBackReceiver filter f504a00
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.DATE_CHANGED"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        5109ba9 com.twitter.android/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 535f52e
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        84198cf com.twitter.android/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter f97525c
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.twitter.android.push:
+        7bbb239 com.twitter.android/.client.AppBroadcastReceiver filter c4e707e
+          Action: "com.twitter.android.poll.data"
+          Action: "com.twitter.android.action.AVATARS_CHANGED"
+          Action: "com.twitter.android.push"
+      android.intent.action.LOCKED_BOOT_COMPLETED:
+        512d883 com.twitter.android/com.openback.receiver.OpenBackReceiver filter f504a00
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.DATE_CHANGED"
+          Category: "android.intent.category.DEFAULT"
+      android.accounts.LOGIN_ACCOUNTS_CHANGED:
+        ec46f71 com.twitter.android/com.twitter.app.common.account.AppAccountManager$AccountsChangedReceiver filter 5fe1156
+          Action: "android.accounts.LOGIN_ACCOUNTS_CHANGED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        5109ba9 com.twitter.android/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 535f52e
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        d61d2c7 com.twitter.android/androidx.profileinstaller.ProfileInstallReceiver filter dc990f4
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.twitter.android.action.AVATARS_CHANGED:
+        7bbb239 com.twitter.android/.client.AppBroadcastReceiver filter c4e707e
+          Action: "com.twitter.android.poll.data"
+          Action: "com.twitter.android.action.AVATARS_CHANGED"
+          Action: "com.twitter.android.push"
+      com.google.android.c2dm.intent.RECEIVE:
+        4f9c5d7 com.twitter.android/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 3eaeec4
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        92ae873 com.twitter.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 60a3330
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        512d883 com.twitter.android/com.openback.receiver.OpenBackReceiver filter f504a00
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.DATE_CHANGED"
+          Category: "android.intent.category.DEFAULT"
+        dae4965 com.twitter.android/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 6b0363a
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        512d883 com.twitter.android/com.openback.receiver.OpenBackReceiver filter f504a00
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.DATE_CHANGED"
+          Category: "android.intent.category.DEFAULT"
+        dae4965 com.twitter.android/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 6b0363a
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.BOOT_COMPLETED:
+        512d883 com.twitter.android/com.openback.receiver.OpenBackReceiver filter f504a00
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.DATE_CHANGED"
+          Category: "android.intent.category.DEFAULT"
+        dae4965 com.twitter.android/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 6b0363a
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        f5f91ad com.twitter.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 2e1ece2
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      android.intent.action.DATE_CHANGED:
+        512d883 com.twitter.android/com.openback.receiver.OpenBackReceiver filter f504a00
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.DATE_CHANGED"
+          Category: "android.intent.category.DEFAULT"
+      com.twitter.intent.action.SEND_OEM:
+        53cd4fb com.twitter.android/com.twitter.analytics.tracking.InstallationReferrer$OemIntentReceiver filter 8ed5918
+          Action: "com.twitter.intent.action.SEND_OEM"
+      com.twitter.android.poll.data:
+        7bbb239 com.twitter.android/.client.AppBroadcastReceiver filter c4e707e
+          Action: "com.twitter.android.poll.data"
+          Action: "com.twitter.android.action.AVATARS_CHANGED"
+          Action: "com.twitter.android.push"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        3bf16e1 com.twitter.android/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 45b7c06
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        32079df com.twitter.android/.platform.AppUpdateReceiver filter b70062c
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        468f2eb com.twitter.android/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 7753848
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.content.SyncAdapter:
+        41ed463 com.twitter.android/.sync.TwitterDataSyncService filter d68c860 permission android.permission.BIND_JOB_SERVICE
+          Action: "android.content.SyncAdapter"
+      com.google.firebase.MESSAGING_EVENT:
+        c5d55d5 com.twitter.android/com.twitter.notification.service.firebase.TwitterFirebaseMessagingService filter ba2a1ea
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        6906cdb com.twitter.android/com.google.firebase.messaging.FirebaseMessagingService filter 90b4378
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.openback.intent.action.MESSAGE_EVENT:
+        ceac119 com.twitter.android/com.twitter.notifications.openback.OpenbackService filter 92005de permission android.permission.BIND_JOB_SERVICE
+          Action: "com.openback.intent.action.MESSAGE_EVENT"
+      android.accounts.AccountAuthenticator:
+        9b5401d com.twitter.android/.platform.TwitterAuthenticationService filter f235292 permission android.permission.ACCOUNT_MANAGER
+          Action: "android.accounts.AccountAuthenticator"
+      android.service.chooser.ChooserTargetService:
+        c2053bf com.twitter.android/androidx.sharetarget.ChooserTargetServiceCompat filter 8020a8c permission android.permission.BIND_CHOOSER_TARGET_SERVICE
+          Action: "android.service.chooser.ChooserTargetService"
+
+Permissions:
+  Permission [com.twitter.android.permission.RESTRICTED] (f2a7a51):
+    sourcePackage=com.twitter.android
+    uid=10171 gids=null type=0 prot=signature
+    perm=Permission{b164043 com.twitter.android.permission.RESTRICTED}
+
+Registered ContentProviders:
+  com.twitter.android/com.twitter.database.legacy.provider.TwitterExternalFileProvider:
+    Provider{6dff6c0 com.twitter.android/com.twitter.database.legacy.provider.TwitterExternalFileProvider}
+  com.twitter.android/androidx.startup.InitializationProvider:
+    Provider{30abff9 com.twitter.android/androidx.startup.InitializationProvider}
+  com.twitter.android/com.twitter.database.legacy.gdbh.GlobalDatabaseProvider:
+    Provider{5a7cb3e com.twitter.android/com.twitter.database.legacy.gdbh.GlobalDatabaseProvider}
+  com.twitter.android/com.twitter.autocomplete.suggestion.SuggestionsProvider:
+    Provider{8529d9f com.twitter.android/com.twitter.autocomplete.suggestion.SuggestionsProvider}
+  com.twitter.android/com.twitter.database.legacy.provider.TwitterProvider:
+    Provider{f2dbeec com.twitter.android/com.twitter.database.legacy.provider.TwitterProvider}
+  com.twitter.android/com.openback.provider.OpenBackInitProvider:
+    Provider{d2e62b5 com.twitter.android/com.openback.provider.OpenBackInitProvider}
+  com.twitter.android/com.twitter.database.legacy.provider.TwitterInternalFileProvider:
+    Provider{bd15d4a com.twitter.android/com.twitter.database.legacy.provider.TwitterInternalFileProvider}
+  com.twitter.android/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{3cd74bb com.twitter.android/com.google.firebase.provider.FirebaseInitProvider}
+
+ContentProvider Authorities:
+  [com.twitter.android.provider.GlobalDatabaseProvider]:
+    Provider{5a7cb3e com.twitter.android/com.twitter.database.legacy.gdbh.GlobalDatabaseProvider}
+      applicationInfo=ApplicationInfo{f2000b9 com.twitter.android}
+  [com.twitter.android.provider.SuggestionsProvider]:
+    Provider{8529d9f com.twitter.android/com.twitter.autocomplete.suggestion.SuggestionsProvider}
+      applicationInfo=ApplicationInfo{8eedcfe com.twitter.android}
+  [com.twitter.android.provider.TwitterProvider]:
+    Provider{f2dbeec com.twitter.android/com.twitter.database.legacy.provider.TwitterProvider}
+      applicationInfo=ApplicationInfo{f7dac5f com.twitter.android}
+  [com.twitter.android.internalfileprovider]:
+    Provider{bd15d4a com.twitter.android/com.twitter.database.legacy.provider.TwitterInternalFileProvider}
+      applicationInfo=ApplicationInfo{38186ac com.twitter.android}
+  [com.twitter.android.androidx-startup]:
+    Provider{30abff9 com.twitter.android/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{a36ef75 com.twitter.android}
+  [com.twitter.android.firebaseinitprovider]:
+    Provider{3cd74bb com.twitter.android/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{fd7cb0a com.twitter.android}
+  [com.twitter.android.openbackinitprovider]:
+    Provider{d2e62b5 com.twitter.android/com.openback.provider.OpenBackInitProvider}
+      applicationInfo=ApplicationInfo{27aaf7b com.twitter.android}
+  [com.twitter.android.externalfileprovider]:
+    Provider{6dff6c0 com.twitter.android/com.twitter.database.legacy.provider.TwitterExternalFileProvider}
+      applicationInfo=ApplicationInfo{3d66198 com.twitter.android}
+
+Key Set Manager:
+  [com.twitter.android]
+      Signing KeySets: 51
+
+Packages:
+  Package [com.twitter.android] (e3e8ff0):
+    userId=10171
+    pkg=Package{41e9969 com.twitter.android}
+    codePath=/data/app/~~jA7o4tezr8W08d7iyLwKFw==/com.twitter.android-p6O7CZ9JkWRnjpm3ZEic2w==
+    resourcePath=/data/app/~~jA7o4tezr8W08d7iyLwKFw==/com.twitter.android-p6O7CZ9JkWRnjpm3ZEic2w==
+    legacyNativeLibraryDir=/data/app/~~jA7o4tezr8W08d7iyLwKFw==/com.twitter.android-p6O7CZ9JkWRnjpm3ZEic2w==/lib
+    primaryCpuAbi=x86
+    secondaryCpuAbi=null
+    versionCode=29060001 minSdk=21 targetSdk=30
+    versionName=9.6.0-release.01
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=ApplicationInfo{41e9969 com.twitter.android}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.VIEW dat=otpauth:/* }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:///... }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=http:///... }, Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] }, Intent { act=android.intent.action.VIEW dat=sms:xx }]
+    dataDir=/data/user/0/com.twitter.android
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2021-08-14 21:31:59
+    firstInstallTime=2021-08-14 21:32:00
+    lastUpdateTime=2021-08-14 21:32:00
+    signatures=PackageSignatures{3fb7fee version:3, signatures:[aac7ece], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    declared permissions:
+      com.twitter.android.permission.RESTRICTED: prot=signature, INSTALLED
+    requested permissions:
+      com.twitter.android.permission.RESTRICTED
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.INTERNET
+      android.permission.VIBRATE
+      android.permission.READ_PROFILE
+      android.permission.READ_CONTACTS
+      android.permission.WAKE_LOCK
+      android.permission.WRITE_EXTERNAL_STORAGE: restricted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.READ_PHONE_STATE
+      android.permission.CAMERA
+      android.permission.RECORD_AUDIO
+      android.permission.GET_ACCOUNTS
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.BLUETOOTH
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_COARSE_LOCATION
+      com.android.vending.CHECK_LICENSE
+      android.permission.AUTHENTICATE_ACCOUNTS
+      android.permission.MANAGE_ACCOUNTS
+      android.permission.USE_CREDENTIALS
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.WRITE_SYNC_SETTINGS
+      android.permission.ACCESS_WIFI_STATE
+      com.huawei.android.launcher.permission.READ_SETTINGS
+      com.huawei.android.launcher.permission.WRITE_SETTINGS
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      com.sonyericsson.home.permission.BROADCAST_BADGE
+      com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+      com.sec.android.provider.badge.permission.READ
+      com.sec.android.provider.badge.permission.WRITE
+      com.oppo.launcher.permission.READ_SETTINGS
+      com.oppo.launcher.permission.WRITE_SETTINGS
+      com.htc.launcher.permission.READ_SETTINGS
+      com.htc.launcher.permission.UPDATE_SHORTCUT
+      com.anddoes.launcher.permission.UPDATE_COUNT
+      android.permission.RECEIVE_BOOT_COMPLETED
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_EXTERNAL_STORAGE: restricted=true
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.READ_PROFILE: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.AUTHENTICATE_ACCOUNTS: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.CHECK_LICENSE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      com.twitter.android.permission.RESTRICTED: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=147464 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      gids=[3002, 3003]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_PHONE_STATE: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.GET_ACCOUNTS: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_CONTACTS: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+      disabledComponents:
+        com.openback.receiver.OpenBackReceiver
+        com.twitter.app.fleets.page.alias.FleetThreadActivity
+      enabledComponents:
+        androidx.work.impl.background.systemalarm.RescheduleReceiver
+        androidx.work.impl.background.systemjob.SystemJobService
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+    com.twitter.android:
+      com.google.android.apps.messaging
+      com.google.android.gm
+      com.discord
+  queries via intent:
+    com.google.android.documentsui:
+      com.twitter.android
+    com.google.android.dialer:
+      com.twitter.android
+    com.google.android.apps.messaging:
+      com.twitter.android
+    com.google.android.youtube:
+      com.twitter.android
+    com.google.android.gm:
+      com.twitter.android
+    com.google.android.apps.maps:
+      com.twitter.android
+    com.google.android.apps.docs:
+      com.twitter.android
+    com.google.android.apps.photos:
+      com.twitter.android
+    com.twitter.android:
+      com.google.android.apps.pixelmigrate
+      com.google.android.setupwizard
+      com.google.android.apps.restore
+      com.google.android.googlequicksearchbox
+      org.chromium.webview_shell
+      com.google.android.apps.messaging
+      com.google.android.apps.enterprise.dmagent
+      com.android.chrome
+      com.google.android.apps.docs
+      com.google.android.apps.nexuslauncher
+      com.discord
+  queryable via interaction:
+    User 0:
+      [com.android.keychain,com.android.inputdevices,com.android.settings,com.android.providers.settings,com.android.dynsystem,com.android.emulator.multidisplay,com.android.wallpaperbackup,com.android.localtransport,com.android.server.telecom,android,com.android.location.fused]:
+        com.twitter.android
+      [com.android.providers.contacts,com.android.calllogbackup,com.android.providers.userdictionary,com.android.providers.blockednumber]:
+        com.twitter.android
+      com.android.vending:
+        com.twitter.android
+      [com.google.android.gsf,com.google.android.gms]:
+        com.twitter.android
+      com.android.chrome:
+        com.twitter.android
+      com.google.android.inputmethod.latin:
+        com.twitter.android
+      com.twitter.android:
+        [com.android.keychain,com.android.inputdevices,com.android.settings,com.android.providers.settings,com.android.dynsystem,com.android.emulator.multidisplay,com.android.wallpaperbackup,com.android.localtransport,com.android.server.telecom,android,com.android.location.fused]
+
+Package Changes:
+  Sequence number=102
+  User 0:
+    seq=15, package=com.google.android.gms
+    seq=18, package=com.android.vending
+    seq=23, package=com.example.gesturecapture
+    seq=25, package=com.eleybourn.bookcatalogue
+    seq=26, package=com.cpuid.cpu_z
+    seq=27, package=com.google.android.inputmethod.latin
+    seq=28, package=com.google.android.apps.photos
+    seq=29, package=com.google.android.deskclock
+    seq=31, package=com.google.android.youtube
+    seq=36, package=com.android.chrome
+    seq=46, package=com.google.ar.core
+    seq=47, package=com.google.android.tts
+    seq=48, package=com.google.android.calendar
+    seq=49, package=com.google.android.music
+    seq=50, package=com.google.android.dialer
+    seq=64, package=com.google.android.gm
+    seq=68, package=com.google.android.apps.wallpaper
+    seq=71, package=com.google.android.apps.messaging
+    seq=79, package=com.ext.ui
+    seq=83, package=com.google.android.apps.maps
+    seq=84, package=com.google.android.videos
+    seq=92, package=io.github.ylimit.droidbotapp
+    seq=93, package=com.discord
+    seq=100, package=com.google.android.apps.docs
+    seq=101, package=com.twitter.android
+
+
+Dexopt state:
+  [com.twitter.android]
+    path: /data/app/~~jA7o4tezr8W08d7iyLwKFw==/com.twitter.android-p6O7CZ9JkWRnjpm3ZEic2w==/base.apk
+      x86: [status=speed-profile] [reason=install]
+
+
+Compiler stats:
+  [com.twitter.android]
+     base.apk - 19890
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+

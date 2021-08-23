@@ -1,0 +1,51 @@
+{
+  "stop_state": "14dfdb37bef6ed39405796c28c620163", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-14_192810", 
+  "event": {
+    "views_str": [
+      "79118d837168cb62c7c6ce0ec0fc2f87"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.twitter.android:id/tweet_text", 
+        "text": "@sparklanguage ", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "896*97", 
+        "checked": false, 
+        "temp_id": 20, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.twitter.android:id/tweet_text", 
+        "is_password": false, 
+        "parent": 19, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.twitter.android", 
+        "long_clickable": true, 
+        "view_str": "79118d837168cb62c7c6ce0ec0fc2f87", 
+        "enabled": true, 
+        "bounds": [
+          [
+            152, 
+            249
+          ], 
+          [
+            1048, 
+            346
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.twitter.android:id/tweet_text[text]@sparklanguage [enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "ead5b405c182fcbc0a369904b8c9b2c6"
+}

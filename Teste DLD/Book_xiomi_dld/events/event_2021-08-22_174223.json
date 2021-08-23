@@ -1,0 +1,42 @@
+{
+  "stop_state": "9aa4f283b9e6dfdfbc1a4fc0379174de", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-22_174223", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Book Catalogue, Omhoog navigeren", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "549*144", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          60
+        ], 
+        [
+          549, 
+          204
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "a653b4205c58fadb688d8fc79b4121a7"
+}

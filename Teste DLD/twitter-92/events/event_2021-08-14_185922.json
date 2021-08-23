@@ -1,0 +1,51 @@
+{
+  "stop_state": "bc02e194adc45bdf221f6764ce57e630", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-14_185922", 
+  "event": {
+    "views_str": [
+      "e1b5482f4d18d829d8b1f08c06cf8e5a"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.twitter.android:id/tweet_text", 
+        "text": "Tweet your reply", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "896*97", 
+        "checked": false, 
+        "temp_id": 24, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.twitter.android:id/tweet_text", 
+        "is_password": false, 
+        "parent": 23, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.twitter.android", 
+        "long_clickable": true, 
+        "view_str": "e1b5482f4d18d829d8b1f08c06cf8e5a", 
+        "enabled": true, 
+        "bounds": [
+          [
+            152, 
+            313
+          ], 
+          [
+            1048, 
+            410
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.twitter.android:id/tweet_text[text]Tweet your reply[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "1a98da429b44f541fba739d213e1239d"
+}

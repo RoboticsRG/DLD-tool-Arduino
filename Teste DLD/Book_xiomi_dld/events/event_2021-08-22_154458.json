@@ -1,0 +1,51 @@
+{
+  "stop_state": "82e8a86d1615f3ee589afd648483a59a", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-22_154458", 
+  "event": {
+    "views_str": [
+      "7101112e588e54e0acdee4bc4a1e9c90"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.eleybourn.bookcatalogue:id/hide_hint_checkbox", 
+        "text": "Laat niet meer zien", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "502*96", 
+        "checked": false, 
+        "temp_id": 9, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.eleybourn.bookcatalogue:id/hide_hint_checkbox", 
+        "is_password": false, 
+        "parent": 7, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.eleybourn.bookcatalogue", 
+        "long_clickable": false, 
+        "view_str": "7101112e588e54e0acdee4bc4a1e9c90", 
+        "enabled": true, 
+        "bounds": [
+          [
+            99, 
+            1100
+          ], 
+          [
+            601, 
+            1196
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.eleybourn.bookcatalogue:id/hide_hint_checkbox[text]Laat niet meer zien[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "1154321279da7d59b78683ae486daeaf"
+}

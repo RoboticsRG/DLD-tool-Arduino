@@ -1,0 +1,42 @@
+{
+  "stop_state": "1b9da93978db74344f2ddca1e3fb5348", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-22_164535", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "android:id/button2", 
+      "text": "Doorgaan met bewerken", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "608*144", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          75, 
+          1141
+        ], 
+        [
+          683, 
+          1285
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "d56def05521168daf50d8e63386ed1f3"
+}

@@ -1,0 +1,42 @@
+{
+  "stop_state": "bfc8502247b1f39c04951f27809f2dde", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-13_204250", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Online Validation", 
+      "resource_id": "com.cpuid.cpu_z:id/menu_validation", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "147*126", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.cpuid.cpu_z", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          785, 
+          63
+        ], 
+        [
+          932, 
+          189
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "70a43a76150199d662b3bd47bc1ef933"
+}

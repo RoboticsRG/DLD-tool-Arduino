@@ -1,0 +1,51 @@
+{
+  "stop_state": "2dc85822e10fbc979d51e6db808e6336", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-22_155440", 
+  "event": {
+    "views_str": [
+      "7fdf6d777d62c294c9828ee3143c88b7"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "android:id/search_src_text", 
+        "text": "   zoeken naar auteurs of titels", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "877*108", 
+        "checked": false, 
+        "temp_id": 12, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]android:id/search_src_text", 
+        "is_password": false, 
+        "parent": 11, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.eleybourn.bookcatalogue", 
+        "long_clickable": true, 
+        "view_str": "7fdf6d777d62c294c9828ee3143c88b7", 
+        "enabled": true, 
+        "bounds": [
+          [
+            175, 
+            76
+          ], 
+          [
+            1052, 
+            184
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]android:id/search_src_text[text]   zoeken naar auteurs of titels[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "545938052279690d352ef9b811eeb257"
+}

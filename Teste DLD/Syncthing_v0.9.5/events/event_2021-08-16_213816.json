@@ -1,0 +1,42 @@
+{
+  "stop_state": "05c0a6d7359d74fbf822ff5db9081539", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-16_213816", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "android:id/text1", 
+      "text": "/storage/emulated/0/Documents", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "1080*126", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.nutomic.syncthingandroid", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          606
+        ], 
+        [
+          1080, 
+          732
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": false
+    }, 
+    "id": 4, 
+    "event_type": "touch"
+  }, 
+  "start_state": "c23ebd3ecdf92a857d00dd066e4fc1a9"
+}

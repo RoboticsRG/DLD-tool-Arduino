@@ -1,0 +1,42 @@
+{
+  "stop_state": "6da42a93cf6231b27ccd194e61cb6ec8", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-14_195713", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Camera", 
+      "resource_id": "com.twitter.android:id/gallery_header_camera", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "358*358", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.twitter.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          211
+        ], 
+        [
+          358, 
+          569
+        ]
+      ], 
+      "class": "android.widget.FrameLayout", 
+      "focusable": true
+    }, 
+    "id": 3, 
+    "event_type": "touch"
+  }, 
+  "start_state": "5daa78608a7a0cfccf32ff1e1a0986ac"
+}

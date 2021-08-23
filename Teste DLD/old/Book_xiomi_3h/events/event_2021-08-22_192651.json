@@ -1,0 +1,42 @@
+{
+  "stop_state": "295959a987fd3c39555c28fab0620596", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-22_192651", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.eleybourn.bookcatalogue:id/radio", 
+      "text": "Title first letter", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": true, 
+      "size": "481*96", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          75, 
+          570
+        ], 
+        [
+          556, 
+          666
+        ]
+      ], 
+      "class": "android.widget.RadioButton", 
+      "focusable": true
+    }, 
+    "id": 3, 
+    "event_type": "touch"
+  }, 
+  "start_state": "67889faeba6cd75d24dbfa418bc47784"
+}

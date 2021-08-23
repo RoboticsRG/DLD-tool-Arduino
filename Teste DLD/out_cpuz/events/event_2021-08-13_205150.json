@@ -1,0 +1,42 @@
+{
+  "stop_state": "1d4d6790f3e597846a3a7a23e6694622", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-13_205150", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "1080*110", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.cpuid.cpu_z", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          1323
+        ], 
+        [
+          1080, 
+          1433
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focusable": false
+    }, 
+    "id": 16, 
+    "event_type": "touch"
+  }, 
+  "start_state": "1d4d6790f3e597846a3a7a23e6694622"
+}

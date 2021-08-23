@@ -1,0 +1,44 @@
+{
+  "stop_state": "1211bc8b0abb24bcd044ae4898c9fb1c", 
+  "event_str": "ScrollEvent(direction=UP)", 
+  "tag": "2021-08-14_185348", 
+  "event": {
+    "direction": "UP", 
+    "event_type": "scroll", 
+    "y_full_down": 1750, 
+    "y": null, 
+    "x": null, 
+    "id": 16, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "android:id/list", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": false, 
+      "checkable": false, 
+      "size": "1080*1451", 
+      "scrollable": true, 
+      "checked": false, 
+      "package": "com.twitter.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          210
+        ], 
+        [
+          1080, 
+          1661
+        ]
+      ], 
+      "class": "androidx.recyclerview.widget.RecyclerView", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "3ce76536d0d2d80fed9102b533100045"
+}

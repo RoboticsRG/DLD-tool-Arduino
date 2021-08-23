@@ -1,0 +1,10 @@
+{
+  "stop_state": "b82fdb7974f75417f903d0b06e319ef7", 
+  "event_str": "IntentEvent(intent='am start com.cpuid.cpu_z/com.cpuid.cpu_z.MainActivity')", 
+  "tag": "2021-08-13_195057", 
+  "event": {
+    "intent": "am start com.cpuid.cpu_z/com.cpuid.cpu_z.MainActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "b95d78f3e101577d790a0d00239ee1da"
+}

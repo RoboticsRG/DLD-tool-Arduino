@@ -1,0 +1,203 @@
+{
+  "stop_state": "1454ed8df1b91f9424a8e98b37b7caba", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-22_160041", 
+  "event": {
+    "views_str": [
+      "ef9896cb24c8bf149347e80924aeb7b8", 
+      "1c7602c986e1033ade2e3b84e04a666f", 
+      "849be1444a0dafad7cd69b45ff2aba8f", 
+      "2570bc722e34ef713323ee72c71eb7e0", 
+      "42977737c50123529008be0886720a66"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.eleybourn.bookcatalogue:id/title", 
+        "text": "Niet Ingevuld", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1020*118", 
+        "checked": false, 
+        "temp_id": 30, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.eleybourn.bookcatalogue:id/title", 
+        "is_password": false, 
+        "parent": 28, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.eleybourn.bookcatalogue", 
+        "long_clickable": true, 
+        "view_str": "ef9896cb24c8bf149347e80924aeb7b8", 
+        "enabled": true, 
+        "bounds": [
+          [
+            30, 
+            636
+          ], 
+          [
+            1050, 
+            754
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.eleybourn.bookcatalogue:id/title[text]Niet Ingevuld[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.eleybourn.bookcatalogue:id/format", 
+        "text": "Niet Ingevuld", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "876*118", 
+        "checked": false, 
+        "temp_id": 36, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.eleybourn.bookcatalogue:id/format", 
+        "is_password": false, 
+        "parent": 34, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.eleybourn.bookcatalogue", 
+        "long_clickable": true, 
+        "view_str": "1c7602c986e1033ade2e3b84e04a666f", 
+        "enabled": true, 
+        "bounds": [
+          [
+            30, 
+            1012
+          ], 
+          [
+            906, 
+            1130
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.eleybourn.bookcatalogue:id/format[text]Niet Ingevuld[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.eleybourn.bookcatalogue:id/genre", 
+        "text": "Niet Ingevuld", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1020*118", 
+        "checked": false, 
+        "temp_id": 40, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.eleybourn.bookcatalogue:id/genre", 
+        "is_password": false, 
+        "parent": 38, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.eleybourn.bookcatalogue", 
+        "long_clickable": true, 
+        "view_str": "849be1444a0dafad7cd69b45ff2aba8f", 
+        "enabled": true, 
+        "bounds": [
+          [
+            30, 
+            1187
+          ], 
+          [
+            1050, 
+            1305
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.eleybourn.bookcatalogue:id/genre[text]Niet Ingevuld[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.eleybourn.bookcatalogue:id/language", 
+        "text": "Niet Ingevuld", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1020*118", 
+        "checked": false, 
+        "temp_id": 43, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.eleybourn.bookcatalogue:id/language", 
+        "is_password": false, 
+        "parent": 41, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.eleybourn.bookcatalogue", 
+        "long_clickable": true, 
+        "view_str": "2570bc722e34ef713323ee72c71eb7e0", 
+        "enabled": true, 
+        "bounds": [
+          [
+            30, 
+            1362
+          ], 
+          [
+            1050, 
+            1480
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.eleybourn.bookcatalogue:id/language[text]Niet Ingevuld[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.eleybourn.bookcatalogue:id/anthology", 
+        "text": "Is dit boek een bloemlezing?", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "700*96", 
+        "checked": false, 
+        "temp_id": 44, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.eleybourn.bookcatalogue:id/anthology", 
+        "is_password": false, 
+        "parent": 24, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.eleybourn.bookcatalogue", 
+        "long_clickable": false, 
+        "view_str": "42977737c50123529008be0886720a66", 
+        "enabled": true, 
+        "bounds": [
+          [
+            30, 
+            1480
+          ], 
+          [
+            730, 
+            1576
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.eleybourn.bookcatalogue:id/anthology[text]Is dit boek een bloemlezing?[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "cb69f43eaad7c8d9465c75ad5da4fe3a"
+}

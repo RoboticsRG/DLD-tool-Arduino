@@ -1,0 +1,42 @@
+{
+  "stop_state": "773bb7c195e899689426c731c0a7fdfa", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-14_190453", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.twitter.android:id/name", 
+      "text": "Vice President Kamala Harris\u202f\u202f", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "953*71", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.twitter.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          560
+        ], 
+        [
+          953, 
+          631
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": true
+    }, 
+    "id": 4, 
+    "event_type": "touch"
+  }, 
+  "start_state": "284200e265d48aa9a7b1777f703d75ad"
+}

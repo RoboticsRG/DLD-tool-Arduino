@@ -1,0 +1,42 @@
+{
+  "stop_state": "c8393b2fb1b8d98385ea9fc30264932c", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-22_160113", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.eleybourn.bookcatalogue:id/author", 
+      "text": "Invullen auteurs\u2026", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "1020*144", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          30, 
+          435
+        ], 
+        [
+          1050, 
+          579
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 4, 
+    "event_type": "touch"
+  }, 
+  "start_state": "49c50f1040ea6ddd9566d23d04baaf86"
+}

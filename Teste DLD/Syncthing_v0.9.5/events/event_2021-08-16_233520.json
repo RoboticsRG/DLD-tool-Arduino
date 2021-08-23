@@ -1,0 +1,42 @@
+{
+  "stop_state": "a03b7ef222fdbd5c7b6fff5a27fa869d", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-16_233520", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "540*126", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.nutomic.syncthingandroid", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          210
+        ], 
+        [
+          540, 
+          336
+        ]
+      ], 
+      "class": "android.support.v7.app.ActionBar$Tab", 
+      "focusable": true
+    }, 
+    "id": 2, 
+    "event_type": "touch"
+  }, 
+  "start_state": "c777b824c01638b7bb35a105344952db"
+}

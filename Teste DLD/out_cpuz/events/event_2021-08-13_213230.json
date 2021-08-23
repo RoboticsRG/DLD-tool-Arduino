@@ -1,0 +1,42 @@
+{
+  "stop_state": "e97aae32acefe51ceaf6cec3e7c41a1e", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-13_213230", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "by Tourist Tv Nana Oa", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "409*52", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.cpuid.cpu_z", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          336, 
+          433
+        ], 
+        [
+          745, 
+          485
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": false
+    }, 
+    "id": 4, 
+    "event_type": "touch"
+  }, 
+  "start_state": "4fbd896158416dbce5af7f6c8b5cfa42"
+}

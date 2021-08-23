@@ -1,0 +1,42 @@
+{
+  "stop_state": "94d7157bd81f91829d8ab95ad85e1a7b", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-16_233218", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.nutomic.syncthingandroid:id/introducer", 
+      "text": "Introducer OFF", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": true, 
+      "size": "1080*147", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.nutomic.syncthingandroid", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          823
+        ], 
+        [
+          1080, 
+          970
+        ]
+      ], 
+      "class": "android.widget.Switch", 
+      "focusable": true
+    }, 
+    "id": 7, 
+    "event_type": "touch"
+  }, 
+  "start_state": "6ec09647b82ac0e09804c902f33e69d0"
+}

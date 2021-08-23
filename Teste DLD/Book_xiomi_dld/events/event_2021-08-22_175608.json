@@ -1,0 +1,42 @@
+{
+  "stop_state": "206e098dbe8ce5f8c432998e50c43ecc", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-22_175608", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": true, 
+      "size": "96*96", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          939, 
+          1079
+        ], 
+        [
+          1035, 
+          1175
+        ]
+      ], 
+      "class": "android.widget.CheckBox", 
+      "focusable": true
+    }, 
+    "id": 15, 
+    "event_type": "touch"
+  }, 
+  "start_state": "b4f78aa3ed2bb3e99f69284f5c3c43a4"
+}

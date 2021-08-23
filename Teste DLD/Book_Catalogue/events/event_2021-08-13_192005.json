@@ -1,0 +1,42 @@
+{
+  "stop_state": "d4d67125758f93c422bab0841c3c54e1", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-13_192005", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.eleybourn.bookcatalogue:id/cancel", 
+      "text": "Cancel", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "444*126", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          96, 
+          852
+        ], 
+        [
+          540, 
+          978
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 9, 
+    "event_type": "touch"
+  }, 
+  "start_state": "752434c4fe81abc47c8cbb8dd4417784"
+}

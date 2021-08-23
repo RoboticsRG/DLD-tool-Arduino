@@ -1,0 +1,10 @@
+{
+  "stop_state": "f33c8c720ce985a0720811b8ea4c0bfc", 
+  "event_str": "IntentEvent(intent='am start com.eleybourn.bookcatalogue/com.eleybourn.bookcatalogue.StartupActivity')", 
+  "tag": "2021-08-22_203557", 
+  "event": {
+    "intent": "am start com.eleybourn.bookcatalogue/com.eleybourn.bookcatalogue.StartupActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "91a88d44ab41d35149489d3b8e430373"
+}

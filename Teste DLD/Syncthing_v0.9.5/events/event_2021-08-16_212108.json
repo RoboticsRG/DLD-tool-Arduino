@@ -1,0 +1,127 @@
+{
+  "stop_state": "b269e6a971e77e963c872f6a47f82185", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-16_212108", 
+  "event": {
+    "views_str": [
+      "6ff8db5484924d28bb9164db51a20404", 
+      "35c2d7328614fcc97f4bf38e4eab6895", 
+      "b2c84a61bc8c8559a627343896018474"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.nutomic.syncthingandroid:id/label", 
+        "text": "Camera", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1080*147", 
+        "checked": false, 
+        "temp_id": 13, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.nutomic.syncthingandroid:id/label", 
+        "is_password": false, 
+        "parent": 12, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.nutomic.syncthingandroid", 
+        "long_clickable": true, 
+        "view_str": "6ff8db5484924d28bb9164db51a20404", 
+        "enabled": true, 
+        "bounds": [
+          [
+            0, 
+            231
+          ], 
+          [
+            1080, 
+            378
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.nutomic.syncthingandroid:id/label[text]Camera[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.nutomic.syncthingandroid:id/id", 
+        "text": "sdk_gphone_x86-photos", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1080*147", 
+        "checked": false, 
+        "temp_id": 14, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.nutomic.syncthingandroid:id/id", 
+        "is_password": false, 
+        "parent": 12, 
+        "focusable": false, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.nutomic.syncthingandroid", 
+        "long_clickable": true, 
+        "view_str": "35c2d7328614fcc97f4bf38e4eab6895", 
+        "enabled": false, 
+        "bounds": [
+          [
+            0, 
+            379
+          ], 
+          [
+            1080, 
+            526
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.nutomic.syncthingandroid:id/id[text]sdk_gphone_x86-photos[,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.nutomic.syncthingandroid:id/master", 
+        "text": "Folder Master ON", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "1080*147", 
+        "checked": true, 
+        "temp_id": 18, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.Switch[resource_id]com.nutomic.syncthingandroid:id/master", 
+        "is_password": false, 
+        "parent": 12, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.Switch", 
+        "scrollable": false, 
+        "package": "com.nutomic.syncthingandroid", 
+        "long_clickable": false, 
+        "view_str": "b2c84a61bc8c8559a627343896018474", 
+        "enabled": true, 
+        "bounds": [
+          [
+            0, 
+            802
+          ], 
+          [
+            1080, 
+            949
+          ]
+        ], 
+        "signature": "[class]android.widget.Switch[resource_id]com.nutomic.syncthingandroid:id/master[text]Folder Master ON[enabled,checked,]"
+      }
+    ]
+  }, 
+  "start_state": "28d70c6b77c6abdb25bdfdd31d06460a"
+}

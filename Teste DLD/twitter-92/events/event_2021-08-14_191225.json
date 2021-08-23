@@ -1,0 +1,127 @@
+{
+  "stop_state": "7906bdf3d1a9963156ddf8a4ccd002a6", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-14_191225", 
+  "event": {
+    "views_str": [
+      "fe10de21aa2540e3b8c4be9a23153ad6", 
+      "99e36d7fd6d5dea4f0c62210130ae4d1", 
+      "99e36d7fd6d5dea4f0c62210130ae4d1"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.twitter.android:id/tweet_text", 
+        "text": "@meandmineand tetest123test123test123 byst123", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "896*125", 
+        "checked": false, 
+        "temp_id": 21, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.twitter.android:id/tweet_text", 
+        "is_password": false, 
+        "parent": 20, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.twitter.android", 
+        "long_clickable": true, 
+        "view_str": "fe10de21aa2540e3b8c4be9a23153ad6", 
+        "enabled": true, 
+        "bounds": [
+          [
+            152, 
+            211
+          ], 
+          [
+            1048, 
+            336
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.twitter.android:id/tweet_text[text]@meandmineand tetest123test123test123 byst123[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": null, 
+        "text": "test123", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "744*126", 
+        "checked": false, 
+        "temp_id": 28, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]None", 
+        "is_password": false, 
+        "parent": 27, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.twitter.android", 
+        "long_clickable": true, 
+        "view_str": "99e36d7fd6d5dea4f0c62210130ae4d1", 
+        "enabled": true, 
+        "bounds": [
+          [
+            178, 
+            388
+          ], 
+          [
+            922, 
+            514
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]None[text]test123[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": null, 
+        "text": "test123", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "744*126", 
+        "checked": false, 
+        "temp_id": 30, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]None", 
+        "is_password": false, 
+        "parent": 29, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.twitter.android", 
+        "long_clickable": true, 
+        "view_str": "99e36d7fd6d5dea4f0c62210130ae4d1", 
+        "enabled": true, 
+        "bounds": [
+          [
+            178, 
+            540
+          ], 
+          [
+            922, 
+            666
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]None[text]test123[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "e1b312c4579a825c5813a1ab3bd40b26"
+}

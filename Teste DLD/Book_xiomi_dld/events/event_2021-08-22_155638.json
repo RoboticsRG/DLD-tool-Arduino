@@ -1,0 +1,42 @@
+{
+  "stop_state": "467b7ec3935d193ccc8c705cf0b24420", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-22_155638", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "android:id/button2", 
+      "text": "ZXing", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "464*144", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          75, 
+          1330
+        ], 
+        [
+          539, 
+          1474
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "8bf402a4b0b658615be6ed2a14744792"
+}

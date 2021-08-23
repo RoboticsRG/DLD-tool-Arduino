@@ -4,7 +4,7 @@ import logging
 import re
 from .adapter import Adapter
 import time
-
+from .arduino import Arduino
 
 class ADBException(Exception):
     """
@@ -42,6 +42,7 @@ class ADB(Adapter):
         self.device = device
 
         self.cmd_prefix = ['adb', "-s", device.serial]
+        self.con_ard = Arduino()
 
     def run_cmd(self, extra_args):
         """
@@ -313,7 +314,21 @@ class ADB(Adapter):
         if 2 -> 180 degrees
         if 3 -> 270 degrees
         '''
-        self.shell("settings put system user_rotation %d" % orientation_code)
+        # self.shell("settings put system user_rotation %d" % orientation_code)
+        if orientation_code == 0:
+            print('\033[41m' + "Portrait" + '\033[0m')
+
+        if orientation_code == 1:
+            print('\033[41m' + "Landscape Left" + '\033[0m')
+
+        if orientation_code == 2:
+            print('\033[41m' + "Inverted Portrait" + '\033[0m')
+
+        if orientation_code == 3:
+            print('\033[41m' + "Landscape Right" + '\033[0m')
+
+        self.con_ard.write(str(orientation_code))
+
 
     def unlock(self):
         """

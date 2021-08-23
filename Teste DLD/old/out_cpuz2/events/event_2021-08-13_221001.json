@@ -1,0 +1,42 @@
+{
+  "stop_state": "a8a390c977ccb7456db1723b59f06d99", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-13_221001", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "Learn More", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "287*82", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.cpuid.cpu_z", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          763, 
+          1682
+        ], 
+        [
+          1050, 
+          1764
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": false
+    }, 
+    "id": 5, 
+    "event_type": "touch"
+  }, 
+  "start_state": "b6d3da6fbabd50b15201fac3f3d2866e"
+}

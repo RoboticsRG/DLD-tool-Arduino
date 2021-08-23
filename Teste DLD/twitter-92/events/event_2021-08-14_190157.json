@@ -1,0 +1,42 @@
+{
+  "stop_state": "b6bd60a519abcc77f7da0fc05e0b7133", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-14_190157", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Follow ClooneysOpenHse. Follow.", 
+      "resource_id": "com.twitter.android:id/follow_button", 
+      "text": "FOLLOW", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "269*79", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.twitter.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          779, 
+          1402
+        ], 
+        [
+          1048, 
+          1481
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": false
+    }, 
+    "id": 11, 
+    "event_type": "touch"
+  }, 
+  "start_state": "67143704ddc53e8b6300b3d2a0332a97"
+}

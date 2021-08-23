@@ -1,0 +1,51 @@
+{
+  "stop_state": "779964a78dc989824d7bbc66a575dab3", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-16_222327", 
+  "event": {
+    "views_str": [
+      "e7b763320b010177bf14bcee58827c97"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "android:id/checkbox", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "84*84", 
+        "checked": false, 
+        "temp_id": 11, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox", 
+        "is_password": false, 
+        "parent": 10, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.nutomic.syncthingandroid", 
+        "long_clickable": false, 
+        "view_str": "e7b763320b010177bf14bcee58827c97", 
+        "enabled": true, 
+        "bounds": [
+          [
+            954, 
+            117
+          ], 
+          [
+            1038, 
+            201
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]android:id/checkbox[text]None[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "8a8e955e39d6947a1eec8eb246cd412c"
+}

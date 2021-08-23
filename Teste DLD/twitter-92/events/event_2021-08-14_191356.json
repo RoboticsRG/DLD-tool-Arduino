@@ -1,0 +1,42 @@
+{
+  "stop_state": "3618c78bbeb282acb53c17a93e8a02ac", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-14_191356", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Remove poll", 
+      "resource_id": "com.twitter.android:id/poll_card_dismiss", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "66*66", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.twitter.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          964, 
+          427
+        ], 
+        [
+          1030, 
+          493
+        ]
+      ], 
+      "class": "android.widget.ImageView", 
+      "focusable": true
+    }, 
+    "id": 6, 
+    "event_type": "touch"
+  }, 
+  "start_state": "52747b366dcc0839ed5e05aa0f1f8d1e"
+}

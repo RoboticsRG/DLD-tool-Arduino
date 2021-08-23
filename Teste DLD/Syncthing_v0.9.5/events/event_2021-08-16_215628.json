@@ -1,0 +1,42 @@
+{
+  "stop_state": "ff375f706eb26f3611d0d43271aa2407", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-16_215628", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Navigate up", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "147*147", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.nutomic.syncthingandroid", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          63
+        ], 
+        [
+          147, 
+          210
+        ]
+      ], 
+      "class": "android.widget.ImageButton", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "4738e976e7eaad62d3dd5458bf0d1778"
+}

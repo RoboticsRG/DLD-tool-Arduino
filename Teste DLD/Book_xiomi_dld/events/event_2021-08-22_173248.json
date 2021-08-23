@@ -1,0 +1,42 @@
+{
+  "stop_state": "75d7fff71ce1466f91f5ad6003c80725", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-22_173248", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.eleybourn.bookcatalogue:id/fields_label", 
+      "text": "Zichtbaarheid velden beheren", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "1065*165", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          15, 
+          420
+        ], 
+        [
+          1080, 
+          585
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": false
+    }, 
+    "id": 2, 
+    "event_type": "touch"
+  }, 
+  "start_state": "0db03c4ac024be6c3d4568a6b5c94dc6"
+}

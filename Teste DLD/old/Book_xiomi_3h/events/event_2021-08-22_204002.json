@@ -1,0 +1,51 @@
+{
+  "stop_state": "53b4528543cc2194bf4857c653e9d9de", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-22_204002", 
+  "event": {
+    "views_str": [
+      "4f5f9964ef9801d9af0e227dae567aa4"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.eleybourn.bookcatalogue:id/hide_hint_checkbox", 
+        "text": "Do not show again", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "548*96", 
+        "checked": false, 
+        "temp_id": 9, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.eleybourn.bookcatalogue:id/hide_hint_checkbox", 
+        "is_password": false, 
+        "parent": 7, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.eleybourn.bookcatalogue", 
+        "long_clickable": false, 
+        "view_str": "4f5f9964ef9801d9af0e227dae567aa4", 
+        "enabled": true, 
+        "bounds": [
+          [
+            99, 
+            1594
+          ], 
+          [
+            647, 
+            1690
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.eleybourn.bookcatalogue:id/hide_hint_checkbox[text]Do not show again[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "3eb9895edecd6212dd555c888440be4b"
+}

@@ -1,0 +1,165 @@
+{
+  "stop_state": "25fbcea653db63d1cefa89dd55d49493", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-22_180055", 
+  "event": {
+    "views_str": [
+      "7681912fdbef135620256777cde1408e", 
+      "8aac51a54aaf6570f2cdb4f3392213d2", 
+      "4b5f0247634e9f3bb1f193459ce643e4", 
+      "8572ec3e4b60a9acbf64bff042016422"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.eleybourn.bookcatalogue:id/radio", 
+        "text": "Compact", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "320*96", 
+        "checked": false, 
+        "temp_id": 13, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.RadioButton[resource_id]com.eleybourn.bookcatalogue:id/radio", 
+        "is_password": false, 
+        "parent": 12, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.RadioButton", 
+        "scrollable": false, 
+        "package": "com.eleybourn.bookcatalogue", 
+        "long_clickable": false, 
+        "view_str": "7681912fdbef135620256777cde1408e", 
+        "enabled": true, 
+        "bounds": [
+          [
+            75, 
+            762
+          ], 
+          [
+            395, 
+            858
+          ]
+        ], 
+        "signature": "[class]android.widget.RadioButton[resource_id]com.eleybourn.bookcatalogue:id/radio[text]Compact[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.eleybourn.bookcatalogue:id/radio", 
+        "text": "Ongelezen (Auteur/Serie)", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "663*96", 
+        "checked": false, 
+        "temp_id": 14, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.RadioButton[resource_id]com.eleybourn.bookcatalogue:id/radio", 
+        "is_password": false, 
+        "parent": 12, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.RadioButton", 
+        "scrollable": false, 
+        "package": "com.eleybourn.bookcatalogue", 
+        "long_clickable": false, 
+        "view_str": "8aac51a54aaf6570f2cdb4f3392213d2", 
+        "enabled": true, 
+        "bounds": [
+          [
+            75, 
+            858
+          ], 
+          [
+            738, 
+            954
+          ]
+        ], 
+        "signature": "[class]android.widget.RadioButton[resource_id]com.eleybourn.bookcatalogue:id/radio[text]Ongelezen (Auteur/Serie)[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.eleybourn.bookcatalogue:id/radio", 
+        "text": "Genrenaam", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "373*96", 
+        "checked": false, 
+        "temp_id": 15, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.RadioButton[resource_id]com.eleybourn.bookcatalogue:id/radio", 
+        "is_password": false, 
+        "parent": 12, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.RadioButton", 
+        "scrollable": false, 
+        "package": "com.eleybourn.bookcatalogue", 
+        "long_clickable": false, 
+        "view_str": "4b5f0247634e9f3bb1f193459ce643e4", 
+        "enabled": true, 
+        "bounds": [
+          [
+            75, 
+            954
+          ], 
+          [
+            448, 
+            1050
+          ]
+        ], 
+        "signature": "[class]android.widget.RadioButton[resource_id]com.eleybourn.bookcatalogue:id/radio[text]Genrenaam[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.eleybourn.bookcatalogue:id/radio", 
+        "text": "Uitgeleend", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "353*96", 
+        "checked": false, 
+        "temp_id": 16, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.RadioButton[resource_id]com.eleybourn.bookcatalogue:id/radio", 
+        "is_password": false, 
+        "parent": 12, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.RadioButton", 
+        "scrollable": false, 
+        "package": "com.eleybourn.bookcatalogue", 
+        "long_clickable": false, 
+        "view_str": "8572ec3e4b60a9acbf64bff042016422", 
+        "enabled": true, 
+        "bounds": [
+          [
+            75, 
+            1050
+          ], 
+          [
+            428, 
+            1146
+          ]
+        ], 
+        "signature": "[class]android.widget.RadioButton[resource_id]com.eleybourn.bookcatalogue:id/radio[text]Uitgeleend[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "636c706990fdeda37383b738b88a660b"
+}

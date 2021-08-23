@@ -1,0 +1,42 @@
+{
+  "stop_state": "f7257304f99253dfdd4dcef49f142ac0", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-14_192115", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Follow raj. Follow.", 
+      "resource_id": "com.twitter.android:id/button_bar_follow", 
+      "text": "FOLLOW", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "269*84", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.twitter.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          779, 
+          455
+        ], 
+        [
+          1048, 
+          539
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": false
+    }, 
+    "id": 2, 
+    "event_type": "touch"
+  }, 
+  "start_state": "835962f5448b20d66a7e03b6e7514802"
+}

@@ -1,0 +1,127 @@
+{
+  "stop_state": "fa3492f8b750030f2bbf942d3cc2842c", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-16_231430", 
+  "event": {
+    "views_str": [
+      "31b604f21a56671925ac1baf3a17409c", 
+      "8979987d6549add917c0417034164a44", 
+      "d825e8dc9790179554d3e6f77fc963b1"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "folderLabel", 
+        "text": "", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "950*103", 
+        "checked": false, 
+        "temp_id": 219, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]folderLabel", 
+        "is_password": false, 
+        "parent": 217, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.nutomic.syncthingandroid", 
+        "long_clickable": false, 
+        "view_str": "31b604f21a56671925ac1baf3a17409c", 
+        "enabled": true, 
+        "bounds": [
+          [
+            65, 
+            511
+          ], 
+          [
+            1015, 
+            614
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]folderLabel[text][enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "folderID", 
+        "text": "3bwob-lhrhz", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "950*105", 
+        "checked": false, 
+        "temp_id": 222, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]folderID", 
+        "is_password": false, 
+        "parent": 217, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.nutomic.syncthingandroid", 
+        "long_clickable": false, 
+        "view_str": "8979987d6549add917c0417034164a44", 
+        "enabled": true, 
+        "bounds": [
+          [
+            65, 
+            866
+          ], 
+          [
+            1015, 
+            971
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]folderID[text]3bwob-lhrhz[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "folderPath", 
+        "text": "", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "950*103", 
+        "checked": false, 
+        "temp_id": 225, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]folderPath", 
+        "is_password": false, 
+        "parent": 217, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.nutomic.syncthingandroid", 
+        "long_clickable": false, 
+        "view_str": "d825e8dc9790179554d3e6f77fc963b1", 
+        "enabled": true, 
+        "bounds": [
+          [
+            65, 
+            1220
+          ], 
+          [
+            1015, 
+            1323
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]folderPath[text][enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "76dff85e1f720d1cda237db5c8c486f6"
+}

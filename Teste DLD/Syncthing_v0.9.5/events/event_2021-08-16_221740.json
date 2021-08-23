@@ -1,0 +1,43 @@
+{
+  "stop_state": "4d19fc47d0f2e1fa3b650ace08c65339", 
+  "event_str": "SetTextEvent", 
+  "tag": "2021-08-16_221740", 
+  "event": {
+    "event_type": "set_text", 
+    "text": "HelloWorld", 
+    "y": null, 
+    "x": null, 
+    "id": 14, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.nutomic.syncthingandroid:id/name", 
+      "text": "HelloWorldHelloWorld", 
+      "editable": true, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "1080*147", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.nutomic.syncthingandroid", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          379
+        ], 
+        [
+          1080, 
+          526
+        ]
+      ], 
+      "class": "android.widget.EditText", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "6c16f5436bab6f6de2a32dde05005481"
+}

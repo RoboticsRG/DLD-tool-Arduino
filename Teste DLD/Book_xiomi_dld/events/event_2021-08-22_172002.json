@@ -1,0 +1,42 @@
+{
+  "stop_state": "aaa6374b307c7aedcfd19bdaaa803206", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-22_172002", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Klonen van Stijl: Waardering, Omhoog navigeren", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "835*144", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          60
+        ], 
+        [
+          835, 
+          204
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "ad78d89df36f6cd6544f786a52bb9165"
+}

@@ -1,0 +1,42 @@
+{
+  "stop_state": "07a9758cc667b72a1f8d2d76871405e6", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-13_191520", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.eleybourn.bookcatalogue:id/signed", 
+      "text": "Has this book been signed", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": true, 
+      "size": "1028*84", 
+      "scrollable": false, 
+      "checked": true, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          26, 
+          786
+        ], 
+        [
+          1054, 
+          870
+        ]
+      ], 
+      "class": "android.widget.CheckBox", 
+      "focusable": true
+    }, 
+    "id": 11, 
+    "event_type": "touch"
+  }, 
+  "start_state": "34d14c39c0169b0fa1f2f82fced12628"
+}

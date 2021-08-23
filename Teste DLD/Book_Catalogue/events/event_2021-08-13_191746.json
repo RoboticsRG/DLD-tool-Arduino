@@ -1,0 +1,42 @@
+{
+  "stop_state": "a054dfe7e5fd86fab55753f32449dfb8", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-13_191746", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "android:id/text1", 
+      "text": "Jul", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": true, 
+      "size": "164*126", 
+      "scrollable": false, 
+      "checked": true, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          308, 
+          84
+        ], 
+        [
+          472, 
+          210
+        ]
+      ], 
+      "class": "android.widget.CheckedTextView", 
+      "focusable": false
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "0ba88df0ef8c3edaa603324e180e7f09"
+}

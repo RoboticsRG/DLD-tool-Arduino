@@ -1,0 +1,51 @@
+{
+  "stop_state": "c42683373aae199b68c16088b9111cbd", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-13_020456", 
+  "event": {
+    "views_str": [
+      "30c282e36dae4d6687d79459526394af"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.example.gesturecapture:id/userEmail", 
+        "text": "Email", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "704*118", 
+        "checked": false, 
+        "temp_id": 6, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.example.gesturecapture:id/userEmail", 
+        "is_password": false, 
+        "parent": 4, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.example.gesturecapture", 
+        "long_clickable": true, 
+        "view_str": "30c282e36dae4d6687d79459526394af", 
+        "enabled": true, 
+        "bounds": [
+          [
+            188, 
+            850
+          ], 
+          [
+            892, 
+            968
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.example.gesturecapture:id/userEmail[text]Email[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "f1dc300efdb38efa8ee370861fb47e72"
+}

@@ -1,0 +1,42 @@
+{
+  "stop_state": "3c6942baf0bbfa267020df68de3cc494", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-14_192619", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "GIF", 
+      "resource_id": "com.twitter.android:id/found_media", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "126*126", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.twitter.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          147, 
+          917
+        ], 
+        [
+          273, 
+          1043
+        ]
+      ], 
+      "class": "android.widget.ImageButton", 
+      "focusable": true
+    }, 
+    "id": 8, 
+    "event_type": "touch"
+  }, 
+  "start_state": "750f226ce70a6577b5b2a7bfdf6a4624"
+}

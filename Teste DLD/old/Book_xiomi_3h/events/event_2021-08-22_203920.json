@@ -1,0 +1,42 @@
+{
+  "stop_state": "1c48fe6fc96e4f9875a6662e23aafe46", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-22_203920", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Book Catalogue: ISBN Search, Navegar para cima", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "874*144", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          60
+        ], 
+        [
+          874, 
+          204
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "103bc344d9f2b4ae364fc499c0d60f46"
+}

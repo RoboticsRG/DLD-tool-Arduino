@@ -1,0 +1,42 @@
+{
+  "stop_state": "bb7900ca90d64b15278a32ab979362a8", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-22_174930", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "android:id/text1", 
+      "text": "Stijl klonen", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "930*142", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          75, 
+          918
+        ], 
+        [
+          1005, 
+          1060
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": false
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "ccda944869dc2a174d573fb8c8de10d5"
+}

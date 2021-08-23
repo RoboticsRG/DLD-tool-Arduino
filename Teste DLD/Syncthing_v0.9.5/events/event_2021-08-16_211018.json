@@ -1,0 +1,42 @@
+{
+  "stop_state": "dd94f4e1df779840af610f6e4a6424b2", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-16_211018", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "android:id/text1", 
+      "text": "/storage/emulated/0/DCIM", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "1080*126", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.nutomic.syncthingandroid", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          481
+        ], 
+        [
+          1080, 
+          607
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": false
+    }, 
+    "id": 3, 
+    "event_type": "touch"
+  }, 
+  "start_state": "c23ebd3ecdf92a857d00dd066e4fc1a9"
+}

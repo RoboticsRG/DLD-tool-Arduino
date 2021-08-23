@@ -1,0 +1,10 @@
+{
+  "stop_state": "aa0f1fcbffccbfd20d4ce8af358195d6", 
+  "event_str": "IntentEvent(intent='am start com.nutomic.syncthingandroid/com.nutomic.syncthingandroid.activities.FirstStartActivity')", 
+  "tag": "2021-08-17_190451", 
+  "event": {
+    "intent": "am start com.nutomic.syncthingandroid/com.nutomic.syncthingandroid.activities.FirstStartActivity", 
+    "event_type": "intent"
+  }, 
+  "start_state": "456b118708b780a2b8bd83593e02ac03"
+}

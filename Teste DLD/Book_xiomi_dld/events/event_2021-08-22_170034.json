@@ -1,0 +1,43 @@
+{
+  "stop_state": "b200087599a8f380118f16d515d85c71", 
+  "event_str": "LongTouchEvent(duration=2000)", 
+  "tag": "2021-08-22_170034", 
+  "event": {
+    "event_type": "long_touch", 
+    "duration": 2000, 
+    "y": null, 
+    "x": null, 
+    "id": 5, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.eleybourn.bookcatalogue:id/title", 
+      "text": "test123", 
+      "editable": true, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "1050*148", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          15, 
+          367
+        ], 
+        [
+          1065, 
+          515
+        ]
+      ], 
+      "class": "android.widget.EditText", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "b200087599a8f380118f16d515d85c71"
+}

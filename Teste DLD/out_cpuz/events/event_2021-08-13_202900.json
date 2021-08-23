@@ -1,0 +1,42 @@
+{
+  "stop_state": "20ee7a1b78954f6c09820d0d75c70b62", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-13_202900", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "INTUIX - Tecnologia para Certifica\u00e7\u00e3o", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "806*61", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.cpuid.cpu_z", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          136, 
+          288
+        ], 
+        [
+          942, 
+          349
+        ]
+      ], 
+      "class": "android.view.View", 
+      "focusable": false
+    }, 
+    "id": 3, 
+    "event_type": "touch"
+  }, 
+  "start_state": "fbb5f5d8f7719f0cd6157192f19b83b8"
+}

@@ -1,0 +1,42 @@
+{
+  "stop_state": "96dd1d6aea770b1d7be98bd30db0f6b2", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-22_202710", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.eleybourn.bookcatalogue:id/anthology", 
+      "text": "Is this book an Anthology?", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": true, 
+      "size": "737*96", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          30, 
+          1568
+        ], 
+        [
+          767, 
+          1664
+        ]
+      ], 
+      "class": "android.widget.CheckBox", 
+      "focusable": true
+    }, 
+    "id": 11, 
+    "event_type": "touch"
+  }, 
+  "start_state": "2dbcff65a487d42fcddaf03f686b69a2"
+}

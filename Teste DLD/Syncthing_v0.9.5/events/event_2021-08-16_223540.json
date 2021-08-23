@@ -1,0 +1,127 @@
+{
+  "stop_state": "ff73b0ae292c5bea03f8e9a3aebc44a1", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-16_223540", 
+  "event": {
+    "views_str": [
+      "27a0d6b9732d0588a56dd36ed8e5771f", 
+      "fd0295f8687f477a7b1e7823590ef5da", 
+      "84c8533a025ce58462acee70b8488206"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.nutomic.syncthingandroid:id/label", 
+        "text": "HelloWorldHelloWorld", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1080*147", 
+        "checked": false, 
+        "temp_id": 13, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.nutomic.syncthingandroid:id/label", 
+        "is_password": false, 
+        "parent": 12, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.nutomic.syncthingandroid", 
+        "long_clickable": true, 
+        "view_str": "27a0d6b9732d0588a56dd36ed8e5771f", 
+        "enabled": true, 
+        "bounds": [
+          [
+            0, 
+            231
+          ], 
+          [
+            1080, 
+            378
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.nutomic.syncthingandroid:id/label[text]HelloWorldHelloWorld[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.nutomic.syncthingandroid:id/id", 
+        "text": "HelloWorld", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1080*147", 
+        "checked": false, 
+        "temp_id": 14, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.nutomic.syncthingandroid:id/id", 
+        "is_password": false, 
+        "parent": 12, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.nutomic.syncthingandroid", 
+        "long_clickable": true, 
+        "view_str": "fd0295f8687f477a7b1e7823590ef5da", 
+        "enabled": true, 
+        "bounds": [
+          [
+            0, 
+            379
+          ], 
+          [
+            1080, 
+            526
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.nutomic.syncthingandroid:id/id[text]HelloWorld[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.nutomic.syncthingandroid:id/master", 
+        "text": "Folder Master OFF", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "1080*147", 
+        "checked": false, 
+        "temp_id": 18, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.Switch[resource_id]com.nutomic.syncthingandroid:id/master", 
+        "is_password": false, 
+        "parent": 12, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.Switch", 
+        "scrollable": false, 
+        "package": "com.nutomic.syncthingandroid", 
+        "long_clickable": false, 
+        "view_str": "84c8533a025ce58462acee70b8488206", 
+        "enabled": true, 
+        "bounds": [
+          [
+            0, 
+            802
+          ], 
+          [
+            1080, 
+            949
+          ]
+        ], 
+        "signature": "[class]android.widget.Switch[resource_id]com.nutomic.syncthingandroid:id/master[text]Folder Master OFF[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "850bca51b125d74e7530c9d760dd506d"
+}

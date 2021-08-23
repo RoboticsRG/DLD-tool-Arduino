@@ -1,0 +1,43 @@
+{
+  "stop_state": "d8223c5ebc1b78d49a54b0b3f9d409aa", 
+  "event_str": "LongTouchEvent(duration=2000)", 
+  "tag": "2021-08-14_195321", 
+  "event": {
+    "event_type": "long_touch", 
+    "duration": 2000, 
+    "y": null, 
+    "x": null, 
+    "id": 14, 
+    "view": {
+      "content_description": "More options", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "126*126", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.twitter.android", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          954, 
+          73
+        ], 
+        [
+          1080, 
+          199
+        ]
+      ], 
+      "class": "android.widget.ImageView", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "d8223c5ebc1b78d49a54b0b3f9d409aa"
+}

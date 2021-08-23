@@ -1,0 +1,51 @@
+{
+  "stop_state": "6f56480e43dd08b521d8a0c4f9b02337", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-14_190007", 
+  "event": {
+    "views_str": [
+      "4b795b1b6382f4a153053b9012990426"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.twitter.android:id/tweet_text", 
+        "text": "test123test123 by", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "896*97", 
+        "checked": false, 
+        "temp_id": 24, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.twitter.android:id/tweet_text", 
+        "is_password": false, 
+        "parent": 23, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.twitter.android", 
+        "long_clickable": true, 
+        "view_str": "4b795b1b6382f4a153053b9012990426", 
+        "enabled": true, 
+        "bounds": [
+          [
+            152, 
+            313
+          ], 
+          [
+            1048, 
+            410
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.twitter.android:id/tweet_text[text]test123test123 by[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "0f49be69a0378dfbf3ff645c25425708"
+}

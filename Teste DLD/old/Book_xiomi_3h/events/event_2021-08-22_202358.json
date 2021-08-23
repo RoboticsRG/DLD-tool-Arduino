@@ -1,0 +1,44 @@
+{
+  "stop_state": "72ec292c442c921550725191d2016567", 
+  "event_str": "ScrollEvent(direction=UP)", 
+  "tag": "2021-08-22_202358", 
+  "event": {
+    "direction": "UP", 
+    "event_type": "scroll", 
+    "y_full_down": 1750, 
+    "y": null, 
+    "x": null, 
+    "id": 11, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.eleybourn.bookcatalogue:id/day", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "170*119", 
+      "scrollable": true, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          243, 
+          973
+        ], 
+        [
+          413, 
+          1092
+        ]
+      ], 
+      "class": "android.widget.Spinner", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "40afd9ceb82ec2a3c9debcedea12ae12"
+}

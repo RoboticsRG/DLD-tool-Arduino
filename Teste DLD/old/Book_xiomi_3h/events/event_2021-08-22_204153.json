@@ -1,0 +1,42 @@
+{
+  "stop_state": "7a60aa73103f598220da9d460567011a", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-22_204153", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.eleybourn.bookcatalogue:id/confirm", 
+      "text": "Save Bookshelf", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "510*144", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          540, 
+          362
+        ], 
+        [
+          1050, 
+          506
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 3, 
+    "event_type": "touch"
+  }, 
+  "start_state": "29c6d954db11f9ad69c38d95aca9476e"
+}

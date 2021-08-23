@@ -1,0 +1,51 @@
+{
+  "stop_state": "5790f10895a42e13d98e6ed6d3afbfed", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-22_172511", 
+  "event": {
+    "views_str": [
+      "c53626b467a05a25165409ad47dbde7c"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.eleybourn.bookcatalogue:id/radio", 
+        "text": "Locatie", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "283*96", 
+        "checked": false, 
+        "temp_id": 13, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.RadioButton[resource_id]com.eleybourn.bookcatalogue:id/radio", 
+        "is_password": false, 
+        "parent": 12, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.RadioButton", 
+        "scrollable": false, 
+        "package": "com.eleybourn.bookcatalogue", 
+        "long_clickable": false, 
+        "view_str": "c53626b467a05a25165409ad47dbde7c", 
+        "enabled": true, 
+        "bounds": [
+          [
+            75, 
+            906
+          ], 
+          [
+            358, 
+            1002
+          ]
+        ], 
+        "signature": "[class]android.widget.RadioButton[resource_id]com.eleybourn.bookcatalogue:id/radio[text]Locatie[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "264232839b3582c4f23bb3a6b70e57fa"
+}

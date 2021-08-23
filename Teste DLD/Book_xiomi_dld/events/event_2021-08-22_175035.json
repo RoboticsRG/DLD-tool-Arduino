@@ -1,0 +1,42 @@
+{
+  "stop_state": "29bcb2c99b207539873e826d45ecab91", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-22_175035", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.eleybourn.bookcatalogue:id/edit_button", 
+      "text": "Bewerken", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "254*144", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          781, 
+          518
+        ], 
+        [
+          1035, 
+          662
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": true
+    }, 
+    "id": 2, 
+    "event_type": "touch"
+  }, 
+  "start_state": "57686488429c8326dc291379d5ab2a1e"
+}

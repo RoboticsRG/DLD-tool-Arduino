@@ -1,0 +1,42 @@
+{
+  "stop_state": "0db03c4ac024be6c3d4568a6b5c94dc6", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-22_173418", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Voorkeursstijlen, Omhoog navigeren", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "557*144", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          60
+        ], 
+        [
+          557, 
+          204
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "868ce7828d2b8efce0c5033801f1a48f"
+}

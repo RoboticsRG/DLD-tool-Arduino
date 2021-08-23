@@ -1,0 +1,42 @@
+{
+  "stop_state": "c05694d3a5543c431fe45b65fb319bb3", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-14_203716", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.twitter.android:id/speed_bump_retake", 
+      "text": "RETAKE", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "218*95", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.twitter.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          42, 
+          1646
+        ], 
+        [
+          260, 
+          1741
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": false
+    }, 
+    "id": 1, 
+    "event_type": "touch"
+  }, 
+  "start_state": "c05694d3a5543c431fe45b65fb319bb3"
+}

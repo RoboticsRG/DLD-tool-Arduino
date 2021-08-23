@@ -1,0 +1,195 @@
+dld -a "Discord Talk Video Chat Hang Out with Friends_v86.10 - Stable_apkpure.com.apk" -o out_discord -keep_app -grant_perm -is_emulator
+INFO:Device:disable minicap on emulator
+WARNING:androguard.core.api_specific_resources:Requested API level 29 is larger than maximum we have, returning API level 28 instead.
+Policy: DataLossPolicy, with epsilon value: 0.1
+INFO:DroidBot:Starting DroidBot
+INFO:Device:waiting for device
+WARNING:DroidBotIme:Failed to connect DroidBotIME!
+[CONNECTION] ADB is enabled and connected.
+[CONNECTION] Minicap is not enabled.
+[CONNECTION] TelnetConsole is not enabled.
+[CONNECTION] ProcessMonitor is not enabled.
+[CONNECTION] Logcat is enabled and connected.
+[CONNECTION] DroidBotAppConn is enabled and connected.
+[CONNECTION] DroidBotIme is enabled but not connected.
+[CONNECTION] UserInputMonitor is not enabled.
+INFO:Device:App installed: com.discord
+INFO:Device:Main activity: com.discord.app.AppActivity$Main
+INFO:AppEnvManager:Start deploying environment, policy is none
+INFO:InputEventManager:start sending events, policy is data_loss
+[INPUT]  KeyEvent(name=HOME)
+[INFO]   1 events have been generated
+[INPUT]  IntentEvent(intent='am start com.discord/com.discord.app.AppActivity$Main')
+
+Exception occurred while executing 'start':
+java.lang.SecurityException: Permission Denial: starting Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity } from null (pid=17637, uid=2000) not exported from uid 10159
+        at com.android.server.wm.ActivityStackSupervisor.checkStartAnyActivityPermission(ActivityStackSupervisor.java:1032)
+        at com.android.server.wm.ActivityStarter.executeRequest(ActivityStarter.java:999)
+        at com.android.server.wm.ActivityStarter.execute(ActivityStarter.java:669)
+        at com.android.server.wm.ActivityTaskManagerService.startActivityAsUser(ActivityTaskManagerService.java:1100)
+        at com.android.server.wm.ActivityTaskManagerService.startActivityAsUser(ActivityTaskManagerService.java:1072)
+        at com.android.server.am.ActivityManagerService.startActivityAsUserWithFeature(ActivityManagerService.java:3652)
+        at com.android.server.am.ActivityManagerShellCommand.runStartActivity(ActivityManagerShellCommand.java:544)
+        at com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:186)
+        at android.os.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:98)
+        at android.os.ShellCommand.exec(ShellCommand.java:44)
+        at com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:10496)
+        at android.os.Binder.shellCommand(Binder.java:929)
+        at android.os.Binder.onTransact(Binder.java:813)
+        at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:5027)
+        at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2861)
+        at android.os.Binder.execTransactInternal(Binder.java:1159)
+        at android.os.Binder.execTransact(Binder.java:1123)
+WARNING:DataLossPolicy:exception during sending events: Command '['adb', '-s', 'emulator-5554', 'shell', 'am', 'start', 'com.discord/com.discord.app.AppActivity$Main']' returned non-zero exit status -1
+Traceback (most recent call last):
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\input_policy.py", line 105, in start
+    input_manager.add_event(event)
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\input_manager.py", line 101, in add_event
+    event_log.start()
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\input_event.py", line 251, in start
+    self.device.send_event(self.event)
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\device.py", line 489, in send_event
+    event.send(self)
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\input_event.py", line 734, in send
+    device.send_intent(intent=self.intent)
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\device.py", line 481, in send_intent
+    return self.adb.shell(cmd)
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\adapter\adb.py", line 87, in shell
+    return self.run_cmd(shell_extra_args)
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\adapter\adb.py", line 64, in run_cmd
+    r = subprocess.check_output(args).strip()
+  File "f:\arquivoseprogramasinstalado\python27\lib\subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['adb', '-s', 'emulator-5554', 'shell', 'am', 'start', 'com.discord/com.discord.app.AppActivity$Main']' returned non-zero exit status -1
+[INPUT]  IntentEvent(intent='am start com.discord/com.discord.app.AppActivity$Main')
+
+Exception occurred while executing 'start':
+java.lang.SecurityException: Permission Denial: starting Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity } from null (pid=17655, uid=2000) not exported from uid 10159
+        at com.android.server.wm.ActivityStackSupervisor.checkStartAnyActivityPermission(ActivityStackSupervisor.java:1032)
+        at com.android.server.wm.ActivityStarter.executeRequest(ActivityStarter.java:999)
+        at com.android.server.wm.ActivityStarter.execute(ActivityStarter.java:669)
+        at com.android.server.wm.ActivityTaskManagerService.startActivityAsUser(ActivityTaskManagerService.java:1100)
+        at com.android.server.wm.ActivityTaskManagerService.startActivityAsUser(ActivityTaskManagerService.java:1072)
+        at com.android.server.am.ActivityManagerService.startActivityAsUserWithFeature(ActivityManagerService.java:3652)
+        at com.android.server.am.ActivityManagerShellCommand.runStartActivity(ActivityManagerShellCommand.java:544)
+        at com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:186)
+        at android.os.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:98)
+        at android.os.ShellCommand.exec(ShellCommand.java:44)
+        at com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:10496)
+        at android.os.Binder.shellCommand(Binder.java:929)
+        at android.os.Binder.onTransact(Binder.java:813)
+        at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:5027)
+        at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2861)
+        at android.os.Binder.execTransactInternal(Binder.java:1159)
+        at android.os.Binder.execTransact(Binder.java:1123)
+WARNING:DataLossPolicy:exception during sending events: Command '['adb', '-s', 'emulator-5554', 'shell', 'am', 'start', 'com.discord/com.discord.app.AppActivity$Main']' returned non-zero exit status -1
+Traceback (most recent call last):
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\input_policy.py", line 105, in start
+    input_manager.add_event(event)
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\input_manager.py", line 101, in add_event
+    event_log.start()
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\input_event.py", line 251, in start
+    self.device.send_event(self.event)
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\device.py", line 489, in send_event
+    event.send(self)
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\input_event.py", line 734, in send
+    device.send_intent(intent=self.intent)
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\device.py", line 481, in send_intent
+    return self.adb.shell(cmd)
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\adapter\adb.py", line 87, in shell
+    return self.run_cmd(shell_extra_args)
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\adapter\adb.py", line 64, in run_cmd
+    r = subprocess.check_output(args).strip()
+  File "f:\arquivoseprogramasinstalado\python27\lib\subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['adb', '-s', 'emulator-5554', 'shell', 'am', 'start', 'com.discord/com.discord.app.AppActivity$Main']' returned non-zero exit status -1
+[INPUT]  IntentEvent(intent='am start com.discord/com.discord.app.AppActivity$Main')
+
+Exception occurred while executing 'start':
+java.lang.SecurityException: Permission Denial: starting Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity } from null (pid=17673, uid=2000) not exported from uid 10159
+        at com.android.server.wm.ActivityStackSupervisor.checkStartAnyActivityPermission(ActivityStackSupervisor.java:1032)
+        at com.android.server.wm.ActivityStarter.executeRequest(ActivityStarter.java:999)
+        at com.android.server.wm.ActivityStarter.execute(ActivityStarter.java:669)
+        at com.android.server.wm.ActivityTaskManagerService.startActivityAsUser(ActivityTaskManagerService.java:1100)
+        at com.android.server.wm.ActivityTaskManagerService.startActivityAsUser(ActivityTaskManagerService.java:1072)
+        at com.android.server.am.ActivityManagerService.startActivityAsUserWithFeature(ActivityManagerService.java:3652)
+        at com.android.server.am.ActivityManagerShellCommand.runStartActivity(ActivityManagerShellCommand.java:544)
+        at com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:186)
+        at android.os.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:98)
+        at android.os.ShellCommand.exec(ShellCommand.java:44)
+        at com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:10496)
+        at android.os.Binder.shellCommand(Binder.java:929)
+        at android.os.Binder.onTransact(Binder.java:813)
+        at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:5027)
+        at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2861)
+        at android.os.Binder.execTransactInternal(Binder.java:1159)
+        at android.os.Binder.execTransact(Binder.java:1123)
+WARNING:DataLossPolicy:exception during sending events: Command '['adb', '-s', 'emulator-5554', 'shell', 'am', 'start', 'com.discord/com.discord.app.AppActivity$Main']' returned non-zero exit status -1
+Traceback (most recent call last):
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\input_policy.py", line 105, in start
+    input_manager.add_event(event)
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\input_manager.py", line 101, in add_event
+    event_log.start()
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\input_event.py", line 251, in start
+    self.device.send_event(self.event)
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\device.py", line 489, in send_event
+    event.send(self)
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\input_event.py", line 734, in send
+    device.send_intent(intent=self.intent)
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\device.py", line 481, in send_intent
+    return self.adb.shell(cmd)
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\adapter\adb.py", line 87, in shell
+    return self.run_cmd(shell_extra_args)
+  File "f:\mestrado2020\projetos_git\dld\dld-tool\droidbot-tool\droidbot\adapter\adb.py", line 64, in run_cmd
+    r = subprocess.check_output(args).strip()
+  File "f:\arquivoseprogramasinstalado\python27\lib\subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['adb', '-s', 'emulator-5554', 'shell', 'am', 'start', 'com.discord/com.discord.app.AppActivity$Main']' returned non-zero exit status -1
+[INPUT]  IntentEvent(intent='am start com.discord/com.discord.app.AppActivity$Main')
+
+
+
+
+
+
+
+
+inicialização ok
+*************************************************************************************************************************
+
+
+
+F:\Mestrado2020\projetos_git\Teste DLD>dld -a cpu-z-1-41.apk -o out_cpuz3 -keep_app -grant_perm -is_emulator
+INFO:Device:disable minicap on emulator
+WARNING:androguard.core.api_specific_resources:Requested API level 29 is larger than maximum we have, returning API level 28 instead.
+Policy: DataLossPolicy, with epsilon value: 0.1
+INFO:DroidBot:Starting DroidBot
+INFO:Device:waiting for device
+WARNING:DroidBotIme:Failed to connect DroidBotIME!
+[CONNECTION] ADB is enabled and connected.
+[CONNECTION] Minicap is not enabled.
+[CONNECTION] TelnetConsole is not enabled.
+[CONNECTION] ProcessMonitor is not enabled.
+[CONNECTION] Logcat is enabled and connected.
+[CONNECTION] DroidBotAppConn is enabled and connected.
+[CONNECTION] DroidBotIme is enabled but not connected.
+[CONNECTION] UserInputMonitor is not enabled.
+INFO:Device:App installed: com.cpuid.cpu_z
+INFO:Device:Main activity: com.cpuid.cpu_z.MainActivity
+INFO:AppEnvManager:Start deploying environment, policy is none
+INFO:InputEventManager:start sending events, policy is data_loss
+[INPUT]  KeyEvent(name=HOME)
+[INFO]   1 events have been generated
+[INPUT]  IntentEvent(intent='am start com.cpuid.cpu_z/com.cpuid.cpu_z.MainActivity')
+[INFO]   2 events have been generated
+[INFO]   Current activity: MainActivity
+[INFO]   8.0% of activities have been explored.
+[INFO]   New activity found: MainActivity
+[INFO]   Current abstract state: 91b31d2fc3e747e7c3fa3e202a2b4514
+[INPUT]  FillUIEvent
+[INFO]   3 events have been generated
+[INFO]   Current activity: MainActivity
+[INFO]   8.0% of activities have been explored.
+[INFO]   Current abstract state: 91b31d2fc3e747e7c3fa3e202a2b4514
+[INPUT]  DoubleRotationEvent
+[WARNING]DoubleRotationEvent has generated a data loss exception. Mismatch between views.

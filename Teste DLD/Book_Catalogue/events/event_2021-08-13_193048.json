@@ -1,0 +1,42 @@
+{
+  "stop_state": "6a31af7cb96104d9c789a664ecb237fe", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-13_193048", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Book Catalogue: ISBN Search, Navigate up", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "764*126", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          63
+        ], 
+        [
+          764, 
+          189
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "64baa3287503d0256c08d4028408c964"
+}

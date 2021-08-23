@@ -1,0 +1,42 @@
+{
+  "stop_state": "8d5693563155283d0f322633894c7ee0", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-22_202625", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Book Catalogue, Navegar para cima", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "549*144", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          60
+        ], 
+        [
+          549, 
+          204
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "edf272456bc166199be0eef4fc779d2d"
+}

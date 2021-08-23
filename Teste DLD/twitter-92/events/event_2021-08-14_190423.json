@@ -1,0 +1,42 @@
+{
+  "stop_state": "b6bd60a519abcc77f7da0fc05e0b7133", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-14_190423", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Follow VP. Follow.", 
+      "resource_id": "com.twitter.android:id/follow_button", 
+      "text": "FOLLOW", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "269*79", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.twitter.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          779, 
+          858
+        ], 
+        [
+          1048, 
+          937
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focusable": false
+    }, 
+    "id": 7, 
+    "event_type": "touch"
+  }, 
+  "start_state": "b6bd60a519abcc77f7da0fc05e0b7133"
+}

@@ -1,0 +1,44 @@
+{
+  "stop_state": "64cf46968d7583682abb70c96c7e8ebe", 
+  "event_str": "ScrollEvent(direction=UP)", 
+  "tag": "2021-08-13_205325", 
+  "event": {
+    "direction": "UP", 
+    "event_type": "scroll", 
+    "y_full_down": 1750, 
+    "y": null, 
+    "x": null, 
+    "id": 19, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": false, 
+      "checkable": false, 
+      "size": "1080*126", 
+      "scrollable": true, 
+      "checked": false, 
+      "package": "com.cpuid.cpu_z", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          189
+        ], 
+        [
+          1080, 
+          315
+        ]
+      ], 
+      "class": "android.widget.HorizontalScrollView", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "10c317e448201672759c5ea5ca03bc28"
+}

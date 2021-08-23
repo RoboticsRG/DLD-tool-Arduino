@@ -1,0 +1,42 @@
+{
+  "stop_state": "9cf98049e8c8d74fa46dec34a40718f6", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-14_185419", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Retweet", 
+      "resource_id": "com.twitter.android:id/retweet", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "270*126", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.twitter.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          270, 
+          1046
+        ], 
+        [
+          540, 
+          1172
+        ]
+      ], 
+      "class": "android.widget.ImageButton", 
+      "focusable": true
+    }, 
+    "id": 7, 
+    "event_type": "touch"
+  }, 
+  "start_state": "3ce76536d0d2d80fed9102b533100045"
+}

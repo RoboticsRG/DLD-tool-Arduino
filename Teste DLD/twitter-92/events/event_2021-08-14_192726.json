@@ -1,0 +1,43 @@
+{
+  "stop_state": "5f1be07f6d22e1f3a14ed05f275c3a94", 
+  "event_str": "LongTouchEvent(duration=2000)", 
+  "tag": "2021-08-14_192726", 
+  "event": {
+    "event_type": "long_touch", 
+    "duration": 2000, 
+    "y": null, 
+    "x": null, 
+    "id": 31, 
+    "view": {
+      "content_description": "Happy Season 9 GIF by The Office", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "304*254", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.twitter.android", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          546, 
+          848
+        ], 
+        [
+          850, 
+          1102
+        ]
+      ], 
+      "class": "android.widget.FrameLayout", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "92f80e6947c9b0828720def271df34ea"
+}

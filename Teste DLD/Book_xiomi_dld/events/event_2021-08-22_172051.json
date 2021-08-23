@@ -1,0 +1,43 @@
+{
+  "stop_state": "d1e2691d70ca3af5305d296b15b8f4b8", 
+  "event_str": "LongTouchEvent(duration=2000)", 
+  "tag": "2021-08-22_172051", 
+  "event": {
+    "event_type": "long_touch", 
+    "duration": 2000, 
+    "y": null, 
+    "x": null, 
+    "id": 10, 
+    "view": {
+      "content_description": "Sorteren & Stijlen\u2026", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "168*144", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": true, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          744, 
+          60
+        ], 
+        [
+          912, 
+          204
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "d1e2691d70ca3af5305d296b15b8f4b8"
+}

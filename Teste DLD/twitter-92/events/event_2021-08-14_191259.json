@@ -1,0 +1,127 @@
+{
+  "stop_state": "92e30a8e5cdec4326f76bd3d0bebc533", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-14_191259", 
+  "event": {
+    "views_str": [
+      "71a2cfc1916cedd17813bdbca1a91b94", 
+      "759938d711a12225b02017fc88e51b39", 
+      "759938d711a12225b02017fc88e51b39"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "android:id/numberpicker_input", 
+        "text": "1", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "168*126", 
+        "checked": false, 
+        "temp_id": 14, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]android:id/numberpicker_input", 
+        "is_password": false, 
+        "parent": 12, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.twitter.android", 
+        "long_clickable": true, 
+        "view_str": "71a2cfc1916cedd17813bdbca1a91b94", 
+        "enabled": true, 
+        "bounds": [
+          [
+            225, 
+            888
+          ], 
+          [
+            393, 
+            1014
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]android:id/numberpicker_input[text]1[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "android:id/numberpicker_input", 
+        "text": "0", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "168*126", 
+        "checked": false, 
+        "temp_id": 20, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]android:id/numberpicker_input", 
+        "is_password": false, 
+        "parent": 18, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.twitter.android", 
+        "long_clickable": true, 
+        "view_str": "759938d711a12225b02017fc88e51b39", 
+        "enabled": true, 
+        "bounds": [
+          [
+            456, 
+            888
+          ], 
+          [
+            624, 
+            1014
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]android:id/numberpicker_input[text]0[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "android:id/numberpicker_input", 
+        "text": "0", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "168*126", 
+        "checked": false, 
+        "temp_id": 26, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]android:id/numberpicker_input", 
+        "is_password": false, 
+        "parent": 24, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.twitter.android", 
+        "long_clickable": true, 
+        "view_str": "759938d711a12225b02017fc88e51b39", 
+        "enabled": true, 
+        "bounds": [
+          [
+            687, 
+            888
+          ], 
+          [
+            855, 
+            1014
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]android:id/numberpicker_input[text]0[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "92e30a8e5cdec4326f76bd3d0bebc533"
+}

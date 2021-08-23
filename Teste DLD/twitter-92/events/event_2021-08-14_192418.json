@@ -1,0 +1,42 @@
+{
+  "stop_state": "cb4373f8bb4f8c13a94a60e666c9e2d3", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-14_192418", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Sets to people you follow or mention can reply", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "1080*236", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.twitter.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          1322
+        ], 
+        [
+          1080, 
+          1558
+        ]
+      ], 
+      "class": "android.view.ViewGroup", 
+      "focusable": true
+    }, 
+    "id": 1, 
+    "event_type": "touch"
+  }, 
+  "start_state": "02b4c241d33ce73de5b62047c13e7fa3"
+}

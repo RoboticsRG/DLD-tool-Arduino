@@ -1,0 +1,42 @@
+{
+  "stop_state": "f414d21fa649cc6c9c48e4318ae456e9", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-17_001955", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.nutomic.syncthingandroid:id/directory", 
+      "text": "/storage/emulated/0/Music", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "1080*147", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.nutomic.syncthingandroid", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          527
+        ], 
+        [
+          1080, 
+          674
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": true
+    }, 
+    "id": 4, 
+    "event_type": "touch"
+  }, 
+  "start_state": "09130ff27eb0d93a6a703bcd70a6aacf"
+}

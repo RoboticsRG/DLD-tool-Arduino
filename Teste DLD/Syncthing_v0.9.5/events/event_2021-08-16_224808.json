@@ -1,0 +1,42 @@
+{
+  "stop_state": "5d6636e1414532a6edb268ece5afc11b", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-16_224808", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "android:id/checkbox", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": false, 
+      "checkable": true, 
+      "size": "84*84", 
+      "scrollable": false, 
+      "checked": true, 
+      "package": "com.nutomic.syncthingandroid", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          954, 
+          439
+        ], 
+        [
+          1038, 
+          523
+        ]
+      ], 
+      "class": "android.widget.CheckBox", 
+      "focusable": false
+    }, 
+    "id": 6, 
+    "event_type": "touch"
+  }, 
+  "start_state": "5db2bd547caaaf6f21d589ae8b9398ab"
+}

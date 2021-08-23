@@ -1,0 +1,127 @@
+{
+  "stop_state": "5e76c26d2cb3b595d53e78b5ea045739", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-13_015451", 
+  "event": {
+    "views_str": [
+      "cc2bd731c1634831f3b6cf6c8257ed59", 
+      "ca797272f30d4fc5c7642c8bcd2f838b", 
+      "3b836af117efeb685f83ad44b5560c03"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.example.gesturecapture:id/radio_btn_action_2d", 
+        "text": "Action-2D", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "244*84", 
+        "checked": false, 
+        "temp_id": 7, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.RadioButton[resource_id]com.example.gesturecapture:id/radio_btn_action_2d", 
+        "is_password": false, 
+        "parent": 6, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.RadioButton", 
+        "scrollable": false, 
+        "package": "com.example.gesturecapture", 
+        "long_clickable": false, 
+        "view_str": "cc2bd731c1634831f3b6cf6c8257ed59", 
+        "enabled": true, 
+        "bounds": [
+          [
+            418, 
+            777
+          ], 
+          [
+            662, 
+            861
+          ]
+        ], 
+        "signature": "[class]android.widget.RadioButton[resource_id]com.example.gesturecapture:id/radio_btn_action_2d[text]Action-2D[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.example.gesturecapture:id/radio_btn_action_3d", 
+        "text": "Action-3D", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "244*84", 
+        "checked": false, 
+        "temp_id": 8, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.RadioButton[resource_id]com.example.gesturecapture:id/radio_btn_action_3d", 
+        "is_password": false, 
+        "parent": 6, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.RadioButton", 
+        "scrollable": false, 
+        "package": "com.example.gesturecapture", 
+        "long_clickable": false, 
+        "view_str": "ca797272f30d4fc5c7642c8bcd2f838b", 
+        "enabled": true, 
+        "bounds": [
+          [
+            418, 
+            861
+          ], 
+          [
+            662, 
+            945
+          ]
+        ], 
+        "signature": "[class]android.widget.RadioButton[resource_id]com.example.gesturecapture:id/radio_btn_action_3d[text]Action-3D[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.example.gesturecapture:id/radio_btn_routine", 
+        "text": "Routine", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "209*84", 
+        "checked": true, 
+        "temp_id": 9, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.RadioButton[resource_id]com.example.gesturecapture:id/radio_btn_routine", 
+        "is_password": false, 
+        "parent": 6, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.RadioButton", 
+        "scrollable": false, 
+        "package": "com.example.gesturecapture", 
+        "long_clickable": false, 
+        "view_str": "3b836af117efeb685f83ad44b5560c03", 
+        "enabled": true, 
+        "bounds": [
+          [
+            418, 
+            945
+          ], 
+          [
+            627, 
+            1029
+          ]
+        ], 
+        "signature": "[class]android.widget.RadioButton[resource_id]com.example.gesturecapture:id/radio_btn_routine[text]Routine[enabled,checked,]"
+      }
+    ]
+  }, 
+  "start_state": "5e76c26d2cb3b595d53e78b5ea045739"
+}

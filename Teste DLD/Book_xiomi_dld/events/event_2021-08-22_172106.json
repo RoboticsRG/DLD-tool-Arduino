@@ -1,0 +1,89 @@
+{
+  "stop_state": "14123934c9654802d4443eacfc245dbc", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-22_172106", 
+  "event": {
+    "views_str": [
+      "547867fc6c409eb072afe7ac4255655a", 
+      "5b45212ab9d5734e185309a2890f6bc3"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.eleybourn.bookcatalogue:id/isbn", 
+        "text": "ISBN", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "1050*148", 
+        "checked": false, 
+        "temp_id": 14, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]com.eleybourn.bookcatalogue:id/isbn", 
+        "is_password": false, 
+        "parent": 13, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": true, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.eleybourn.bookcatalogue", 
+        "long_clickable": true, 
+        "view_str": "547867fc6c409eb072afe7ac4255655a", 
+        "enabled": true, 
+        "bounds": [
+          [
+            15, 
+            219
+          ], 
+          [
+            1065, 
+            367
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]com.eleybourn.bookcatalogue:id/isbn[text]ISBN[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.eleybourn.bookcatalogue:id/asinCheckbox", 
+        "text": "Toestaan ASIN", 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "414*96", 
+        "checked": false, 
+        "temp_id": 32, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.eleybourn.bookcatalogue:id/asinCheckbox", 
+        "is_password": false, 
+        "parent": 31, 
+        "focusable": true, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.eleybourn.bookcatalogue", 
+        "long_clickable": false, 
+        "view_str": "5b45212ab9d5734e185309a2890f6bc3", 
+        "enabled": true, 
+        "bounds": [
+          [
+            15, 
+            1267
+          ], 
+          [
+            429, 
+            1363
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.eleybourn.bookcatalogue:id/asinCheckbox[text]Toestaan ASIN[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "7d7e64c33a272c6415bc9dbb5c3b6e5c"
+}

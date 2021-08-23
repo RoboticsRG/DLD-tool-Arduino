@@ -1,0 +1,42 @@
+{
+  "stop_state": "986e875934c47c4ec4eda95bef13a73a", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-13_020036", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "", 
+      "resource_id": "com.example.gesturecapture:id/saveButton", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "148*126", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.example.gesturecapture", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          679, 
+          73
+        ], 
+        [
+          827, 
+          199
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focusable": true
+    }, 
+    "id": 1, 
+    "event_type": "touch"
+  }, 
+  "start_state": "986e875934c47c4ec4eda95bef13a73a"
+}

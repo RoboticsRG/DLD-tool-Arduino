@@ -1,0 +1,42 @@
+{
+  "stop_state": "93895827db850f031df695003d36468b", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-14_195050", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Profile image", 
+      "resource_id": "com.twitter.android:id/tweet_profile_image", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "142*142", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.twitter.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          32, 
+          1628
+        ], 
+        [
+          174, 
+          1770
+        ]
+      ], 
+      "class": "android.widget.FrameLayout", 
+      "focusable": true
+    }, 
+    "id": 11, 
+    "event_type": "touch"
+  }, 
+  "start_state": "3a8c7131f67666750c00c749cba4ca5c"
+}

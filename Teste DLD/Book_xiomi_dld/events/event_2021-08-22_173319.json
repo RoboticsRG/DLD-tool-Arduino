@@ -1,0 +1,42 @@
+{
+  "stop_state": "a00c2665939a7c72fcd8fbaf6d2ca1d7", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-22_173319", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": null, 
+      "text": "Prijs", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": true, 
+      "size": "190*96", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          20, 
+          1334
+        ], 
+        [
+          210, 
+          1430
+        ]
+      ], 
+      "class": "android.widget.CheckBox", 
+      "focusable": true
+    }, 
+    "id": 8, 
+    "event_type": "touch"
+  }, 
+  "start_state": "58e20483578b9cfe41be1de256c61b06"
+}

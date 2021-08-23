@@ -1,0 +1,319 @@
+--------- beginning of main
+08-14 21:19:49.120 32408 32410 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+08-14 21:19:49.650 32418 32418 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+08-14 21:19:49.658 32418 32418 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+08-14 21:19:49.658 32418 32418 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+08-14 21:19:49.658 32418 32418 I AndroidRuntime: Using default boot image
+08-14 21:19:49.658 32418 32418 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+08-14 21:19:49.658 32418 32418 I AndroidRuntime: Leaving lock profiling enabled
+08-14 21:19:49.658 32418 32418 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+08-14 21:19:49.652 32418 32418 W app_process: type=1400 audit(0.0:8738): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=8294 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+08-14 21:19:49.802 32418 32418 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+08-14 21:19:49.803 32418 32418 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+08-14 21:19:49.810 32418 32418 W app_process: Unexpected CPU variant for X86 using defaults: x86
+08-14 21:19:49.814 32418 32418 I app_process: The ClassLoaderContext is a special shared library.
+08-14 21:19:49.836 32418 32418 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+08-14 21:19:49.843 32418 32418 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+08-14 21:19:49.862   698   698 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{7fdbfeb I.E...... ......ID 0,0-1080,1920} canPanelBeCollapsed(): false
+08-14 21:19:49.878 32418 32418 D AndroidRuntime: Shutting down VM
+08-14 21:19:50.097   338   338 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+08-14 21:19:50.097   338   338 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+08-14 21:19:50.490 32439 32439 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+08-14 21:19:50.493 32439 32439 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+08-14 21:19:50.495 32439 32439 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+08-14 21:19:50.495 32439 32439 I AndroidRuntime: Using default boot image
+08-14 21:19:50.495 32439 32439 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+08-14 21:19:50.495 32439 32439 I AndroidRuntime: Leaving lock profiling enabled
+08-14 21:19:50.496 32439 32439 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+08-14 21:19:50.499 32439 32439 W app_process: Could not reserve sentinel fault page
+08-14 21:19:50.488 32439 32439 W app_process: type=1400 audit(0.0:8742): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=8294 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+08-14 21:19:50.578 32439 32439 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+08-14 21:19:50.578 32439 32439 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+08-14 21:19:50.584 32439 32439 W app_process: Unexpected CPU variant for X86 using defaults: x86
+08-14 21:19:50.586 32439 32439 I app_process: The ClassLoaderContext is a special shared library.
+08-14 21:19:50.602 32439 32439 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+08-14 21:19:50.607 32439 32439 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+--------- beginning of system
+08-14 21:19:50.634   514   536 E RemoteAugmentedAutofillService: Bad service name for flags 1048704: com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService
+08-14 21:19:50.637 32439 32439 D AndroidRuntime: Shutting down VM
+08-14 21:19:51.383 32460 32462 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+08-14 21:19:51.560 32468 32472 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+08-14 21:19:52.239  1047  1838 E ActivityThread: Failed to find provider info for com.google.android.apps.wellbeing.api
+08-14 21:19:53.673 32475 32477 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+08-14 21:19:53.875   347   347 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+08-14 21:19:53.875   347   347 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+08-14 21:19:55.676  1182 17211 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+08-14 21:19:55.698   195   200 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+08-14 21:19:55.706   195   200 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+08-14 21:19:55.688   195   195 W Binder:195_2: type=1400 audit(0.0:8746): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18252 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+08-14 21:19:55.700   195   195 W Binder:195_2: type=1400 audit(0.0:8747): avc: denied { read } for name="wakeup35" dev="sysfs" ino=18312 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+08-14 21:19:55.752  1182 30785 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.EventLogService started execution. cause:2 exec_start_elapsed_seconds: 43963 [CONTEXT service_id=218 ]
+08-14 21:19:55.761  4448 26308 I Checkin : [EventLogChimeraService] Opted in for usage reporting: false
+08-14 21:19:55.761  4448 26308 I Checkin : [EventLogChimeraService] Aggregate from 1628974489115 (log), 1628974489115 (data)
+08-14 21:19:55.808 32481 32482 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+08-14 21:19:55.841   514  1461 I DropBoxManagerService: add tag=event_data isTagEnabled=true flags=0x2
+08-14 21:19:55.846   514   544 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+08-14 21:19:55.846   514   544 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+08-14 21:19:55.863  1182 26362 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.EventLogService finished executing. cause:2 result: 1 elapsed_millis: 140 uptime_millis: 140 exec_start_elapsed_seconds: 43963 [CONTEXT service_id=218 ]
+08-14 21:19:56.631   514   562 I PackageManager: Integrity check passed for file:///data/app/vmdl1408727799.tmp
+08-14 21:19:56.679   514   562 D CompatibilityChangeReporter: Compat change id reported: 135549675; UID 10170; state: DISABLED
+08-14 21:19:56.681   514   562 I PackageManager: Permission ownership changed. Updating all permissions.
+08-14 21:19:56.739   514   535 V StorageManagerService: Package null does not have legacy storage
+08-14 21:19:56.754  1342  7718 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.discord. Reason: op android:read_external_storage
+08-14 21:19:56.755  1342  7718 I chatty  : uid=10148(com.google.android.providers.media.module) Binder:1342_8 identical 1 line
+08-14 21:19:56.755  1342  7718 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.discord. Reason: op android:read_external_storage
+08-14 21:19:56.772   514   562 I PackageDexOptimizer: Running dexopt (dexoptNeeded=1) on: /data/app/~~h-uCCYvSkK5yF8V5xK0i6w==/com.discord-2hdY2kf4EfX6NfKz83TNpw==/base.apk pkg=com.discord isa=x86 dexoptFlags=boot_complete,profile_guided,public,enable_hidden_api_checks targetFilter=speed-profile oatDir=/data/app/~~h-uCCYvSkK5yF8V5xK0i6w==/com.discord-2hdY2kf4EfX6NfKz83TNpw==/oat classLoaderContext=PCL[]{PCL[/system/framework/android.test.base.jar]}
+08-14 21:19:56.773   399   596 V installd: DexInv: --- BEGIN '/data/app/~~h-uCCYvSkK5yF8V5xK0i6w==/com.discord-2hdY2kf4EfX6NfKz83TNpw==/base.apk' ---
+08-14 21:19:56.819 32490 32490 W dex2oat32: Unexpected CPU variant for X86 using defaults: x86
+08-14 21:19:56.819 32490 32490 W dex2oat32: Mismatch between dex2oat instruction set features to use (ISA: X86 Feature string: -ssse3,-sse4.1,-sse4.2,-avx,-avx2,-popcnt) and those from CPP defines (ISA: X86 Feature string: ssse3,-sse4.1,-sse4.2,-avx,-avx2,-popcnt) for the command line:
+08-14 21:19:56.819 32490 32490 W dex2oat32: /apex/com.android.art/bin/dex2oat32 --zip-fd=7 --zip-location=base.apk --input-vdex-fd=-1 --output-vdex-fd=9 --oat-fd=8 --oat-location=/data/app/~~h-uCCYvSkK5yF8V5xK0i6w==/com.discord-2hdY2kf4EfX6NfKz83TNpw==/oat/x86/base.odex --instruction-set=x86 --instruction-set-variant=x86 --instruction-set-features=default --runtime-arg -Xbootclasspath:/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/core-icu4j.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-atb-backward-compatibility.jar --runtime-arg -Xms64m --runtime-arg -Xmx512m --updatable-bcp-packages-file=/system/etc/updatable-bcp-packages.txt --resolve-startup-const-strings=true --max-image-block-size=524288 --compiler-filter=speed-profile --swap-fd=10 --classpath-dir=/data/app/~~h-uCCYvSkK5yF8V5xK0i6w==/com.discord-2hdY2kf4EfX6NfKz83TNpw== --class-loader-context=PCL[]{PCL[/system/framework/android.test.base.jar]} --generate-mini-debug-info --compact-dex-level=none --runtime-arg -Xtarget-sdk-version:29 --runtime-arg -Xhidden-api-policy:enabled --compilation-reason=install
+08-14 21:19:56.820 32490 32490 I dex2oat32: /apex/com.android.art/bin/dex2oat32 --input-vdex-fd=-1 --output-vdex-fd=9 --updatable-bcp-packages-file=/system/etc/updatable-bcp-packages.txt --resolve-startup-const-strings=true --max-image-block-size=524288 --compiler-filter=speed-profile --classpath-dir=/data/app/~~h-uCCYvSkK5yF8V5xK0i6w==/com.discord-2hdY2kf4EfX6NfKz83TNpw== --class-loader-context=PCL[]{PCL[/system/framework/android.test.base.jar]} --generate-mini-debug-info --compact-dex-level=none --compilation-reason=install
+08-14 21:19:56.822 32490 32490 I dex2oat32: setting boot class path to /apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/core-icu4j.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-atb-backward-compatibility.jar
+08-14 21:19:57.350 32490 32490 I dex2oat32: Large app, accepted running with swap.
+08-14 21:19:57.933 32499 32501 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+08-14 21:19:58.138   174   174 I servicemanager: Since 'apexservice' could not be found, trying to start it as a lazy AIDL service
+08-14 21:19:58.364   174   174 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+08-14 21:19:58.365   174   174 I servicemanager: Tried to unregister apexservice, but there is about to be a client.
+08-14 21:19:58.518 32512 32514 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+08-14 21:19:59.580 32527 32527 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+08-14 21:19:59.586 32527 32527 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+08-14 21:19:59.586 32527 32527 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+08-14 21:19:59.586 32527 32527 I AndroidRuntime: Using default boot image
+08-14 21:19:59.586 32527 32527 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+08-14 21:19:59.586 32527 32527 I AndroidRuntime: Leaving lock profiling enabled
+08-14 21:19:59.586 32527 32527 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+08-14 21:19:59.584 32527 32527 W app_process: type=1400 audit(0.0:8748): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=8294 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+08-14 21:19:59.712 32527 32527 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+08-14 21:19:59.712 32527 32527 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+08-14 21:19:59.720 32527 32527 W app_process: Unexpected CPU variant for X86 using defaults: x86
+08-14 21:19:59.721 32527 32527 I app_process: The ClassLoaderContext is a special shared library.
+08-14 21:19:59.741 32527 32527 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+08-14 21:19:59.748 32527 32527 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+08-14 21:19:59.755 32527 32527 D AndroidRuntime: Shutting down VM
+08-14 21:19:59.762   698   698 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{7fdbfeb I.E...... ......ID 0,0-1080,1920} canPanelBeCollapsed(): false
+08-14 21:19:59.770   514   536 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} from uid 0
+08-14 21:19:59.771   514   538 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras) }
+08-14 21:19:59.771   514   538 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+08-14 21:19:59.771   514   538 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+08-14 21:19:59.771   514   538 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+08-14 21:19:59.771   514   538 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+08-14 21:19:59.771   514   538 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+08-14 21:19:59.771   514   538 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+08-14 21:19:59.771   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+08-14 21:19:59.771   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+08-14 21:19:59.771   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+08-14 21:19:59.771   514   538 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+08-14 21:19:59.771   514   538 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+08-14 21:19:59.771   514   538 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+08-14 21:19:59.771   514   538 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+08-14 21:19:59.771   514   538 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+08-14 21:19:59.771   514   538 D EventSequenceValidator: inc AccIntentStartedEvents to 256
+08-14 21:19:59.794   514   538 D EventSequenceValidator: onIntentFailed during UNKNOWN.
+08-14 21:19:59.794   514   538 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+08-14 21:19:59.794   514   538 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+08-14 21:19:59.794   514   538 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentFailed(EventSequenceValidator.java:130)
+08-14 21:19:59.794   514   538 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentFailed(LaunchObserverRegistryImpl.java:147)
+08-14 21:19:59.794   514   538 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$KukKmVpn5W_1xSV6Dnp8wW2H2Ks(Unknown Source:0)
+08-14 21:19:59.794   514   538 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$KukKmVpn5W_1xSV6Dnp8wW2H2Ks.accept(Unknown Source:2)
+08-14 21:19:59.794   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:264)
+08-14 21:19:59.794   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+08-14 21:19:59.794   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+08-14 21:19:59.794   514   538 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+08-14 21:19:59.794   514   538 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+08-14 21:19:59.794   514   538 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+08-14 21:19:59.794   514   538 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+08-14 21:19:59.794   514   538 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+08-14 21:19:59.794   514   538 D EventSequenceValidator: dec AccIntentStartedEvents to 255
+08-14 21:19:59.809   698   698 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{7fdbfeb I.E...... ......ID 0,0-1080,1920} canPanelBeCollapsed(): false
+08-14 21:19:59.818   514   584 W ActivityManager: Unable to start service Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } U=0: not found
+08-14 21:19:59.818   514   584 W RemoteAppPredictionService: could not bind to Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } using flags 67108865
+08-14 21:20:01.582   174   174 I servicemanager: Notifying apexservice they have clients: 1
+08-14 21:20:04.556 32490 32490 I dex2oat32: dex2oat took 7.742s (25.390s cpu) (threads: 4) arena alloc=3616B (3616B) java alloc=17MB (18348072B) native alloc=18MB (19152800B) free=7835KB (8023616B) swap=16MB (16777216B)
+08-14 21:20:04.571   514  1410 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity} from uid 2000
+08-14 21:20:04.571   514  1410 W ActivityTaskManager: Permission Denial: starting Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity } from null (pid=32585, uid=2000) not exported from uid 10170
+08-14 21:20:04.571   514   538 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity }
+08-14 21:20:04.571   514   538 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+08-14 21:20:04.571   514   538 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+08-14 21:20:04.571   514   538 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+08-14 21:20:04.571   514   538 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+08-14 21:20:04.571   514   538 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+08-14 21:20:04.571   514   538 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+08-14 21:20:04.571   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+08-14 21:20:04.571   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+08-14 21:20:04.571   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+08-14 21:20:04.571   514   538 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+08-14 21:20:04.571   514   538 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+08-14 21:20:04.571   514   538 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+08-14 21:20:04.571   514   538 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+08-14 21:20:04.571   514   538 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+08-14 21:20:04.571   514   538 D EventSequenceValidator: inc AccIntentStartedEvents to 256
+08-14 21:20:04.572 32585 32587 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+08-14 21:20:04.576   399   596 V installd: DexInv: --- END '/data/app/~~h-uCCYvSkK5yF8V5xK0i6w==/com.discord-2hdY2kf4EfX6NfKz83TNpw==/base.apk' (success) ---
+08-14 21:20:04.620   514   562 I AppsFilter: interaction: PackageSetting{c4de200 com.example.gesturecapture.test/10152} -> PackageSetting{536c70c com.discord/10170} BLOCKED
+08-14 21:20:04.638  1342  7718 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.discord. Reason: op android:read_external_storage
+08-14 21:20:04.639  1342  7718 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.discord. Reason: op android:read_external_storage
+08-14 21:20:04.643   399   596 E installd: Couldn't opendir /data/app/vmdl1408727799.tmp: No such file or directory
+08-14 21:20:04.643   399   596 E installd: Failed to delete /data/app/vmdl1408727799.tmp: No such file or directory
+08-14 21:20:04.646 32467 32470 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+08-14 21:20:04.658  1342  1342 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.discord. Reason: package android.intent.action.PACKAGE_ADDED
+08-14 21:20:04.678   514   535 I RoleManagerService: Granting default roles...
+08-14 21:20:04.693   514   606 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+08-14 21:20:04.698   514  2396 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.discord flg=0x4000010 (has extras) } to com.google.android.packageinstaller/com.android.packageinstaller.PackageInstalledReceiver
+08-14 21:20:04.701  1363  1363 I GsaVoiceInteractionSrv: O received Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.discord flg=0x4000010 (has extras) }
+08-14 21:20:04.703   676   676 V AvrcpMediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_ADDED
+08-14 21:20:04.703   676   676 D AvrcpMediaPlayerList: Name of package changed: com.discord
+08-14 21:20:04.709   514   514 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.google.android.dialer: DDC.oR@Ado
+08-14 21:20:04.759   514   544 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.discord flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemanager.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+08-14 21:20:04.759   514   544 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.discord flg=0x4000010 (has extras) } to com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy
+08-14 21:20:04.759   514   544 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.discord flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+08-14 21:20:04.759   514   544 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.discord flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+08-14 21:20:04.759   514   544 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.discord flg=0x4000010 (has extras) } to com.google.android.googlequicksearchbox/com.google.android.apps.gsa.googlequicksearchbox.GelStubAppWatcher
+08-14 21:20:04.771   514   623 I system_server: IncrementDisableThreadFlip blocked for 5.947ms
+08-14 21:20:04.784   514   535 W Looper  : Slow dispatch took 103ms android.fg h=android.os.Handler c=<recycled PooledLambda@749dcd2> m=0
+08-14 21:20:04.802   889   889 D CarrierSvcBindHelper: No carrier app for: 0
+08-14 21:20:04.805  1047  1838 E ActivityThread: Failed to find provider info for com.google.android.apps.wellbeing.api
+08-14 21:20:04.840   889   889 D CarrierConfigLoader: mHandler: 9 phoneId: 0
+08-14 21:20:04.871 32263 32495 I PermissionControllerServiceImpl: Updating user sensitive for uid 10170
+08-14 21:20:04.888   514   523 I system_server: Background concurrent copying GC freed 180362(7628KB) AllocSpace objects, 20(1312KB) LOS objects, 49% free, 22MB/44MB, paused 4.997ms total 245.437ms
+08-14 21:20:04.892  1182 32597 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.discord flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+08-14 21:20:04.894  1182 32599 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.discord flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+08-14 21:20:04.921  4448 32609 I Auth    : [SupervisedAccountIntentOperation] onHandleIntent(): android.intent.action.PACKAGE_ADDED
+08-14 21:20:04.921  4448 32611 I PackageIntentOperation: Received broadcast action=android.intent.action.PACKAGE_ADDED [CONTEXT service_id=258 ]
+08-14 21:20:04.921  4448 32611 I PackageIntentOperation: handling PACKAGE_ADDED action. [CONTEXT service_id=258 ]
+08-14 21:20:04.974  4448  4448 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+08-14 21:20:04.974  4448  4448 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+08-14 21:20:04.989  4448  4448 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+08-14 21:20:04.999  1182 24714 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+08-14 21:20:05.008  1182 24714 I chatty  : uid=10105(com.google.android.gms) highpool[191] identical 1 line
+08-14 21:20:05.011  1182 24714 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+08-14 21:20:05.041  4448 23041 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+08-14 21:20:05.053 32685 32262 I A       : Writing data of size=316 bytes with N=1 keys to Geller corpus DEVICE_INSTALLED_APPS at ts=1628976005052000
+08-14 21:20:05.096 32685 32746 I DeviceAppInfoWork: refreshDeviceAppInfoForAccount done.
+08-14 21:20:05.116 32685 32750 W DeviceAppInfoWork: missing version info.
+08-14 21:20:05.161  4448 29872 I GmsCoreXrpcWrapper: Returning a channel provider with trafficStatsTag=12803 trafficStatsUid=-1
+08-14 21:20:05.180  4448 23041 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+08-14 21:20:05.201  4448 29872 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+08-14 21:20:05.205  4448 29872 I GmsCoreXrpcWrapper: Returning a channel provider with trafficStatsTag=12803 trafficStatsUid=-1
+08-14 21:20:05.216  4448 29872 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+08-14 21:20:05.218  4448 29872 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+08-14 21:20:05.228  4448 29872 I Icing   : Indexing done com.google.android.gms-apps
+08-14 21:20:05.379   514  2396 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity} from uid 2000
+08-14 21:20:05.379   514  2396 W ActivityTaskManager: Permission Denial: starting Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity } from null (pid=32627, uid=2000) not exported from uid 10170
+08-14 21:20:05.379   400   688 W iorapd  : Overwriting transition from kIntentStarted to kIntentStarted into kIntentFailed
+08-14 21:20:05.379   514   538 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity }
+08-14 21:20:05.379   514   538 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+08-14 21:20:05.379   514   538 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+08-14 21:20:05.379   514   538 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+08-14 21:20:05.379   514   538 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+08-14 21:20:05.379   514   538 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+08-14 21:20:05.379   514   538 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+08-14 21:20:05.379   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+08-14 21:20:05.379   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+08-14 21:20:05.379   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+08-14 21:20:05.379   514   538 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+08-14 21:20:05.379   514   538 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+08-14 21:20:05.379   514   538 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+08-14 21:20:05.379   514   538 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+08-14 21:20:05.379   514   538 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+08-14 21:20:05.379   514   538 D EventSequenceValidator: inc AccIntentStartedEvents to 257
+08-14 21:20:05.380 32627 32629 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+08-14 21:20:05.983   514  2396 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity} from uid 2000
+08-14 21:20:05.984   514  2396 W ActivityTaskManager: Permission Denial: starting Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity } from null (pid=32645, uid=2000) not exported from uid 10170
+08-14 21:20:05.984   514   538 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity }
+08-14 21:20:05.984   514   538 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+08-14 21:20:05.984   514   538 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+08-14 21:20:05.984   514   538 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+08-14 21:20:05.984   514   538 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+08-14 21:20:05.984   514   538 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+08-14 21:20:05.984   514   538 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+08-14 21:20:05.984   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+08-14 21:20:05.984   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+08-14 21:20:05.984   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+08-14 21:20:05.984   514   538 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+08-14 21:20:05.984   514   538 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+08-14 21:20:05.984   514   538 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+08-14 21:20:05.984   514   538 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+08-14 21:20:05.984   514   538 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+08-14 21:20:05.984   514   538 D EventSequenceValidator: inc AccIntentStartedEvents to 258
+08-14 21:20:05.984 32645 32647 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+08-14 21:20:06.492   514  2396 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity} from uid 2000
+08-14 21:20:06.492   514  2396 W ActivityTaskManager: Permission Denial: starting Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity } from null (pid=32663, uid=2000) not exported from uid 10170
+08-14 21:20:06.492   400   688 W iorapd  : Overwriting transition from kIntentStarted to kIntentStarted into kIntentFailed
+08-14 21:20:06.492   514   538 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity }
+08-14 21:20:06.492   514   538 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+08-14 21:20:06.492   514   538 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+08-14 21:20:06.492   514   538 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+08-14 21:20:06.492   514   538 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+08-14 21:20:06.492   514   538 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+08-14 21:20:06.492   514   538 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+08-14 21:20:06.492   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+08-14 21:20:06.492   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+08-14 21:20:06.492   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+08-14 21:20:06.492   514   538 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+08-14 21:20:06.492   514   538 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+08-14 21:20:06.492   514   538 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+08-14 21:20:06.492   514   538 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+08-14 21:20:06.492   514   538 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+08-14 21:20:06.492   514   538 D EventSequenceValidator: inc AccIntentStartedEvents to 259
+08-14 21:20:06.493 32663 32665 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+08-14 21:20:06.582   174   174 I servicemanager: Notifying apexservice they have clients: 0
+08-14 21:20:06.591   174   174 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+08-14 21:20:06.994   514  2396 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity} from uid 2000
+08-14 21:20:06.994   514  2396 W ActivityTaskManager: Permission Denial: starting Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity } from null (pid=32683, uid=2000) not exported from uid 10170
+08-14 21:20:06.994   514   538 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity }
+08-14 21:20:06.994   514   538 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+08-14 21:20:06.994   514   538 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+08-14 21:20:06.994   514   538 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+08-14 21:20:06.994   514   538 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+08-14 21:20:06.994   514   538 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+08-14 21:20:06.994   514   538 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+08-14 21:20:06.994   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+08-14 21:20:06.994   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+08-14 21:20:06.994   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+08-14 21:20:06.994   514   538 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+08-14 21:20:06.994   514   538 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+08-14 21:20:06.994   514   538 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+08-14 21:20:06.994   514   538 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+08-14 21:20:06.994   514   538 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+08-14 21:20:06.994   514   538 D EventSequenceValidator: inc AccIntentStartedEvents to 260
+08-14 21:20:06.995 32683 32686 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+08-14 21:20:07.240  1047  1838 E ActivityThread: Failed to find provider info for com.google.android.apps.wellbeing.api
+08-14 21:20:07.499   514  2396 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity} from uid 2000
+08-14 21:20:07.499   514  2396 W ActivityTaskManager: Permission Denial: starting Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity } from null (pid=32710, uid=2000) not exported from uid 10170
+08-14 21:20:07.499   400   688 W iorapd  : Overwriting transition from kIntentStarted to kIntentStarted into kIntentFailed
+08-14 21:20:07.499   514   538 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity }
+08-14 21:20:07.499   514   538 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+08-14 21:20:07.499   514   538 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+08-14 21:20:07.499   514   538 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+08-14 21:20:07.499   514   538 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+08-14 21:20:07.499   514   538 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+08-14 21:20:07.499   514   538 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+08-14 21:20:07.499   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+08-14 21:20:07.499   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+08-14 21:20:07.499   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+08-14 21:20:07.499   514   538 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+08-14 21:20:07.499   514   538 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+08-14 21:20:07.499   514   538 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+08-14 21:20:07.499   514   538 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+08-14 21:20:07.499   514   538 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+08-14 21:20:07.499   514   538 D EventSequenceValidator: inc AccIntentStartedEvents to 261
+08-14 21:20:07.500 32710 32713 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+08-14 21:20:08.105   514  2396 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity} from uid 2000
+08-14 21:20:08.105   514  2396 W ActivityTaskManager: Permission Denial: starting Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity } from null (pid=32741, uid=2000) not exported from uid 10170
+08-14 21:20:08.105   514   538 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.discord/.app.AppActivity }
+08-14 21:20:08.105   514   538 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+08-14 21:20:08.105   514   538 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+08-14 21:20:08.105   514   538 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+08-14 21:20:08.105   514   538 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+08-14 21:20:08.105   514   538 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+08-14 21:20:08.105   514   538 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+08-14 21:20:08.105   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+08-14 21:20:08.105   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+08-14 21:20:08.105   514   538 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+08-14 21:20:08.105   514   538 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+08-14 21:20:08.105   514   538 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+08-14 21:20:08.105   514   538 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+08-14 21:20:08.105   514   538 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+08-14 21:20:08.105   514   538 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+08-14 21:20:08.106   514   538 D EventSequenceValidator: inc AccIntentStartedEvents to 262
+08-14 21:20:08.106 32741 32743 I cmd     : oneway funct

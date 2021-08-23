@@ -1,0 +1,42 @@
+{
+  "stop_state": "585326807b3f4be76eafb7fc9971b5f7", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-13_195424", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": null, 
+      "resource_id": "com.cpuid.cpu_z:id/radio_temperature_celsius", 
+      "text": "Celsius", 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": true, 
+      "size": "204*84", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.cpuid.cpu_z", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          367
+        ], 
+        [
+          204, 
+          451
+        ]
+      ], 
+      "class": "android.widget.RadioButton", 
+      "focusable": true
+    }, 
+    "id": 6, 
+    "event_type": "touch"
+  }, 
+  "start_state": "3ca5ce7bb5859798e1d28649167074da"
+}

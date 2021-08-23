@@ -1,0 +1,42 @@
+{
+  "stop_state": "938d15cf3f920824db8dd99be324c062", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-22_153539", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Backup to Archive, Navegar para cima", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "600*144", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.eleybourn.bookcatalogue", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          60
+        ], 
+        [
+          600, 
+          204
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "6d6144092699544f95029b513a05bd2a"
+}

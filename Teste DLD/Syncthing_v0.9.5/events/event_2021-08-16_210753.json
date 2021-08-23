@@ -1,0 +1,51 @@
+{
+  "stop_state": "c738c647ab7f25c1f6c53559c22109d4", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-16_210753", 
+  "event": {
+    "views_str": [
+      "6f5a88480dc51ea09f60fdb83bd8b684"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "android:id/numberpicker_input", 
+        "text": "2", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "940*126", 
+        "checked": false, 
+        "temp_id": 13, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]android:id/numberpicker_input", 
+        "is_password": false, 
+        "parent": 11, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.nutomic.syncthingandroid", 
+        "long_clickable": true, 
+        "view_str": "6f5a88480dc51ea09f60fdb83bd8b684", 
+        "enabled": true, 
+        "bounds": [
+          [
+            70, 
+            850
+          ], 
+          [
+            1010, 
+            976
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]android:id/numberpicker_input[text]2[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "c738c647ab7f25c1f6c53559c22109d4"
+}

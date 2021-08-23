@@ -1,0 +1,42 @@
+{
+  "stop_state": "835962f5448b20d66a7e03b6e7514802", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-14_192108", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Navigate up", 
+      "resource_id": null, 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "147*147", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.twitter.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          63
+        ], 
+        [
+          147, 
+          210
+        ]
+      ], 
+      "class": "android.widget.ImageButton", 
+      "focusable": true
+    }, 
+    "id": 0, 
+    "event_type": "touch"
+  }, 
+  "start_state": "7ef9af350a322bff22420ed193684048"
+}

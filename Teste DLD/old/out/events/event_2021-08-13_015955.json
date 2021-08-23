@@ -1,0 +1,89 @@
+{
+  "stop_state": "986e875934c47c4ec4eda95bef13a73a", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-13_015955", 
+  "event": {
+    "views_str": [
+      "6cf71e7dee7e3ac146f59792d1e4c51d", 
+      "f90b9727e30d637121a9fd0b2b682aeb"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": "com.example.gesturecapture:id/checkbox", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "84*84", 
+        "checked": false, 
+        "temp_id": 9, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.example.gesturecapture:id/checkbox", 
+        "is_password": false, 
+        "parent": 6, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.example.gesturecapture", 
+        "long_clickable": false, 
+        "view_str": "6cf71e7dee7e3ac146f59792d1e4c51d", 
+        "enabled": true, 
+        "bounds": [
+          [
+            954, 
+            220
+          ], 
+          [
+            1038, 
+            304
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.example.gesturecapture:id/checkbox[text]None[enabled,,]"
+      }, 
+      {
+        "content_description": null, 
+        "resource_id": "com.example.gesturecapture:id/checkbox", 
+        "text": null, 
+        "visible": true, 
+        "checkable": true, 
+        "children": [], 
+        "size": "84*84", 
+        "checked": true, 
+        "temp_id": 14, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.example.gesturecapture:id/checkbox", 
+        "is_password": false, 
+        "parent": 11, 
+        "focusable": false, 
+        "editable": false, 
+        "focused": false, 
+        "clickable": false, 
+        "class": "android.widget.CheckBox", 
+        "scrollable": false, 
+        "package": "com.example.gesturecapture", 
+        "long_clickable": false, 
+        "view_str": "f90b9727e30d637121a9fd0b2b682aeb", 
+        "enabled": true, 
+        "bounds": [
+          [
+            954, 
+            346
+          ], 
+          [
+            1038, 
+            430
+          ]
+        ], 
+        "signature": "[class]android.widget.CheckBox[resource_id]com.example.gesturecapture:id/checkbox[text]None[enabled,checked,]"
+      }
+    ]
+  }, 
+  "start_state": "73c19bf38fd8fd5bf57b01d23b30c1be"
+}

@@ -1,0 +1,44 @@
+{
+  "stop_state": "1b19b38a6f637471cf81b1db276a8ab0", 
+  "event_str": "ScrollEvent(direction=UP)", 
+  "tag": "2021-08-14_192309", 
+  "event": {
+    "direction": "UP", 
+    "event_type": "scroll", 
+    "y_full_down": 1750, 
+    "y": null, 
+    "x": null, 
+    "id": 16, 
+    "view": {
+      "content_description": "List of recommended users for you to follow.", 
+      "resource_id": "com.twitter.android:id/cluster_follow_listview", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": false, 
+      "checkable": false, 
+      "size": "1080*873", 
+      "scrollable": true, 
+      "checked": false, 
+      "package": "com.twitter.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          729
+        ], 
+        [
+          1080, 
+          1602
+        ]
+      ], 
+      "class": "android.widget.ListView", 
+      "focusable": true
+    }
+  }, 
+  "start_state": "1b19b38a6f637471cf81b1db276a8ab0"
+}

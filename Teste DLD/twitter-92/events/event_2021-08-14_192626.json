@@ -1,0 +1,51 @@
+{
+  "stop_state": "effc2ea0a3fa5a60063784560026f632", 
+  "event_str": "FillUIEvent", 
+  "tag": "2021-08-14_192626", 
+  "event": {
+    "views_str": [
+      "4ecc13f0de8e0148a3f3d63ec60be7c3"
+    ], 
+    "event_type": "fill_UI", 
+    "views": [
+      {
+        "content_description": null, 
+        "resource_id": null, 
+        "text": "Search for GIFs", 
+        "visible": true, 
+        "checkable": false, 
+        "children": [], 
+        "size": "891*77", 
+        "checked": false, 
+        "temp_id": 8, 
+        "selected": false, 
+        "child_count": 0, 
+        "content_free_signature": "[class]android.widget.EditText[resource_id]None", 
+        "is_password": false, 
+        "parent": 6, 
+        "focusable": true, 
+        "editable": true, 
+        "focused": false, 
+        "clickable": true, 
+        "class": "android.widget.EditText", 
+        "scrollable": false, 
+        "package": "com.twitter.android", 
+        "long_clickable": true, 
+        "view_str": "4ecc13f0de8e0148a3f3d63ec60be7c3", 
+        "enabled": true, 
+        "bounds": [
+          [
+            189, 
+            98
+          ], 
+          [
+            1080, 
+            175
+          ]
+        ], 
+        "signature": "[class]android.widget.EditText[resource_id]None[text]Search for GIFs[enabled,,]"
+      }
+    ]
+  }, 
+  "start_state": "3c6942baf0bbfa267020df68de3cc494"
+}

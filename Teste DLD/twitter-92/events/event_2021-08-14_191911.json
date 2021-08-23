@@ -1,0 +1,42 @@
+{
+  "stop_state": "b89d5eb2e23bbcd6b5b6fba49cd989c4", 
+  "event_str": "TouchEvent", 
+  "tag": "2021-08-14_191911", 
+  "event": {
+    "y": null, 
+    "x": null, 
+    "view": {
+      "content_description": "Turn on Geo Tag", 
+      "resource_id": "com.twitter.android:id/location", 
+      "text": null, 
+      "editable": false, 
+      "visible": true, 
+      "is_password": false, 
+      "focused": false, 
+      "clickable": true, 
+      "checkable": false, 
+      "size": "126*126", 
+      "scrollable": false, 
+      "checked": false, 
+      "package": "com.twitter.android", 
+      "long_clickable": false, 
+      "selected": false, 
+      "enabled": true, 
+      "bounds": [
+        [
+          441, 
+          917
+        ], 
+        [
+          567, 
+          1043
+        ]
+      ], 
+      "class": "android.widget.ImageButton", 
+      "focusable": true
+    }, 
+    "id": 11, 
+    "event_type": "touch"
+  }, 
+  "start_state": "844d8c791b3e3cde08e44acec67e1e55"
+}
