@@ -7,6 +7,7 @@ import io
 # chmod a+rw /dev/ttyUSB0
 #
 
+
 class Arduino():
     def __init__(self, port="/dev/ttyS0"):
         self.com  = serial.Serial('/dev/ttyUSB0', 9600)
@@ -23,6 +24,7 @@ class Arduino():
     def write(self, x):
         self.com.write(bytes(x).encode("utf-8"))
         time.sleep(0.05)
+
 
 if __name__ == '__main__':
     ard = Arduino()

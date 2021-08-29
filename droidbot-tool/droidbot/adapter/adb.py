@@ -6,6 +6,7 @@ from .adapter import Adapter
 import time
 from .arduino import Arduino
 
+
 class ADBException(Exception):
     """
     Exception in ADB connection
@@ -257,9 +258,10 @@ class ADB(Adapter):
             "OR name='touch_exploration_granted_accessibility_services' OR name='touch_exploration_enabled';"
             "INSERT INTO secure (name, value) VALUES "
             "('enabled_accessibility_services','" + service_name + "'), "
-            "('accessibility_enabled','1'), "
-            "('touch_exploration_granted_accessibility_services','" + service_name + "'), "
-            "('touch_exploration_enabled','1')\\\";\"", shell=True)
+                                                                   "('accessibility_enabled','1'), "
+                                                                   "('touch_exploration_granted_accessibility_services','" + service_name + "'), "
+                                                                                                                                            "('touch_exploration_enabled','1')\\\";\"",
+            shell=True)
         self.shell("stop")
         time.sleep(1)
         self.shell("start")
@@ -328,7 +330,6 @@ class ADB(Adapter):
             print('\033[41m' + "Landscape Right" + '\033[0m')
 
         self.con_ard.write(str(orientation_code))
-
 
     def unlock(self):
         """
@@ -400,4 +401,6 @@ class ADB(Adapter):
         return self.run_cmd("exec-out screencap -p")
 
     def enable_rotation(self):
-        return self.shell("settings put system accelerometer_rotation 0")
+
+        # return self.shell("settings put system accelerometer_rotation 0")
+        pass
