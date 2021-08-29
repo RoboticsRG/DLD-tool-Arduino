@@ -4,6 +4,7 @@ import logging
 import re
 from .adapter import Adapter
 import time
+from .arduino import Arduino
 
 
 class ADBException(Exception):
@@ -42,6 +43,7 @@ class ADB(Adapter):
         self.device = device
 
         self.cmd_prefix = ['adb', "-s", device.serial]
+        self.con_ard = Arduino()
 
     def run_cmd(self, extra_args):
         """
@@ -256,9 +258,10 @@ class ADB(Adapter):
             "OR name='touch_exploration_granted_accessibility_services' OR name='touch_exploration_enabled';"
             "INSERT INTO secure (name, value) VALUES "
             "('enabled_accessibility_services','" + service_name + "'), "
-            "('accessibility_enabled','1'), "
-            "('touch_exploration_granted_accessibility_services','" + service_name + "'), "
-            "('touch_exploration_enabled','1')\\\";\"", shell=True)
+                                                                   "('accessibility_enabled','1'), "
+                                                                   "('touch_exploration_granted_accessibility_services','" + service_name + "'), "
+                                                                                                                                            "('touch_exploration_enabled','1')\\\";\"",
+            shell=True)
         self.shell("stop")
         time.sleep(1)
         self.shell("start")
@@ -313,7 +316,20 @@ class ADB(Adapter):
         if 2 -> 180 degrees
         if 3 -> 270 degrees
         '''
-        self.shell("settings put system user_rotation %d" % orientation_code)
+        # self.shell("settings put system user_rotation %d" % orientation_code)
+        if orientation_code == 0:
+            print('\033[41m' + "Portrait" + '\033[0m')
+
+        if orientation_code == 1:
+            print('\033[41m' + "Landscape Left" + '\033[0m')
+
+        if orientation_code == 2:
+            print('\033[41m' + "Inverted Portrait" + '\033[0m')
+
+        if orientation_code == 3:
+            print('\033[41m' + "Landscape Right" + '\033[0m')
+
+        self.con_ard.write(str(orientation_code))
 
     def unlock(self):
         """
@@ -385,4 +401,6 @@ class ADB(Adapter):
         return self.run_cmd("exec-out screencap -p")
 
     def enable_rotation(self):
-        return self.shell("settings put system accelerometer_rotation 0")
+
+        # return self.shell("settings put system accelerometer_rotation 0")
+        pass

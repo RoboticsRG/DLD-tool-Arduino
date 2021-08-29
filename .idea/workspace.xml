@@ -6,8 +6,474 @@
   <component name="ChangeListManager">
     <list default="true" id="e48eb5ab-ea2b-45ca-91be-891ede05e7e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/DLD-tool-Arduino.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DLD-tool-Arduino.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/AdministrationFunctions/2021-08-13 18-56-30_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/AdministrationFunctions/2021-08-13 18-56-30_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/AdministrationFunctions/2021-08-13 18-56-30_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/AdministrationFunctions/2021-08-13 19-00-02_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/AdministrationFunctions/2021-08-13 19-00-02_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/AdministrationFunctions/2021-08-13 19-00-02_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/AdministrationFunctions/2021-08-13 19-04-12_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/AdministrationFunctions/2021-08-13 19-04-12_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/AdministrationFunctions/2021-08-13 19-04-12_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BackupChooser/2021-08-13 18-57-52_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BackupChooser/2021-08-13 18-57-52_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BackupChooser/2021-08-13 18-57-52_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BackupChooser/2021-08-13 18-58-42_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BackupChooser/2021-08-13 18-58-42_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BackupChooser/2021-08-13 18-58-42_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BackupChooser/2021-08-13 18-59-28_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BackupChooser/2021-08-13 18-59-28_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BackupChooser/2021-08-13 18-59-28_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-09-10_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-09-10_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-09-10_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-10-57_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-10-57_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-10-57_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-11-47_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-11-47_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-11-47_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-12-04_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-12-04_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-12-04_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-12-24_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-12-24_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-12-24_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-13-01_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-13-01_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-13-01_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-14-49_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-14-49_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-14-49_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-15-20_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-15-20_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-15-20_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-16-01_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-16-01_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-16-01_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-17-10_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-17-10_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-17-10_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-19-58_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-19-58_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookEdit/2021-08-13 19-19-58_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookISBNSearch/2021-08-13 19-28-23_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookISBNSearch/2021-08-13 19-28-23_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookISBNSearch/2021-08-13 19-28-23_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookISBNSearch/2021-08-13 19-29-05_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookISBNSearch/2021-08-13 19-29-05_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookISBNSearch/2021-08-13 19-29-05_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BooklistPreferencesActivity/2021-08-13 19-01-25_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BooklistPreferencesActivity/2021-08-13 19-01-25_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BooklistPreferencesActivity/2021-08-13 19-01-25_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BooklistPreferencesActivity/2021-08-13 19-02-20_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BooklistPreferencesActivity/2021-08-13 19-02-20_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BooklistPreferencesActivity/2021-08-13 19-02-20_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BooklistPreferencesActivity/2021-08-13 19-02-50_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BooklistPreferencesActivity/2021-08-13 19-02-50_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BooklistPreferencesActivity/2021-08-13 19-02-50_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BooksOnBookshelf/2021-08-13 18-52-32_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BooksOnBookshelf/2021-08-13 18-52-32_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BooksOnBookshelf/2021-08-13 18-52-32_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BooksOnBookshelf/2021-08-13 18-53-37_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BooksOnBookshelf/2021-08-13 18-53-37_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BooksOnBookshelf/2021-08-13 18-53-37_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BooksOnBookshelf/2021-08-13 19-31-34_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BooksOnBookshelf/2021-08-13 19-31-34_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BooksOnBookshelf/2021-08-13 19-31-34_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookshelfEdit/2021-08-13 19-00-53_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookshelfEdit/2021-08-13 19-00-53_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/BookshelfEdit/2021-08-13 19-00-53_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/EditAuthorList/2021-08-13 19-10-01_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/EditAuthorList/2021-08-13 19-10-01_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/EditAuthorList/2021-08-13 19-10-01_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/EditAuthorList/2021-08-13 19-10-31_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/EditAuthorList/2021-08-13 19-10-31_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/EditAuthorList/2021-08-13 19-10-31_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/MainMenu/2021-08-13 18-50-12_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/MainMenu/2021-08-13 18-50-12_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/MainMenu/2021-08-13 18-50-12_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/MainMenu/2021-08-13 19-05-10_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/MainMenu/2021-08-13 19-05-10_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/MainMenu/2021-08-13 19-05-10_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/OtherPreferences/2021-08-13 18-57-12_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/OtherPreferences/2021-08-13 18-57-12_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dataloss/OtherPreferences/2021-08-13 18-57-12_views.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/droidbot_env.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/dumpsys_package_com.eleybourn.bookcatalogue.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_184944.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_184948.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_184958.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185002.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185013.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185021.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185030.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185035.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185040.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185050.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185058.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185107.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185115.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185121.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185125.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185135.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185143.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185149.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185159.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185207.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185212.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185217.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185222.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185233.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185242.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185248.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185254.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185304.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185313.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185320.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185327.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185339.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185348.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185356.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185402.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185408.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185418.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185426.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185431.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185435.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185444.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185450.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185455.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185505.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185514.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185521.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185530.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185539.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185545.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185551.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185556.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185606.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185615.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185620.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185633.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185639.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185703.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185713.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185719.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185726.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185734.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185743.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185752.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185801.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185809.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185818.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185823.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185833.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185842.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185847.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185856.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185904.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185911.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185919.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185928.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185936.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185943.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185949.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_185953.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190002.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190008.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190012.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190021.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190029.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190035.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190044.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190053.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190059.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190104.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190110.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190116.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190125.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190135.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190144.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190152.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190212.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190221.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190227.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190241.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190250.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190256.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190306.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190314.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190323.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190329.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190335.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190341.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190347.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190353.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190400.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190413.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190419.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190425.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190429.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190438.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190447.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190451.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190457.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190501.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190510.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190519.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190527.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190534.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190540.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190548.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190557.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190605.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190611.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190620.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190626.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190632.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190638.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190644.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190652.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190658.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190707.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190715.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190719.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190725.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190731.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190737.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190744.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190752.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190758.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190802.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190811.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190819.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190825.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190831.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190837.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190901.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190911.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190917.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190921.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190929.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190938.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190944.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_190952.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191002.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191008.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191014.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191022.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191031.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191037.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191044.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191048.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191057.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191104.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191138.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191147.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191155.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191204.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191211.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191215.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191224.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191228.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191236.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191242.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191248.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191252.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191301.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191310.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191316.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191322.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191328.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191334.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191341.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191348.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191353.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191359.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191405.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191410.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191418.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191424.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191441.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191450.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191456.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191511.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191520.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191526.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191533.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191551.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191601.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191607.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191614.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191622.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191629.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191637.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191645.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191651.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191657.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191701.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191710.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191719.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191727.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191733.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191738.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191746.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191753.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191759.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191807.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191815.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191821.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191827.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191835.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191843.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191849.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191856.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191904.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191911.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191917.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191923.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191927.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191933.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191939.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191945.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191949.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_191958.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192005.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192011.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192017.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192025.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192032.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192040.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192045.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192054.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192058.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192106.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192115.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192123.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192131.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192137.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192144.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192149.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192153.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192202.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192211.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192219.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192225.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192234.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192240.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192246.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192252.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192256.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192303.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192312.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192318.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192322.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192328.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192332.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192337.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192344.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192349.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192353.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192402.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192408.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192414.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192421.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192425.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192433.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192439.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192529.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192538.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192547.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192553.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192602.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192610.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192619.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192627.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192632.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192641.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192649.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192655.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192701.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192707.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192714.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192722.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192729.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192735.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192741.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192745.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192753.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192802.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192813.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192823.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192831.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192839.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192846.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192856.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192906.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192912.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192920.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192926.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192933.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192940.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192947.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192954.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_192959.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_193008.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_193017.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_193026.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_193035.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_193041.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_193048.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_193054.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_193101.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_193107.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_193116.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_193125.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_193135.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_193139.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_193148.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_193157.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_193207.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_193216.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/events/event_2021-08-13_193226.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/logcat.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_Catalogue/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/droidbot_env.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/dumpsys_package_com.eleybourn.bookcatalogue.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184357.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184410.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184416.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184424.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184431.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184434.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184442.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184455.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184501.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184505.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184519.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184531.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184536.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184543.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184555.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184601.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184608.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184614.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184618.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184625.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184629.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184636.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184649.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184655.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184700.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/events/event_2021-08-22_184704.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/logcat.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/Book_xiomi_0/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste DLD/comandos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Teste DLD/comandos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/droidbot-tool/droidbot/adapter/adb.py" beforeDir="false" afterPath="$PROJECT_DIR$/droidbot-tool/droidbot/adapter/adb.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +491,43 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../appium/Syncthing804/Syncthing804" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/droidbot-tool/droidbot/adapter" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="arduino" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DLD-tool-Arduino" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/droidbot-tool/droidbot/adapter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/droidbot-tool/droidbot/adapter/arduino.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.arduino" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -38,5 +539,17 @@
       <updated>1629574032258</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
