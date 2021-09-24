@@ -14,6 +14,10 @@ class ADBException(Exception):
     pass
 
 
+class SerialException(Exception):
+    pass
+
+
 class ADB(Adapter):
     """
     interface of ADB
@@ -29,7 +33,7 @@ class ADB(Adapter):
     RO_SECURE_PROPERTY = 'ro.secure'
     RO_DEBUGGABLE_PROPERTY = 'ro.debuggable'
 
-    def __init__(self, device=None):
+    def __init__(self, device=None, robot=False):
         """
         initiate a ADB connection from serial no
         the serial no should be in output of `adb devices`
@@ -43,7 +47,15 @@ class ADB(Adapter):
         self.device = device
 
         self.cmd_prefix = ['adb', "-s", device.serial]
-        self.con_ard = Arduino()
+        # self.con_ard = Arduino()
+        self.robot = robot
+        if self.robot:
+            try:
+                self.con_ard = Arduino()
+            except:
+                import sys
+                print >> sys.stderr, "Permission denied to serial port. Run the command: chmod a+rw /dev/ttyUSB0"
+                sys.exit()
 
     def run_cmd(self, extra_args):
         """
@@ -317,19 +329,24 @@ class ADB(Adapter):
         if 3 -> 270 degrees
         '''
         # self.shell("settings put system user_rotation %d" % orientation_code)
-        if orientation_code == 0:
-            print('\033[41m' + "Portrait" + '\033[0m')
+        if self.robot:
 
-        if orientation_code == 1:
-            print('\033[41m' + "Landscape Left" + '\033[0m')
+            if orientation_code == 0:
+                print('\033[41m' + "Portrait" + '\033[0m')
 
-        if orientation_code == 2:
-            print('\033[41m' + "Inverted Portrait" + '\033[0m')
+            if orientation_code == 1:
+                print('\033[41m' + "Landscape Left" + '\033[0m')
 
-        if orientation_code == 3:
-            print('\033[41m' + "Landscape Right" + '\033[0m')
+            if orientation_code == 2:
+                print('\033[41m' + "Inverted Portrait" + '\033[0m')
 
-        self.con_ard.write(str(orientation_code))
+            if orientation_code == 3:
+                print('\033[41m' + "Landscape Right" + '\033[0m')
+
+            self.con_ard.write(str(orientation_code))
+
+        else:
+            self.shell("settings put system user_rotation %d" % orientation_code)
 
     def unlock(self):
         """
@@ -401,6 +418,8 @@ class ADB(Adapter):
         return self.run_cmd("exec-out screencap -p")
 
     def enable_rotation(self):
-
-        # return self.shell("settings put system accelerometer_rotation 0")
-        pass
+        if self.robot:
+            # pass
+            return self.shell("settings put system accelerometer_rotation 1")
+        else:
+            return self.shell("settings put system accelerometer_rotation 0")

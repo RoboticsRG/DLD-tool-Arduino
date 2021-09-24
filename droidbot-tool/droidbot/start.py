@@ -112,6 +112,8 @@ def parse_args():
                         help="Set the activity that DroidBot will launch to start the app. If not specified, it is derived from the Manifest.xml.")
     parser.add_argument("-scroll_full_down_y", action="store", dest="scroll_full_down_y", type=int,
                         help="A scroll full down is a scroll that tries to swipe down as much as possible. This parameter sets the y coordinate where the swipe starts.")
+    parser.add_argument("-robot", action="store_true", dest="robot",
+                        help="Device rotation using a robot.")
     options = parser.parse_args()
 
     if options.epsilon is not None:
@@ -202,7 +204,8 @@ def main():
         epsilon=opts.epsilon,
         #acv=acv,
         main_activity=opts.main_activity,
-        scroll_full_down_y=opts.scroll_full_down_y)
+        scroll_full_down_y=opts.scroll_full_down_y,
+        robot=opts.robot)
     droidbot.start()
     return
 

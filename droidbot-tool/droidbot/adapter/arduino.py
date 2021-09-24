@@ -8,7 +8,11 @@ import io
 #
 
 
-class Arduino():
+class Arduino:
+
+    """
+    Class for application communication with the Arduino robot
+    """
     def __init__(self, port="/dev/ttyS0"):
         self.com  = serial.Serial('/dev/ttyUSB0', 9600)
         # self.com = serial.Serial(port=port, baudrate=9600, timeout=.1)
@@ -29,18 +33,24 @@ class Arduino():
 if __name__ == '__main__':
     ard = Arduino()
     cont = 0
-
-    while cont < 10:
-
-        cont +=1
-        time.sleep(2)
-        if cont % 2 != 0:
-            print(0)
-            ard.write("0")
-        else:
-            ard.write("1")
-            print(1)
-
+    # ard.write("0")
     time.sleep(2)
-    ard.write("2")
-    time.sleep(3)
+    ard.write("1")
+    time.sleep(2)
+    ard.write("0")
+    time.sleep(1)
+
+    # while cont < 10:
+    #
+    #     cont +=1
+    #     time.sleep(2)
+    #     if cont % 2 != 0:
+    #         print(0)
+    #         ard.write("0")
+    #     else:
+    #         ard.write("1")
+    #         print(1)
+    #
+    # time.sleep(2)
+    # ard.write("2")
+    # time.sleep(3)

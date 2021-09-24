@@ -48,7 +48,8 @@ class DroidBot(object):
                  epsilon=None,
                  acv=None,
                  main_activity=None,
-                 scroll_full_down_y=None):
+                 scroll_full_down_y=None,
+                 robot=False):
         """
         initiate droidbot with configurations
         :return:
@@ -86,6 +87,7 @@ class DroidBot(object):
         self.ignore_ad = ignore_ad
         self.replay_output = replay_output
         self.acv = acv
+        self.robot = robot
 
         self.enabled = True
 
@@ -98,7 +100,8 @@ class DroidBot(object):
                 grant_perm=grant_perm,
                 enable_accessibility_hard=self.enable_accessibility_hard,
                 humanoid=self.humanoid,
-                ignore_ad=ignore_ad)
+                ignore_ad=ignore_ad,
+                robot=self.robot)
             self.app = App(app_path, output_dir=self.output_dir)
 
             if main_activity is not None:
