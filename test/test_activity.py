@@ -1,7 +1,7 @@
 from droidbot.utils import md5
 from droidbot.app import App
 from droidbot.input_policy import DataLossPolicy
-app_path = "/home/davi/Downloads/motog30/dev.obfusk.jiten_webview_202108010.apk"
+app_path = "/home/davi/Downloads/motog30/app_candidato/com.appmindlab.nano_1215.apk"
 output_dir = "/home/davi/Downloads/motog30/reads"
 app = App(app_path, output_dir=output_dir)
 activity_list = DataLossPolicy.get_activity_list(app)

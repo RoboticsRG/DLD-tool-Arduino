@@ -1,0 +1,5 @@
+digraph "classes_device_state" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{DeviceState|activity_stack\lbackground_services\ldevice\lforeground_activity\lpossible_events : NoneType, list\lscreenshot_path : NoneType\lsearch_content : str\lstate_str : str\lstructure_str : str\ltag : NoneType\lview_tree : dict\lviews : list\l|get_all_ancestors()\lget_all_children()\lget_app_activity_depth()\lget_possible_input()\lget_possible_input_for_dataloss_policy()\lget_view_center()\lget_view_height()\lget_view_width()\lis_different_from()\lis_view_in_the_screen()\lsave2dir()\lsave_view_img()\lto_dict()\lto_json()\l}", shape="record"];
+}

@@ -1,0 +1,5 @@
+digraph "classes_screenshot" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{Screenshot|\l|is_different_from()\lsave_img_on_file()\l}", shape="record"];
+}

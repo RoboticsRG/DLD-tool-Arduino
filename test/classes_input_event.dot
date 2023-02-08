@@ -1,0 +1,37 @@
+digraph "classes_input_event" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{DoubleRotationEvent|event_type : tuple\lview : NoneType\l|create_unique_code()\lequals()\lget_event_str()\lget_random_instance()\lget_views()\lsend()\l}", shape="record"];
+"1" [label="{EventLog|app\ldevice\levent\levent_str : NoneType\lfrom_state : NoneType\lis_profiling : bool\lprofiling_method : NoneType\lprofiling_pid : int\lsampling : NoneType, int\ltag : NoneType\lto_state : NoneType\ltrace_remote_file : str\l|is_start_event()\lsave2dir()\lsave_views()\lstart()\lstart_profiling()\lstop()\lstop_profiling()\lto_dict()\l}", shape="record"];
+"2" [label="{ExitEvent|event_type : str\l|get_event_str()\lget_random_instance()\lsend()\l}", shape="record"];
+"3" [label="{FillUIEvent|clickable_classes : list\leditable_classes : list\levent_type : str\lviews : list\lviews_str : list\l|get_event_str()\lget_random_instance()\lget_views()\lsend()\l}", shape="record"];
+"4" [label="{InputEvent|\l|create_unique_code()\lfrom_dict()\lget_event_str()\lget_random_instance()\lget_views()\lsend()\lto_dict()\lto_json()\l}", shape="record"];
+"5" [label="{IntentEvent|event_type : str\lintent : NoneType\l|get_event_str()\lget_random_instance()\lsend()\l}", shape="record"];
+"6" [fontcolor="red", label="{InvalidEventException|\l|}", shape="record"];
+"7" [label="{KeyEvent|event_type : str\lname : NoneType\l|create_unique_code()\lget_event_str()\lget_random_instance()\lsend()\l}", shape="record"];
+"8" [label="{LongTouchEvent|duration : int\levent_type : str\lview : NoneType\lx : NoneType\ly : NoneType\l|get_event_str()\lget_random_instance()\lget_views()\lsend()\l}", shape="record"];
+"9" [label="{ManualEvent|event_type : str\ltime\l|get_event_str()\lget_random_instance()\lsend()\l}", shape="record"];
+"10" [label="{RotationEvent|direction : str\levent_type : str\lview : NoneType\l|get_event_str()\lget_random_instance()\lget_views()\lrestore_default_orientation()\lsend()\l}", shape="record"];
+"11" [label="{ScrollEvent|direction : str\levent_type : str\lview : NoneType\lx : NoneType\ly : NoneType\ly_full_down : int\l|create_unique_code()\lget_event_str()\lget_random_instance()\lget_views()\lsend()\l}", shape="record"];
+"12" [label="{SetTextEvent|event_type : str\ltext : str\lview : NoneType\lx : NoneType\ly : NoneType\l|get_event_str()\lget_random_instance()\lget_views()\lsend()\l}", shape="record"];
+"13" [label="{SpawnEvent|event_type : str\l|get_event_str()\lget_random_instance()\lsend()\l}", shape="record"];
+"14" [label="{SwipeEvent|duration : int\lend_view : NoneType\lend_x : NoneType\lend_y : NoneType\levent_type : str\lstart_view : NoneType\lstart_x : NoneType\lstart_y : NoneType\l|get_event_str()\lget_random_instance()\lget_views()\lsend()\l}", shape="record"];
+"15" [label="{TouchEvent|event_type : str\lview : NoneType\lx : NoneType\ly : NoneType\l|get_event_str()\lget_random_instance()\lget_views()\lsend()\l}", shape="record"];
+"16" [label="{UIEvent|id : NoneType\l|create_unique_code()\lequals()\lget_random_instance()\lget_xy()\lsend()\l}", shape="record"];
+"17" [label="{WaitEvent|event_type : str\ltime : int\l|get_event_str()\lget_random_instance()\lsend()\l}", shape="record"];
+"0" -> "4" [arrowhead="empty", arrowtail="none"];
+"2" -> "4" [arrowhead="empty", arrowtail="none"];
+"3" -> "4" [arrowhead="empty", arrowtail="none"];
+"5" -> "4" [arrowhead="empty", arrowtail="none"];
+"7" -> "4" [arrowhead="empty", arrowtail="none"];
+"8" -> "16" [arrowhead="empty", arrowtail="none"];
+"9" -> "4" [arrowhead="empty", arrowtail="none"];
+"10" -> "4" [arrowhead="empty", arrowtail="none"];
+"11" -> "16" [arrowhead="empty", arrowtail="none"];
+"12" -> "16" [arrowhead="empty", arrowtail="none"];
+"13" -> "4" [arrowhead="empty", arrowtail="none"];
+"14" -> "16" [arrowhead="empty", arrowtail="none"];
+"15" -> "16" [arrowhead="empty", arrowtail="none"];
+"16" -> "4" [arrowhead="empty", arrowtail="none"];
+"17" -> "4" [arrowhead="empty", arrowtail="none"];
+}

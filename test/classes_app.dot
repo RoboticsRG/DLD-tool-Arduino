@@ -1,0 +1,6 @@
+digraph "classes_app" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{App|activities : list\lapk : APK\lapp_path\ldumpsys_main_activity : NoneType\lhashes : list\llogger : NoneType, RootLogger, Logger\lmain_activity : NoneType\loutput_dir : NoneType\lpackage_name : str\lpermissions : list\lpossible_broadcasts : set\l|get_activity_coverage_percentage()\lget_hashes()\lget_main_activity()\lget_package_name()\lget_possible_broadcasts()\lget_start_intent()\lget_start_with_profiling_intent()\lget_stop_intent()\l}", shape="record"];
+"1" [fontcolor="red", label="{ListOfActivitiesNotValidException|\l|}", shape="record"];
+}

@@ -1,0 +1,6 @@
+digraph "classes_droidbot" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{DroidBot|acv : NoneType\lapp : NoneType, App\ldevice : Device, NoneType\ldroidbox : NoneType\lenable_accessibility_hard : bool\lenabled : bool\lenv_manager : AppEnvManager, NoneType\lhumanoid : NoneType\lignore_ad : bool\linput_manager : InputManager, NoneType\lkeep_app : NoneType\lkeep_env : bool\llogger : Logger, NoneType, RootLogger\loutput_dir : NoneType\lreplay_output : NoneType\lrobot : bool\ltimeout : NoneType\ltimer : _Timer, NoneType\l|delete_unused_sources()\lget_instance()\lstart()\lstop()\l}", shape="record"];
+"1" [fontcolor="red", label="{DroidBotException|\l|}", shape="record"];
+}

@@ -1,0 +1,5 @@
+digraph "classes_view" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{View|views\l|filter_views()\lis_different_from()\l}", shape="record"];
+}

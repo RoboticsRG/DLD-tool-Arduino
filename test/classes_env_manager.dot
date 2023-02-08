@@ -1,0 +1,33 @@
+digraph "classes_env_manager" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{AppEnv|\l|deploy()\lto_dict()\lto_json()\l}", shape="record"];
+"1" [label="{AppEnvFactory|\l|produce_envs()\l}", shape="record"];
+"2" [label="{AppEnvManager|app\ldevice\lenabled : bool\lenv_factory : NoneType\lenvs : list\llogger : NoneType, Logger, RootLogger\lpolicy : str\l|add_env()\ldeploy()\ldump()\lgenerate_from_factory()\lstop()\l}", shape="record"];
+"3" [label="{CallLogEnv|accepted : bool\lcall_in : bool\lenv_type : str\lphone : str\l|deploy()\ldeploy_call_in()\ldeploy_call_out()\l}", shape="record"];
+"4" [label="{ContactAppEnv|email : str\lenv_type : str\lname : str\lphone : str\l|deploy()\l}", shape="record"];
+"5" [label="{DummyEnvFactory|\l|produce_envs()\l}", shape="record"];
+"6" [label="{DummyFilesEnv|dummy_files_dir : NoneType\lenv_type : str\l|deploy()\l}", shape="record"];
+"7" [label="{DynamicAppEnv|\l|deploy()\l}", shape="record"];
+"8" [label="{FileEnvFactory|envs : list\lfile\lindex : int\l|produce_envs()\l}", shape="record"];
+"9" [label="{GPSAppEnv|center_x : int\lcenter_y : int\ldelta_x : int\ldelta_y : int\lenv_type : str\l|deploy()\l}", shape="record"];
+"10" [label="{SMSLogEnv|content : str\lenv_type : str\lphone : str\lsms_in : bool\l|deploy()\l}", shape="record"];
+"11" [label="{SettingsAppEnv|env_type : str\lname : str\ltable_name : str\lvalue : str\l|deploy()\l}", shape="record"];
+"12" [label="{StaticAppEnv|\l|deploy()\l}", shape="record"];
+"13" [label="{StaticEnvFactory|app\l|produce_envs()\l}", shape="record"];
+"14" [fontcolor="red", label="{UnknownEnvException|\l|}", shape="record"];
+"3" -> "12" [arrowhead="empty", arrowtail="none"];
+"4" -> "12" [arrowhead="empty", arrowtail="none"];
+"5" -> "1" [arrowhead="empty", arrowtail="none"];
+"6" -> "12" [arrowhead="empty", arrowtail="none"];
+"7" -> "0" [arrowhead="empty", arrowtail="none"];
+"8" -> "1" [arrowhead="empty", arrowtail="none"];
+"9" -> "7" [arrowhead="empty", arrowtail="none"];
+"10" -> "12" [arrowhead="empty", arrowtail="none"];
+"11" -> "12" [arrowhead="empty", arrowtail="none"];
+"12" -> "0" [arrowhead="empty", arrowtail="none"];
+"13" -> "1" [arrowhead="empty", arrowtail="none"];
+"5" -> "2" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="env_factory", style="solid"];
+"8" -> "2" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="env_factory", style="solid"];
+"13" -> "2" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="env_factory", style="solid"];
+}

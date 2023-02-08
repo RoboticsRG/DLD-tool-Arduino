@@ -1,0 +1,7 @@
+digraph "classes_droidmaster" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{DroidMaster|POLL_INTERVAL : int\lapp : App\lapp_path : NoneType\lcv_mode : bool\ldebug_mode : bool\ldevice_pool : dict\ldevice_pool_capacity : int\ldevice_unique_id : int\ldomain : str\lenable_accessibility_hard : bool\lenabled : bool\lenv_policy : NoneType\levent_count : NoneType\levent_interval : NoneType\lgrant_perm : bool\lhumanoid : NoneType\lignore_ad : bool\lis_emulator : bool\lkeep_app : NoneType\lkeep_env : bool\llogger : Logger, RootLogger, NoneType\loutput_dir : NoneType\lpolicy_name : NoneType\lprofiling_method : NoneType\lqemu_app_hda\lqemu_hda : NoneType\lqemu_no_graphic : bool\lrandom_input : bool\lreplay_output : NoneType\lrpc_port\lscript_path : NoneType\lserver : SimpleXMLRPCServer\lserver_thread : Thread\lsuccessful_spawn_events : set\ltimeout : NoneType\ltimer : NoneType, _Timer\l|get_available_devices()\lget_instance()\lget_running_devices()\lqemu_create_img()\lspawn()\lstart()\lstart_daemon()\lstart_device()\lstart_worker()\lstop()\lstop_daemon()\lstop_device()\lstop_worker()\l}", shape="record"];
+"1" [fontcolor="red", label="{DroidMasterException|\l|}", shape="record"];
+"2" [label="{RPCHandler|\l|}", shape="record"];
+}

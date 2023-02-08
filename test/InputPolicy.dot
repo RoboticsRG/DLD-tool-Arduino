@@ -1,0 +1,21 @@
+digraph "classes" {
+charset="utf-8"
+rankdir=BT
+"0" [fontcolor="red", label="{DataLossException|\l|}", shape="record"];
+"1" [label="{DataLossPolicy|activity_coverage : int\lactivity_tested_coverage : int\lcurrent_abstract_state_str : NoneType\lcurrent_activity : NoneType\lcurrent_state : NoneType\ldata_loss_num : int\ldouble_rotation_num : int\lfatal_exception_num : int\lfillUI_num : int\llast_event : NoneType\llast_state : NoneType\llogger : NoneType, Logger, RootLogger\loracle_failed : str, NoneType\lpreferred_buttons : list\lreport_file_name\lscript : NoneType\lscript_event_idx : int\lscript_events : list\lscroll_full_down_y : int\l|check_data_loss()\lcreate_html_report_head()\lcreate_html_report_tail()\lgenerate_event()\lget_activities_coverage()\lget_activity_list()\lreport()\lsave_data_loss_source()\lwrite_report_on_file()\l}", shape="record"];
+"2" [fontcolor="red", label="{InputInterruptedException|\l|}", shape="record"];
+"3" [label="{InputPolicy|app\lcurrent_state\ldevice\llogger : RootLogger, Logger, NoneType\lmaster : NoneType\l|generate_event()\lstart()\l}", shape="record"];
+"4" [label="{ManualPolicy|logger : RootLogger, Logger, NoneType\l|generate_event_based_on_utg()\l}", shape="record"];
+"5" [label="{NoneInputPolicy|\l|generate_event()\l}", shape="record"];
+"6" [label="{UtgBasedInputPolicy|current_state : NoneType\lhumanoid_events : list\lhumanoid_view_trees : list\lindex : int\llast_event : NoneType\llast_state : NoneType\lmaster : NoneType\lrandom_input\lscript : NoneType\lscript_event_idx : int\lscript_events : list\lutg\l|generate_event()\lgenerate_event_based_on_utg()\l}", shape="record"];
+"7" [label="{UtgGreedySearchPolicy|logger : Logger, RootLogger, NoneType\lpreferred_buttons : list\lsearch_method\l|generate_event_based_on_utg()\l}", shape="record"];
+"8" [label="{UtgNaiveSearchPolicy|explored_views : set\llast_event_flag : str\llast_event_str : NoneType, str\llast_state : NoneType\llogger : RootLogger, Logger, NoneType\lpreferred_buttons : list\lsearch_method\lstate_transitions : set\l|generate_event_based_on_utg()\lsave_explored_view()\lsave_state_transition()\lselect_a_view()\l}", shape="record"];
+"9" [label="{UtgReplayPolicy|event_idx : int\levent_paths\llogger : RootLogger, Logger, NoneType\lnum_replay_tries : int\lreplay_output\l|generate_event()\l}", shape="record"];
+"1" -> "3" [arrowhead="empty", arrowtail="none"];
+"4" -> "6" [arrowhead="empty", arrowtail="none"];
+"5" -> "3" [arrowhead="empty", arrowtail="none"];
+"6" -> "3" [arrowhead="empty", arrowtail="none"];
+"7" -> "6" [arrowhead="empty", arrowtail="none"];
+"8" -> "6" [arrowhead="empty", arrowtail="none"];
+"9" -> "3" [arrowhead="empty", arrowtail="none"];
+}

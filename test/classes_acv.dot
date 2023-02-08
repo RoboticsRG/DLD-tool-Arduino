@@ -1,0 +1,5 @@
+digraph "classes_acv" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{ACV|is_instrumentation_running : bool\loriginal_apk_path\loutput_dir\lpickle_path : NoneType\lworking_dir : str\l|get_instrumented_apk_path()\linstall_apk()\lrun_cmd()\lrun_cmd_with_output()\lstart_to_instrument_apk()\lstop_to_instrument_apk()\l}", shape="record"];
+}
