@@ -732,6 +732,7 @@ class DataLossPolicy(InputPolicy):
         self.current_abstract_state_str = None
         self.oracle_failed = None
         self.current_activity = None
+        random.seed(10)
 
     @staticmethod
     def get_activity_list(app):
