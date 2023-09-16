@@ -147,7 +147,7 @@ class DroidBot(object):
             return
         self.logger.info("Starting DroidBot")
         try:
-            if self.timeout > 0:
+            if self.timeout is not None and self.timeout > 0:
                 self.timer = Timer(self.timeout, self.stop)
                 self.timer.start()
 
