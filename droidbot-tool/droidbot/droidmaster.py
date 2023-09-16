@@ -11,12 +11,14 @@ import time
 import threading
 
 from xmlrpc.client import ServerProxy
-if sys.version.startswith("3"):
-    from xmlrpc.server import SimpleXMLRPCServer
-    from xmlrpc.server import SimpleXMLRPCRequestHandler
-else:
-    from SimpleXMLRPCServer import SimpleXMLRPCServer
-    from SimpleXMLRPCServer import SimpleXMLRPCRequestHandler
+from xmlrpc.server import SimpleXMLRPCServer
+from xmlrpc.server import SimpleXMLRPCRequestHandler
+# if sys.version.startswith("3"):
+#     from xmlrpc.server import SimpleXMLRPCServer
+#     from xmlrpc.server import SimpleXMLRPCRequestHandler
+# else:
+#     from SimpleXMLRPCServer import SimpleXMLRPCServer
+#     from SimpleXMLRPCServer import SimpleXMLRPCRequestHandler
 
 from .device import Device
 from .app import App
