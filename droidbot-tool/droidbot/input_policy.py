@@ -535,10 +535,11 @@ class UtgGreedySearchPolicy(UtgBasedInputPolicy):
         return IntentEvent(intent=stop_app_intent)
 
     def __sort_inputs_by_humanoid(self, possible_events):
-        if sys.version.startswith("3"):
-            from xmlrpc.client import ServerProxy
-        else:
-            from xmlrpclib import ServerProxy
+        # if sys.version.startswith("3"):
+        #     from xmlrpc.client import ServerProxy
+        # else:
+        #     from xmlrpclib import ServerProxy
+        from xmlrpc.client import ServerProxy
         proxy = ServerProxy("http://%s/" % self.device.humanoid)
         request_json = {
             "history_view_trees": self.humanoid_view_trees,
