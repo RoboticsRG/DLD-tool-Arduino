@@ -77,7 +77,12 @@ class ADB(Adapter):
         self.logger.debug(args)
         r = subprocess.check_output(args).strip()
         if not isinstance(r, str):
-            r = r.decode()
+            # print('\033[32m' + 'yyyyyyyyyyyyyyyy ' + str(type(r)) + '\033[0m')
+            # print(args)
+            try:
+                r = r.decode()
+            except:
+                print('\033[41m' + "xxxxxxxxxxxxxxxx" + '\033[0m')
         self.logger.debug('return:')
         self.logger.debug(r)
         return r
