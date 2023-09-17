@@ -5,6 +5,7 @@ import re
 from .adapter import Adapter
 import time
 from .arduino import Arduino
+from .robot_cobotta import Cobotta
 
 
 class ADBException(Exception):
@@ -48,6 +49,10 @@ class ADB(Adapter):
 
         self.cmd_prefix = ['adb', "-s", device.serial]
         # self.con_ard = Arduino()
+
+        self.robot_cobotta = Cobotta()
+
+
         self.robot = robot
         if self.robot:
             try:
@@ -82,7 +87,7 @@ class ADB(Adapter):
             try:
                 r = r.decode()
             except:
-                print('\033[41m' + "xxxxxxxxxxxxxxxx" + '\033[0m')
+                print('\033[41m' + "Imagem adb.py" + '\033[0m')
         self.logger.debug('return:')
         self.logger.debug(r)
         return r
@@ -353,6 +358,7 @@ class ADB(Adapter):
 
         else:
             self.shell("settings put system user_rotation %d" % orientation_code)
+            self.robot_cobotta.double_rotation(orientation_code)
 
     def unlock(self):
         """
@@ -379,6 +385,9 @@ class ADB(Adapter):
         """
         self.drag((x, y), (x, y), duration, orientation)
 
+        self.robot_cobotta.touch(x*76/1080, y*165/1920)
+
+
     def drag(self, start_xy, end_xy, duration, orientation=-1):
         """
         Sends drag event n PX (actually it's using C{input swipe} command.
@@ -389,6 +398,21 @@ class ADB(Adapter):
         """
         (x0, y0) = start_xy
         (x1, y1) = end_xy
+        print("\033[1;34m", start_xy, end_xy, "\033[0;0m")
+
+        if start_xy == end_xy:
+            self.robot_cobotta.touch(x0 * 76 / 1080, y0 * 165 / 1920)
+        else:
+            if x0 == x1:
+                if y0 > y1:
+                    self.robot_cobotta.scroll_down()
+                else:
+                    self.robot_cobotta.scroll_up()
+            else:
+                if x0 > x1:
+                    self.robot_cobotta.scroll_right()
+                else:
+                    self.robot_cobotta.scroll_left()
         if orientation == -1:
             orientation = self.get_orientation()
         (x0, y0) = self.__transform_point_by_orientation((x0, y0), orientation, self.get_orientation())

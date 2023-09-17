@@ -2,7 +2,7 @@ from robodk.robolink import *  # API to communicate with RoboDK
 from robodk.robomath import *  # basic matrix operations
 import time
 
-
+# pip install robodk[cv,apps,lint]
 # toque do suporte no centro do smartphone
 # [   -54.000000,     0.000000,   210.000000,     0.000000,    90.000000,    -0.000000 ]
 
@@ -52,12 +52,12 @@ class Cobotta:
         # (4x4 matrix representing position and orientation)
         target_ref = self.robot.Pose()
         pos_ref = target_ref.Pos()
-        print("Drawing a polygon around the target: ", Pose_2_TxyzRxyz(target_ref))
+        # print("Drawing a polygon around the target: ", Pose_2_TxyzRxyz(target_ref))
 
         # move the robot to the first point:
         self.robot.MoveJ(target_ref)
 
-        self.robot.MoveJ(joints_ref)
+        self.robot.MoveJ(self.joints_ref)
 
         # It is important to provide the reference frame and the tool frames when generating programs offline
         self.robot.setPoseFrame(self.robot.PoseFrame())
@@ -67,7 +67,7 @@ class Cobotta:
         self.robot.setSpeed(200)  # Set linear speed in mm/s
 
     def move_robot(self, pos_i):
-        print(pos_i)
+        # print(pos_i)
         target_i = self.robot.Pose()
         # target_i = Mat(target_ref_robot)
         target_i.setPos(pos_i)
@@ -81,6 +81,7 @@ class Cobotta:
         time.sleep(1)
 
     def touch(self, x, y):
+        print('\033[41m' + "Touch " + str(x) + ", " + str(y)+'\033[0m')
         # resolution = [1920, 1080]
         # smartphone = [165, 76, 10]
         # ref_touch_center = [-54.000000, 0.000000, 210.000000]
@@ -99,103 +100,117 @@ class Cobotta:
             start = [self.ref_touch_center[0] - self.distance_screen, x0_y0[0] - x, x0_y0[1] + y]
             touch_smartphone = [self.ref_touch_center[0], x0_y0[0] - x, x0_y0[1] + y]
             end = [self.ref_touch_center[0] - self.distance_screen, x0_y0[0] - x, x0_y0[1] + y]
-            print("aaaaaa")
+            # print("aaaaaa")
         else:
             x0_y0 = [self.ref_touch_center[1] + self.smartphone[1] / 2 - self.borda_touch,
                      self.ref_touch_center[2] - self.smartphone[0] / 2 + self.borda_touch]
             start = [self.ref_touch_center[0] - self.distance_screen, x0_y0[0] - x, x0_y0[1] + y]
             touch_smartphone = [self.ref_touch_center[0], x0_y0[0] - x, x0_y0[1] + y]
             end = [self.ref_touch_center[0] - self.distance_screen, x0_y0[0] - x, x0_y0[1] + y]
-            print("bbbbbbb")
-            print(
-                self.ref_touch_center[1], self.smartphone[1] / 2, self.borda_touch, self.ref_touch_center[2],
-                self.smartphone[0] / 2, self.borda_touch)
+            # print("bbbbbbb")
+            # print(
+            #     self.ref_touch_center[1], self.smartphone[1] / 2, self.borda_touch, self.ref_touch_center[2],
+            #     self.smartphone[0] / 2, self.borda_touch)
 
-        print(x, y)
-        print(x0_y0)
-        print(start)
-        print(touch_smartphone)
+        # print(x, y)
+        # print(x0_y0)
+        # print(start)
+        # print(touch_smartphone)
         self.move_robot(start)
         self.move_robot(touch_smartphone)
         self.move_robot(end)
 
-    # def scroll_left():
-    #     touch_left = ref_touch_center[1] + smartphone[1] / 2 - borda_scroll_left_right
-    #     touch_right = ref_touch_center[1] - smartphone[1] / 2 + borda_scroll_left_right
-    #
-    #     start = [ref_touch_center[0] - distance_screen, touch_right, ref_touch_center[2]]
-    #     move_robot(start)
-    #
-    #     touch_right_smartphone = [ref_touch_center[0], touch_right, ref_touch_center[2]]
-    #     move_robot(touch_right_smartphone)
-    #
-    #     touch_left_smartphone = [ref_touch_center[0], touch_left, ref_touch_center[2]]
-    #     move_robot(touch_left_smartphone)
-    #
-    #     end = [ref_touch_center[0] - distance_screen, touch_left, ref_touch_center[2]]
-    #     move_robot(end)
-    #
-    # def scroll_right():
-    #     touch_left = ref_touch_center[1] + smartphone[1] / 2 - borda_scroll_left_right
-    #     touch_right = ref_touch_center[1] - smartphone[1] / 2 + borda_scroll_left_right
-    #
-    #     start = [ref_touch_center[0] - distance_screen, touch_left, ref_touch_center[2]]
-    #     move_robot(start)
-    #
-    #     touch_right_smartphone = [ref_touch_center[0], touch_left, ref_touch_center[2]]
-    #     move_robot(touch_right_smartphone)
-    #
-    #     touch_left_smartphone = [ref_touch_center[0], touch_right, ref_touch_center[2]]
-    #     move_robot(touch_left_smartphone)
-    #
-    #     end = [ref_touch_center[0] - distance_screen, touch_right, ref_touch_center[2]]
-    #     move_robot(end)
-    #
-    # def move_touch_home():
-    #     robot.MoveJ(joints_ref)
-    #
-    # def move_touch_center():
-    #     move_robot(ref_touch_center)
-    #
-    # def scroll_up():
-    #     touch_down = ref_touch_center[2] + smartphone[0] / 2 - borda_scroll_up_down
-    #     touch_up = ref_touch_center[2] - smartphone[0] / 2 + borda_scroll_up_down
-    #     start = [ref_touch_center[0] - distance_screen, ref_touch_center[1], touch_down]
-    #     move_robot(start)
-    #
-    #     touch_down_smartphone = [ref_touch_center[0], ref_touch_center[1], touch_down]
-    #     move_robot(touch_down_smartphone)
-    #
-    #     touch_up_smartphone = [ref_touch_center[0], ref_touch_center[1], touch_up]
-    #     move_robot(touch_up_smartphone)
-    #
-    #     end = [ref_touch_center[0] - distance_screen, ref_touch_center[1], touch_up]
-    #     move_robot(end)
-    #
-    # def scroll_down():
-    #     touch_down = ref_touch_center[2] + smartphone[0] / 2 - borda_scroll_up_down
-    #     touch_up = ref_touch_center[2] - smartphone[0] / 2 + borda_scroll_up_down
-    #     start = [ref_touch_center[0] - distance_screen, ref_touch_center[1], touch_up]
-    #     move_robot(start)
-    #
-    #     touch_down_smartphone = [ref_touch_center[0], ref_touch_center[1], touch_up]
-    #     move_robot(touch_down_smartphone)
-    #
-    #     touch_up_smartphone = [ref_touch_center[0], ref_touch_center[1], touch_down]
-    #     move_robot(touch_up_smartphone)
-    #
-    #     end = [ref_touch_center[0] - distance_screen, ref_touch_center[1], touch_down]
-    #     move_robot(end)
-    #
-    # def double_rotation():
-    #     robot.MoveJ(joints_ref)
-    #     portrait = [-50.000000, 25.000000, 125.000000, -55.000000, -72.000000, 25.000000]
-    #     landscape = [-50.000000, 25.000000, 125.000000, -55.000000, -72.000000, -65.000000]
-    #
-    #     robot.MoveJ(portrait)
-    #     robot.MoveJ(landscape)
-    #     time.sleep(2)
-    #     robot.MoveJ(portrait)
+    def scroll_left(self):
+        touch_left = self.ref_touch_center[1] + self.smartphone[1] / 2 - self.borda_scroll_left_right
+        touch_right = self.ref_touch_center[1] - self.smartphone[1] / 2 + self.borda_scroll_left_right
+
+        start = [self.ref_touch_center[0] - self.distance_screen, touch_right, self.ref_touch_center[2]]
+        self.move_robot(start)
+
+        touch_right_smartphone = [self.ref_touch_center[0], touch_right, self.ref_touch_center[2]]
+        self.move_robot(touch_right_smartphone)
+
+        touch_left_smartphone = [self.ref_touch_center[0], touch_left, self.ref_touch_center[2]]
+        self.move_robot(touch_left_smartphone)
+
+        end = [self.ref_touch_center[0] - self.distance_screen, touch_left, self.ref_touch_center[2]]
+        self.move_robot(end)
+
+    def scroll_right(self):
+        touch_left = self.ref_touch_center[1] + self.smartphone[1] / 2 - self.borda_scroll_left_right
+        touch_right = self.ref_touch_center[1] - self.smartphone[1] / 2 + self.borda_scroll_left_right
+
+        start = [self.ref_touch_center[0] - self.distance_screen, touch_left, self.ref_touch_center[2]]
+        self.move_robot(start)
+
+        touch_right_smartphone = [self.ref_touch_center[0], touch_left, self.ref_touch_center[2]]
+        self.move_robot(touch_right_smartphone)
+
+        touch_left_smartphone = [self.ref_touch_center[0], touch_right, self.ref_touch_center[2]]
+        self.move_robot(touch_left_smartphone)
+
+        end = [self.ref_touch_center[0] - self.distance_screen, touch_right, self.ref_touch_center[2]]
+        self.move_robot(end)
+
+    def move_touch_home(self):
+        self.robot.MoveJ(self.joints_ref)
+
+    def move_touch_center(self):
+        self.move_robot(self.ref_touch_center)
+
+    def scroll_up(self):
+        print('\033[41m' + "Scroll up" + '\033[0m')
+
+        touch_down = self.ref_touch_center[2] + self.smartphone[0] / 2 - self.borda_scroll_up_down
+        touch_up = self.ref_touch_center[2] - self.smartphone[0] / 2 + self.borda_scroll_up_down
+        start = [self.ref_touch_center[0] - self.distance_screen, self.ref_touch_center[1], touch_down]
+        self.move_robot(start)
+
+        touch_down_smartphone = [self.ref_touch_center[0], self.ref_touch_center[1], touch_down]
+        self.move_robot(touch_down_smartphone)
+
+        touch_up_smartphone = [self.ref_touch_center[0], self.ref_touch_center[1], touch_up]
+        self.move_robot(touch_up_smartphone)
+
+        end = [self.ref_touch_center[0] - self.distance_screen, self.ref_touch_center[1], touch_up]
+        self.move_robot(end)
+
+    def scroll_down(self):
+        print('\033[41m' + "Scroll down" + '\033[0m')
+
+        touch_down = self.ref_touch_center[2] + self.smartphone[0] / 2 - self.borda_scroll_up_down
+        touch_up = self.ref_touch_center[2] - self.smartphone[0] / 2 + self.borda_scroll_up_down
+        start = [self.ref_touch_center[0] - self.distance_screen, self.ref_touch_center[1], touch_up]
+        self.move_robot(start)
+
+        touch_down_smartphone = [self.ref_touch_center[0], self.ref_touch_center[1], touch_up]
+        self.move_robot(touch_down_smartphone)
+
+        touch_up_smartphone = [self.ref_touch_center[0], self.ref_touch_center[1], touch_down]
+        self.move_robot(touch_up_smartphone)
+
+        end = [self.ref_touch_center[0] - self.distance_screen, self.ref_touch_center[1], touch_down]
+        self.move_robot(end)
+
+    def double_rotation(self, cod):
+        print('\033[41m' + "Double rotation " + str(cod) + '\033[0m' )
+
+        self.robot.MoveJ(self.joints_ref)
+        portrait = [-50.000000, 25.000000, 125.000000, -55.000000, -72.000000, 25.000000]
+        landscape = [-50.000000, 25.000000, 125.000000, -55.000000, -72.000000, -65.000000]
+
+        if cod == 1:
+            self.robot.MoveJ(landscape)
+        else:
+            self.robot.MoveJ(portrait)
+            time.sleep(1)
+            self.move_robot([-64.000000, 0.000000, 210.000000])
+
+        # self.robot.MoveJ(portrait)
+        # self.robot.MoveJ(landscape)
+        # time.sleep(2)
+        # self.robot.MoveJ(portrait)
+        # self.move_robot([-64.000000, 0.000000, 210.000000])
     #
     # # positions = [[-66.008406, -44.500000, 357.0, 0.0, 90.000000, 0.0],
     # #              [-66.008395, -44.500000, 212.124424, 0.0, 90.000000, 0.0],
@@ -259,3 +274,6 @@ class Cobotta:
 if __name__ == '__main__':
     robot_cobotta = Cobotta()
     robot_cobotta.touch(0, 165)
+    robot_cobotta.double_rotation()
+    robot_cobotta.scroll_down()
+    robot_cobotta.scroll_up()
