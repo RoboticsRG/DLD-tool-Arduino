@@ -120,9 +120,9 @@ class InputPolicy(object):
             except KeyboardInterrupt:
                 break
             except DataLossException as ex:
-                print(ex.message)
+                print(ex)# print(ex.message)
                 self.data_loss_num += 1
-                data_loss_desc = ex.message[ex.message.index(".") + 2:len(ex.message) - 1]
+                data_loss_desc = ex.args[0] #data_loss_desc = ex.message[ex.message.index(".") + 2:len(ex.message) - 1]
                 self.report(event=event, data_time=data_time, exception_str="DataLossException", exception_desc=data_loss_desc)
                 self.save_data_loss_source(data_time=data_time, img_after=screenshot_after, img_before=screenshot_before)
             except InputInterruptedException as e:
