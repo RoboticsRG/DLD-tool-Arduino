@@ -24,7 +24,7 @@ class Screenshot(object):
     @staticmethod
     def __crop_image(img):
         # return img.crop((0, img.height * 0.04, img.width, 1776))
-        return img.crop((0, img.height * 0.04, img.width, 2880))
+        return img.crop((0, img.height * 0.04, img.width, img.height))
 
     @staticmethod
     def __convert_to_gray_scale(img):
