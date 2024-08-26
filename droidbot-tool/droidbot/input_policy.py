@@ -693,7 +693,7 @@ class DataLossPolicy(InputPolicy):
     Data loss policy
     """
 
-    def __init__(self, device, app, epsilon, scroll_full_down_y):
+    def __init__(self, device, app, epsilon, scroll_full_down_y, seed=None):
         super(DataLossPolicy, self).__init__(device, app)
         self.logger = logging.getLogger(self.__class__.__name__)
         self.preferred_buttons = ["allow", "ok"]
@@ -732,7 +732,8 @@ class DataLossPolicy(InputPolicy):
         self.current_abstract_state_str = None
         self.oracle_failed = None
         self.current_activity = None
-        random.seed(10)
+        if seed is not None:
+            random.seed(seed)
 
     @staticmethod
     def get_activity_list(app):

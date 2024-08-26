@@ -31,7 +31,7 @@ class InputManager(object):
     def __init__(self, device, app, policy_name, random_input,
                  event_count, event_interval,
                  script_path=None, profiling_method=None, master=None,
-                 replay_output=None, epsilon=None, scroll_full_down_y=None):
+                 replay_output=None, epsilon=None, scroll_full_down_y=None, seed=None):
         """
         manage input event sent to the target device
         :param device: instance of Device
@@ -54,6 +54,7 @@ class InputManager(object):
         self.replay_output = replay_output
 
         self.monkey = None
+        self.seed = seed
 
         if script_path is not None:
             f = open(script_path, 'r')
@@ -78,7 +79,7 @@ class InputManager(object):
         elif self.policy_name == POLICY_MANUAL:
             input_policy = ManualPolicy(device, app)
         elif self.policy_name == POLICY_DATA_LOSS:
-            input_policy = DataLossPolicy(device, app, epsilon, scroll_full_down_y=scroll_full_down_y)
+            input_policy = DataLossPolicy(device, app, epsilon, scroll_full_down_y=scroll_full_down_y, seed=self.seed)
         else:
             self.logger.warning("No valid input policy specified. Using policy \"none\".")
             input_policy = None

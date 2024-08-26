@@ -114,6 +114,8 @@ def parse_args():
                         help="A scroll full down is a scroll that tries to swipe down as much as possible. This parameter sets the y coordinate where the swipe starts.")
     parser.add_argument("-robot", action="store_true", dest="robot",
                         help="Device rotation using a robot.")
+    parser.add_argument("-seed", action="store", dest="seed", default=None, type=int,
+                        help="Seed to reproduce the same events in different tests. Default: None")
     options = parser.parse_args()
 
     if options.epsilon is not None:
@@ -205,7 +207,8 @@ def main():
         #acv=acv,
         main_activity=opts.main_activity,
         scroll_full_down_y=opts.scroll_full_down_y,
-        robot=opts.robot)
+        robot=opts.robot,
+        seed=opts.seed)
     droidbot.start()
     return
 

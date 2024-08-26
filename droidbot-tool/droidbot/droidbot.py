@@ -49,7 +49,8 @@ class DroidBot(object):
                  acv=None,
                  main_activity=None,
                  scroll_full_down_y=None,
-                 robot=False):
+                 robot=False,
+                 seed=None):
         """
         initiate droidbot with configurations
         :return:
@@ -88,7 +89,7 @@ class DroidBot(object):
         self.replay_output = replay_output
         self.acv = acv
         self.robot = robot
-
+        self.seed = seed
         self.enabled = True
 
         try:
@@ -123,7 +124,8 @@ class DroidBot(object):
                 profiling_method=profiling_method,
                 master=master,
                 replay_output=replay_output,
-                scroll_full_down_y=scroll_full_down_y)
+                scroll_full_down_y=scroll_full_down_y,
+                seed=self.seed)
         except Exception:
             import traceback
             traceback.print_exc()
